@@ -27,7 +27,7 @@ Code and documentation for TrackMaster membership tracking tool and related infr
 
 
 ## Contact
-To get in touch, contact the individual developers in the check-in history.
+To get in touch, contact the individual developers in the check-in history or email trackmaster@umich.edu.
 
 If you need assistance identifying a contact person, email the EFDC's Mobile Technologies Core at: efdc-mobiletech@umich.edu.
 
