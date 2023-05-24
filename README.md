@@ -3,7 +3,7 @@
 # <Repository Title>
 
 ## Description
-This is the code repository for <program/library name>, a <program/library> for (description of what it does).
+Code and documentation for TrackMaster membership tracking tool and related infrastructure, developed by the 2023 ITS intern cohort at the University of Michigan. This tool allows research centers and institutes at the University of Michigan to track membership activities, run reports on publications, and automate some membership-related activities such as sending newsletters.
 
 
 
