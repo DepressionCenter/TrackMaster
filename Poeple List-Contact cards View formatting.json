@@ -1,0 +1,521 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "hideSelection": true,
+  "hideListHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-wrap": "wrap",
+      "align-items": "stretch",
+      "padding": "8px",
+      "margin-bottom": "16px",
+      "max-width": "930px",
+      "border-radius": "8px",
+      "box-shadow": "4px 4px 8px darkgrey"
+    },
+    "attributes": {
+      "class": "ms-bgColor-neutralLighter"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "1",
+          "display": "flex",
+          "flex-wrap": "wrap",
+          "align-items": "stretch",
+          "max-width": "310px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "none"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "width": "100px",
+                  "height": "100px",
+                  "overflow": "hidden",
+                  "border-radius": "50%",
+                  "margin-right": "8px"
+                },
+                "defaultHoverField": "[$TeamsAccount]",
+                "inlineEditField": "[$TeamsAccount]",
+                "children": [
+                  {
+                    "elmType": "img",
+                    "attributes": {
+                      "src": "=if(length([$TeamsAccount])==0, @currentWeb + '/_layouts/15/userphoto.aspx?size=L', @currentWeb + '/_layouts/15/userphoto.aspx?size=L&accountName=' + [$TeamsAccount.email])",
+                      "title": "=if(length([$TeamsAccount])==0, 'Set the Teams account for this contact', [$TeamsAccount.username])"
+                    },
+                    "style": {
+                      "position": "relative",
+                      "top": "50%",
+                      "left": "50%",
+                      "width": "100%",
+                      "height": "auto",
+                      "margin-left": "-50%",
+                      "margin-top": "-50%"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "display": "flex",
+              "flex-direction": "column",
+              "flex-wrap": "nowrap",
+              "align-items": "stretch",
+              "max-width": "200px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "flex-grow": "1"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Title]",
+                    "customRowAction": {
+                      "action": "defaultClick"
+                    },
+                    "style": {
+                      "border": "none",
+                      "background-color": "inherit",
+                      "display": "block",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-l ms-fontWeight-semibold ms-fontColor-neutralPrimary",
+                      "title": "Open contact card"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Job_x0020_Title]",
+                    "inlineEditField": "[$Job_x0020_Title]",
+                    "style": {
+                      "display": "=if([$Job_x0020_Title] == '', 'none', 'block')",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-m ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                    }
+                  },
+                  {
+                    "elmType": "span",
+                    "txtContent": "[$Department]",
+                    "inlineEditField": "[$Department]",
+                    "style": {
+                      "display": "=if([$Department] == '', 'none', 'block')",
+                      "cursor": "pointer"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-s ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "flex-grow": "1",
+                  "display": "flex",
+                  "flex-direction": "row",
+                  "flex-wrap": "wrap",
+                  "align-items": "flex-end"
+                },
+                "children": [
+                  {
+                    "elmType": "a",
+                    "style": {
+                      "display": "=if([$Email] == '', 'none', 'block')",
+                      "width": "100%"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-xs ms-fontWeight-regular ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover",
+                      "href": "='mailto:' + [$Email]"
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "attributes": {
+                          "iconName": "Mail",
+                          "class": "ms-fontColor-themePrimary"
+                        },
+                        "style": {
+                          "padding-right": "6px"
+                        }
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "[$Email]"
+                      }
+                    ]
+                  },
+                  {
+                    "elmType": "span",
+                    "style": {
+                      "display": "=if([$Mobile_x0020_Phone] == '', 'none', 'block')",
+                      "width": "100%"
+                    },
+                    "attributes": {
+                      "class": "ms-fontSize-xs ms-fontWeight-regular ms-fontColor-neutralPrimary"
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "attributes": {
+                          "iconName": "Phone",
+                          "class": "ms-fontColor-themePrimary"
+                        },
+                        "style": {
+                          "padding-right": "6px"
+                        }
+                      },
+                      {
+                        "elmType": "span",
+                        "txtContent": "[$Mobile_x0020_Phone]"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "1",
+          "display": "flex",
+          "flex-direction": "column",
+          "max-width": "310px",
+          "min-width": "205px",
+          "margin-top": "4px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "text-align": "center"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "txtContent": "=if([$Company] == '', if([$School_x0020_Affilitation] == '', 'Unknown Affiliation', [$School_x0020_Affilitation]), [$Company])",
+                "style": {
+                  "display": "block"
+                },
+                "attributes": {
+                  "class": "ms-fontSize-mPlus ms-fontWeight-semibold ms-fontColor-neutralSecondary",
+                  "title": "='Affiliation: ' + [$School_x0020_Affilitation]"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1",
+              "text-align": "center"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "inlineEditField": "[$Center_x0020_Member]",
+                "txtContent": "=if([$Center_x0020_Member] == 'Yes', '🗹 Center Member', '☐ Center Member'",
+                "style": {
+                  "display": "block",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "=if([$Center_x0020_Member] == 'Yes', 'ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-neutralSecondary', 'ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary')"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=if(indexOf([$Group_x0020_Member],'Yes') >= 0, '🗹 Group Member', '☐ Group Member')",
+                "inlineEditField": "[$Group_x0020_Member]",
+                "style": {
+                  "display": "block",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "=if(indexOf([$Group_x0020_Member],'Yes') >= 0, 'ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-neutralSecondary', 'ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary')"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=if(indexOf([$Study_x0020_Team_x0020_Member],'Yes') >= 0, '🗹 Study Team Member', '☐ Study Team Member')",
+                "inlineEditField": "[$Study_x0020_Team_x0020_Member]",
+                "style": {
+                  "display": "block",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "=if(indexOf([$Study_x0020_Team_x0020_Member],'Yes') >= 0, 'ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-neutralSecondary', 'ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary')"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=if(indexOf([$Has_x0020_Received_x0020_Servies],'Yes') >= 0, '🗹 Has Received Services', '☐ Has Received Services')",
+                "inlineEditField": "[$Has_x0020_Received_x0020_Servies]",
+                "style": {
+                  "display": "block",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "=if(indexOf([$Has_x0020_Received_x0020_Servies],'Yes') >= 0, 'ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-neutralSecondary', 'ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary')"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=if(indexOf([$Has_x0020_Attended_x0020_Events],'Yes') >= 0, '🗹 Has Attended Events', '☐ Has Attended Events')",
+                "inlineEditField": "[$Has_x0020_Attended_x0020_Events]",
+                "style": {
+                  "display": "block",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "=if(indexOf([$Has_x0020_Attended_x0020_Events],'Yes') >= 0, 'ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-neutralSecondary', 'ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary')"
+                }
+              },
+              {
+                "elmType": "span",
+                "txtContent": "=if([$Active] == 'Yes', '🗹 Active', '☐ Active')",
+                "inlineEditField": "[$Active]",
+                "style": {
+                  "display": "block",
+                  "cursor": "pointer"
+                },
+                "attributes": {
+                  "class": "=if([$Active] == 'Yes', 'ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-neutralSecondary', 'ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary')"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "1",
+          "display": "flex",
+          "flex-direction": "column",
+          "max-width": "310px",
+          "min-width": "155px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "flex-grow": "1"
+            },
+            "children": [
+              {
+                "elmType": "span",
+                "style": {
+                  "display": "block"
+                },
+                "attributes": {
+                  "class": "ms-fontWeight-semibold ms-fontSize-m"
+                },
+                "txtContent": "Notes:"
+              },
+              {
+                "elmType": "span",
+                "style": {
+                  "display": "block",
+                  "padding-left": "8px"
+                },
+                "txtContent": "=if([$Notes]=='', 'No notes entered', substring([$Notes], 0, 200) + '...')",
+                "inlineEditField": "[$Notes]",
+                "attributes": {
+                  "class": "ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary"
+                }
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "flex": "none",
+              "display": "flex",
+              "flex-direction": "row-reverse",
+              "flex-wrap": "nowrap"
+            },
+            "children": [
+              {
+                "elmType": "button",
+                "customRowAction": {
+                  "action": "share"
+                },
+                "attributes": {
+                  "title": "Share",
+                  "class": "ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover"
+                },
+                "style": {
+                  "border": "none",
+                  "background-color": "transparent",
+                  "cursor": "pointer"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "iconName": "Share"
+                    }
+                  }
+                ]
+              },
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=@currentWeb + '/Lists/Studies/StudyStatus.aspx?view=7&q=' + [$Full_x0020_Name] ",
+                  "target": "_top",
+                  "title": "Find studies"
+                },
+                "class": "ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover",
+                "style": {
+                  "text-decoration": "none",
+                  "border": "none",
+                  "background-color": "transparent",
+                  "cursor": "pointer"
+                },
+                "children": [
+                  {
+                    "elmType": "button",
+                    "attributes": {
+                      "class": "ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover"
+                    },
+                    "style": {
+                      "border": "none",
+                      "background-color": "transparent",
+                      "cursor": "pointer"
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "attributes": {
+                          "iconName": "TimeLineProgress"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "='https://orcid.org/' + [$ORCID]",
+                  "target": "_blank",
+                  "title": "=if([$ORCID]=='', 'ORCiD not available.', 'ORCiD: ' + [$ORCID])"
+                },
+                "class": "ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover",
+                "style": {
+                  "text-decoration": "none",
+                  "border": "none",
+                  "background-color": "transparent",
+                  "cursor": "pointer"
+                },
+                "children": [
+                  {
+                    "elmType": "button",
+                    "attributes": {
+                      "class": "ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover"
+                    },
+                    "style": {
+                      "border": "none",
+                      "background-color": "transparent",
+                      "cursor": "pointer"
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "attributes": {
+                          "iconName": "Website"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "=[$Depression_x0020_Center_x0020_Profile]",
+                  "target": "_blank",
+                  "title": "=if([$Depression_x0020_Center_x0020_Profile]=='','Depression Center Profile not available.', 'Visit Depression Center Profile')"
+                },
+                "class": "ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover",
+                "style": {
+                  "text-decoration": "none",
+                  "border": "none",
+                  "background-color": "transparent",
+                  "cursor": "pointer"
+                },
+                "children": [
+                  {
+                    "elmType": "button",
+                    "attributes": {
+                      "class": "ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover"
+                    },
+                    "style": {
+                      "border": "none",
+                      "background-color": "transparent",
+                      "cursor": "pointer"
+                    },
+                    "children": [
+                      {
+                        "elmType": "span",
+                        "attributes": {
+                          "iconName": "ProfileSearch"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "elmType": "button",
+                "customRowAction": {
+                  "action": "defaultClick"
+                },
+                "attributes": {
+                  "title": "=if([$_CommentCount],if([$_CommentCount] > 99, ' 99+', ' '+[$_CommentCount]) + ' comment(s)','Add comments')",
+                  "class": "ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover"
+                },
+                "style": {
+                  "border": "none",
+                  "background-color": "transparent",
+                  "cursor": "pointer"
+                },
+                "children": [
+                  {
+                    "elmType": "span",
+                    "attributes": {
+                      "iconName": "Comment"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
