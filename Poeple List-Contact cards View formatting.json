@@ -102,14 +102,14 @@
                   },
                   {
                     "elmType": "span",
-                    "txtContent": "[$Job_x0020_Title]",
-                    "inlineEditField": "[$Job_x0020_Title]",
+                    "txtContent": "=[$JobTitle]",
+                    "inlineEditField": "[$JobTitle]",
                     "style": {
-                      "display": "=if([$Job_x0020_Title] == '', 'none', 'block')",
+                      "display": "=if([$JobTitle] == '', 'none', 'block')",
                       "cursor": "pointer"
                     },
                     "attributes": {
-                      "class": "ms-fontSize-m ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                      "class": "=if([$JobTitle] == '', 'ms-fontSize-xs', 'ms-fontSize-m ms-fontWeight-regular ms-fontColor-neutralSecondary')"
                     }
                   },
                   {
@@ -121,7 +121,7 @@
                       "cursor": "pointer"
                     },
                     "attributes": {
-                      "class": "ms-fontSize-s ms-fontWeight-regular ms-fontColor-neutralSecondary"
+                      "class": "=if([$Department] == '', 'ms-fontSize-xs' , 'ms-fontSize-s ms-fontWeight-regular ms-fontColor-neutralSecondary')"
                     }
                   }
                 ]
@@ -164,13 +164,14 @@
                     ]
                   },
                   {
-                    "elmType": "span",
+                    "elmType": "a",
                     "style": {
-                      "display": "=if([$Mobile_x0020_Phone] == '', 'none', 'block')",
+                      "display": "=if([$BusinessPhone] == '', if([$MobilePhone] == '', 'none', 'block'), 'block')",
                       "width": "100%"
                     },
                     "attributes": {
-                      "class": "ms-fontSize-xs ms-fontWeight-regular ms-fontColor-neutralPrimary"
+                      "class": "ms-fontSize-xs ms-fontWeight-regular ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover",
+                      "href": "=if([$BusinessPhone] == '', if([$MobilePhone] == '', '', 'tel:' + replaceAll(replaceAll(replaceAll([$MobilePhone],'-',''),' ',''),'.','')), 'tel:' + replaceAll(replaceAll(replaceAll([$BusinessPhone],'-',''),' ',''),'.',''))"
                     },
                     "children": [
                       {
@@ -185,7 +186,7 @@
                       },
                       {
                         "elmType": "span",
-                        "txtContent": "[$Mobile_x0020_Phone]"
+                        "txtContent": "=if([$BusinessPhone] == '', if([$MobilePhone] == '', '', [$MobilePhone]), [$BusinessPhone])"
                       }
                     ]
                   }
@@ -215,13 +216,13 @@
             "children": [
               {
                 "elmType": "span",
-                "txtContent": "=if([$Company] == '', if([$School_x0020_Affilitation] == '', 'Unknown Affiliation', [$School_x0020_Affilitation]), [$Company])",
+                "txtContent": "=if([$Company] == '', if([$SchoolAffilitation] == '', 'Unknown Affiliation', [$SchoolAffilitation]), [$Company])",
                 "style": {
                   "display": "block"
                 },
                 "attributes": {
                   "class": "ms-fontSize-mPlus ms-fontWeight-semibold ms-fontColor-neutralSecondary",
-                  "title": "='Affiliation: ' + [$School_x0020_Affilitation]"
+                  "title": "='Affiliation: ' + [$SchoolAffilitation]"
                 }
               }
             ]
@@ -235,26 +236,14 @@
             "children": [
               {
                 "elmType": "span",
-                "inlineEditField": "[$Center_x0020_Member]",
-                "txtContent": "=if([$Center_x0020_Member] == 'Yes', '🗹 Center Member', '☐ Center Member'",
+                "txtContent": "=if([$CenterMember] == true, '🗹 Center Member', '☐ Center Member')",
+                "inlineEditField": "[$CenterMember]",
                 "style": {
                   "display": "block",
                   "cursor": "pointer"
                 },
                 "attributes": {
-                  "class": "=if([$Center_x0020_Member] == 'Yes', 'ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-neutralSecondary', 'ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary')"
-                }
-              },
-              {
-                "elmType": "span",
-                "txtContent": "=if(indexOf([$Group_x0020_Member],'Yes') >= 0, '🗹 Group Member', '☐ Group Member')",
-                "inlineEditField": "[$Group_x0020_Member]",
-                "style": {
-                  "display": "block",
-                  "cursor": "pointer"
-                },
-                "attributes": {
-                  "class": "=if(indexOf([$Group_x0020_Member],'Yes') >= 0, 'ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-neutralSecondary', 'ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary')"
+                  "class": "=if([$CenterMember] == true, 'ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-neutralSecondary', 'ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary')"
                 }
               },
               {
@@ -295,14 +284,14 @@
               },
               {
                 "elmType": "span",
-                "txtContent": "=if([$Active] == 'Yes', '🗹 Active', '☐ Active')",
-                "inlineEditField": "[$Active]",
+                "txtContent": "=if(length([$Group_x0020_Membership]) <= 0, '', 'Member of ' + if(length([$Group_x0020_Membership])==1, [$Group_x0020_Membership.lookupValue], length([$Group_x0020_Membership]) + ' groups') )",
                 "style": {
                   "display": "block",
                   "cursor": "pointer"
                 },
                 "attributes": {
-                  "class": "=if([$Active] == 'Yes', 'ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-neutralSecondary', 'ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary')"
+                  "title": "=substring([$Group_x0020_Membership.lookupValue], 0, 240)",
+                  "class": "=if(length([$Group_x0020_Membership]) > 0, 'ms-fontSize-sPlus ms-fontWeight-regular ms-fontColor-neutralSecondary', 'ms-fontSize-s ms-fontWeight-semilight ms-fontColor-neutralTertiary')"
                 }
               }
             ]
