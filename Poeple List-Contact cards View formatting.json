@@ -102,13 +102,14 @@
                   },
                   {
                     "elmType": "span",
-                    "txtContent": "=[$JobTitle]",
+                    "txtContent": "=if( lastIndexOf([$JobTitle]+'~','~') >= 55 , substring([$JobTitle],0,54)+'...' , [$JobTitle])",
                     "inlineEditField": "[$JobTitle]",
                     "style": {
                       "display": "=if([$JobTitle] == '', 'none', 'block')",
                       "cursor": "pointer"
                     },
                     "attributes": {
+					  "title": "[$JobTitle]",
                       "class": "=if([$JobTitle] == '', 'ms-fontSize-xs', 'ms-fontSize-m ms-fontWeight-regular ms-fontColor-neutralSecondary')"
                     }
                   },
