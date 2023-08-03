@@ -216,13 +216,13 @@
             "children": [
               {
                 "elmType": "span",
-                "txtContent": "=if([$Company] == '', if([$SchoolAffilitation] == '', 'Unknown Affiliation', [$SchoolAffilitation]), [$Company])",
+                "txtContent": "=if([$Company] == '', if([$SchoolAffiliation] == '', 'Unknown Affiliation', [$SchoolAffiliation]), [$Company])",
                 "style": {
                   "display": "block"
                 },
                 "attributes": {
                   "class": "ms-fontSize-mPlus ms-fontWeight-semibold ms-fontColor-neutralSecondary",
-                  "title": "='Affiliation: ' + [$SchoolAffilitation]"
+                  "title": "=if([$SchoolAffiliation] == '', 'No school affiliation', 'School affiliation: ' + [$SchoolAffiliation])"
                 }
               }
             ]
