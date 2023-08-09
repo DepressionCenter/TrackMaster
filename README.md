@@ -8,21 +8,21 @@ Code and documentation for TrackMaster membership tracking tool and related infr
 
 
 ## Quick Start Guide
-<Quick compile/run instructions>
++ TrackMaster for Eisenberg Family Depression Center: https://umhealth.sharepoint.com/sites/DepressionCenter-TrackMaster
 
 
 
 ## Documentation
-<Links to manual, wiki, full documentation, etc.>
+View the documentation at the [Depression Center Knowledge Base](https://teamdynamix.umich.edu/TDClient/210/Portal/KB/?CategoryID=846).
 
 
 ## Additional Resources
-<Links to study website, related projects, etc.>
+None.
 
 
 
 ## About the Team
-< 1-2 paragraphs about your core, study team, class or project. >
+The tool was developed by a cohort team of 5 members from the [ITS 2023 internship](https://its.umich.edu/internship/cohorts).
 
 
 
@@ -36,6 +36,19 @@ If you need assistance identifying a contact person, email the EFDC's Mobile Tec
 ## Credits
 #### Contributors:
 + Eisenberg Family Depression Center [(@DepressionCenter)](https://github.com/DepressionCenter/)
+
+
+A huge thank you to the ITS Summer Internship team who created TrackMaster for the Eisenberg Family Depression Center! The project team includes:
+
++ Amit Nyamagoudar - anyamag@umich.edu
++ Avinash Singh - singhav@umich.edu
++ Nivethaa Srijayanthi Ravichandran - nivethaa@umich.edu
++ Reed McAlpin - rmcalpin@umich.edu
++ Taha Abbas - tahaa@umich.edu
+
+
+Project sponsors:
++ Conni Harrigan
 + Gabriel Mongefranco [(@gabrielmongefranco)](https://github.com/gabrielmongefranco)
 
 
