@@ -13,7 +13,7 @@ Code and documentation for TrackMaster membership tracking tool and related infr
 
 
 ## Documentation
-View the documentation at the [Depression Center Knowledge Base](https://teamdynamix.umich.edu/TDClient/210/Portal/KB/?CategoryID=846).
+View the documentation at the [Depression Center Knowledge Base](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/KB/?CategoryID=846).
 
 
 ## Additional Resources
