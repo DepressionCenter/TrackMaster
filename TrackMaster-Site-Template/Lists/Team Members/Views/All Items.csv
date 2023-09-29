@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Center Leadership?"" width=""178"" /><FieldRef Name=""Center Administration?"" width=""186"" /><FieldRef Name=""UniqName"" width=""180"" />"
+"ContentTypeId","0x"
+"CustomFormatter",""
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{297C2608-4E8F-4818-8DCF-B152F34DBE56}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Team Members/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47""><Query><OrderBy><FieldRef Name=""Full_x0020_Name"" /></OrderBy><GroupBy><FieldRef Name=""Primary_x0020_Team"" Ascending=""TRUE"" /></GroupBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Full_x0020_Name"" /><FieldRef Name=""Teams_x0020_Account"" /><FieldRef Name=""Primary_x0020_Team"" /><FieldRef Name=""Full_x0020_Name_x003a_Job_x0020_"" /><FieldRef Name=""FacultyLead"" /><FieldRef Name=""Full_x0020_Name_x003a_Business_x"" /><FieldRef Name=""Full_x0020_Name_x003a_City"" /><FieldRef Name=""Full_x0020_Name_x003a_Home_x0020"" /><FieldRef Name=""Full_x0020_Name_x003a_Mobile_x00"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Reports_x0020_To"" /><FieldRef Name=""Active"" /></ViewFields><CustomFormatter /><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><ColumnWidth><FieldRef Name=""Center Leadership?"" width=""178"" /><FieldRef Name=""Center Administration?"" width=""186"" /><FieldRef Name=""UniqName"" width=""180"" /></ColumnWidth><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","297c2608-4e8f-4818-8dcf-b152f34dbe56"
+"ImageUrl","/_layouts/15/images/generic.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{297C2608-4E8F-4818-8DCF-B152F34DBE56}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Team Members/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47"" ><Query><OrderBy><FieldRef Name=""Full_x0020_Name"" /></OrderBy><GroupBy><FieldRef Name=""Primary_x0020_Team"" Ascending=""TRUE"" /></GroupBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Full_x0020_Name"" /><FieldRef Name=""Teams_x0020_Account"" /><FieldRef Name=""Primary_x0020_Team"" /><FieldRef Name=""Full_x0020_Name_x003a_Job_x0020_"" /><FieldRef Name=""FacultyLead"" /><FieldRef Name=""Full_x0020_Name_x003a_Business_x"" /><FieldRef Name=""Full_x0020_Name_x003a_City"" /><FieldRef Name=""Full_x0020_Name_x003a_Home_x0020"" /><FieldRef Name=""Full_x0020_Name_x003a_Mobile_x00"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Reports_x0020_To"" /><FieldRef Name=""Active"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CustomFormatter /><ColumnWidth><FieldRef Name=""Center Leadership?"" width=""178"" /><FieldRef Name=""Center Administration?"" width=""186"" /><FieldRef Name=""UniqName"" width=""180"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""Full_x0020_Name"" /></OrderBy><GroupBy><FieldRef Name=""Primary_x0020_Team"" Ascending=""TRUE"" /></GroupBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Team Members/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""Full_x0020_Name"", ""Teams_x0020_Account"", ""Primary_x0020_Team"", ""Full_x0020_Name_x003a_Job_x0020_"", ""FacultyLead"", ""Full_x0020_Name_x003a_Business_x"", ""Full_x0020_Name_x003a_City"", ""Full_x0020_Name_x003a_Home_x0020"", ""Full_x0020_Name_x003a_Mobile_x00"", ""Notes"", ""Reports_x0020_To"", ""Active"""
