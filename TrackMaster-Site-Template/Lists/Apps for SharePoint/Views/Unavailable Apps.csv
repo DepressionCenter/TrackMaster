@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","11"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{B6B486E5-A050-45D3-B02C-D270A0D30FDB}"" MobileView=""TRUE"" Type=""HTML"" Scope=""Recursive"" DisplayName=""Unavailable Apps"" Url=""/sites/DepressionCenter-TrackMaster/AppCatalog/Forms/DisabledContent.aspx"" Level=""1"" BaseViewID=""11"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=47""><Toolbar Type=""Standard"" /><XslLink>main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><Query><Where><Or><Eq><FieldRef Name=""IsValidAppPackage"" /><Value Type=""Boolean"">0</Value></Eq><Eq><FieldRef Name=""IsAppPackageEnabled"" /><Value Type=""Boolean"">0</Value></Eq></Or></Where></Query><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""Title"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""AppVersion"" /><FieldRef Name=""Edit"" /><FieldRef Name=""AppProductID"" /><FieldRef Name=""AppMetadataLocale"" /><FieldRef Name=""IsDefaultAppMetadataLocale"" /><FieldRef Name=""Modified"" /><FieldRef Name=""IsAppPackageEnabled"" /><FieldRef Name=""IsValidAppPackage"" /><FieldRef Name=""AppPackageErrorMessage"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /></View>"
+"Id","b6b486e5-a050-45d3-b02c-d270a0d30fdb"
+"ImageUrl","/_layouts/15/images/dlicon.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{B6B486E5-A050-45D3-B02C-D270A0D30FDB}"" MobileView=""TRUE"" Type=""HTML"" Scope=""Recursive"" DisplayName=""Unavailable Apps"" Url=""/sites/DepressionCenter-TrackMaster/AppCatalog/Forms/DisabledContent.aspx"" Level=""1"" BaseViewID=""11"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=47"" ><Query><Where><Or><Eq><FieldRef Name=""IsValidAppPackage"" /><Value Type=""Boolean"">0</Value></Eq><Eq><FieldRef Name=""IsAppPackageEnabled"" /><Value Type=""Boolean"">0</Value></Eq></Or></Where></Query><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""Title"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""AppVersion"" /><FieldRef Name=""Edit"" /><FieldRef Name=""AppProductID"" /><FieldRef Name=""AppMetadataLocale"" /><FieldRef Name=""IsDefaultAppMetadataLocale"" /><FieldRef Name=""Modified"" /><FieldRef Name=""IsAppPackageEnabled"" /><FieldRef Name=""IsValidAppPackage"" /><FieldRef Name=""AppPackageErrorMessage"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink>main.xsl</XslLink><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<Where><Or><Eq><FieldRef Name=""IsValidAppPackage"" /><Value Type=""Boolean"">0</Value></Eq><Eq><FieldRef Name=""IsAppPackageEnabled"" /><Value Type=""Boolean"">0</Value></Eq></Or></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","Recursive"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/AppCatalog/Forms/DisabledContent.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Unavailable Apps"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""DocIcon"", ""Title"", ""LinkFilename"", ""AppVersion"", ""Edit"", ""AppProductID"", ""AppMetadataLocale"", ""IsDefaultAppMetadataLocale"", ""Modified"", ""IsAppPackageEnabled"", ""IsValidAppPackage"", ""AppPackageErrorMessage"""

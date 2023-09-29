@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId",
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{CFF341FE-2EF3-42A3-8FEF-C688C001D562}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""Grouped by content status"" Url=""/sites/DepressionCenter-TrackMaster/Lists/ContentScheduler/Grouped by content status.aspx"" Level=""1"" ContentTypeID=""0x""><Toolbar Type=""Standard"" /><XslLink Default=""TRUE"">main.xsl</XslLink><RowLimit Paged=""TRUE"">30</RowLimit><Query><GroupBy><FieldRef Name=""Status"" Ascending=""TRUE"" /></GroupBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Description"" /><FieldRef Name=""Author"" /><FieldRef Name=""Status"" /><FieldRef Name=""DraftDueBy"" /><FieldRef Name=""PublishBy"" /><FieldRef Name=""ContentTypes"" /><FieldRef Name=""PublishedLink"" /><FieldRef Name=""ContentImage"" /><FieldRef Name=""Attachments"" /></ViewFields></View>"
+"Id","cff341fe-2ef3-42a3-8fef-c688c001d562"
+"ImageUrl",
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink",
+"ListViewXml","<View Name=""{CFF341FE-2EF3-42A3-8FEF-C688C001D562}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""Grouped by content status"" Url=""/sites/DepressionCenter-TrackMaster/Lists/ContentScheduler/Grouped by content status.aspx"" Level=""1"" ContentTypeID=""0x"" ><Query><GroupBy><FieldRef Name=""Status"" Ascending=""TRUE"" /></GroupBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Description"" /><FieldRef Name=""Author"" /><FieldRef Name=""Status"" /><FieldRef Name=""DraftDueBy"" /><FieldRef Name=""PublishBy"" /><FieldRef Name=""ContentTypes"" /><FieldRef Name=""PublishedLink"" /><FieldRef Name=""ContentImage"" /><FieldRef Name=""Attachments"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><XslLink Default=""TRUE"">main.xsl</XslLink><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy><FieldRef Name=""Status"" Ascending=""TRUE"" /></GroupBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/ContentScheduler/Grouped by content status.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Grouped by content status"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""Description"", ""Author"", ""Status"", ""DraftDueBy"", ""PublishBy"", ""ContentTypes"", ""PublishedLink"", ""ContentImage"", ""Attachments"""

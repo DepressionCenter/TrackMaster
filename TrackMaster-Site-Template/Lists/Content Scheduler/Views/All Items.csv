@@ -1,0 +1,157 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter","{
+    ""additionalRowClass"": {
+        ""operator"": "":"",
+            ""operands"": [{
+                ""operator"": ""&&"",
+                ""operands"": [{
+                    ""operator"": ""!="",
+                    ""operands"": [""[$Status]"", ""Published""]
+                }, {
+                    ""operator"": ""<="",
+                    ""operands"": [{
+                        ""operator"": ""Date()"",
+                        ""operands"": [{
+                            ""operator"": ""toDateString()"",
+                            ""operands"": [{
+                                ""operator"": ""Date()"",
+                                ""operands"": [""[$PublishBy]""]
+                            }]
+                        }]
+                    }, {
+                        ""operator"": ""Date()"",
+                        ""operands"": [{
+                            ""operator"": ""toDateString()"",
+                            ""operands"": [{
+                                ""operator"": ""Date()"",
+                                ""operands"": [""@now""]
+                            }]
+                        }]
+                    }]
+                }]
+            }, ""sp-css-backgroundColor-neutralBackground"", """"]
+    },
+    ""rowClassTemplateId"": ""ConditionalView""
+}"
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{1C33271F-F8A8-46FC-B0E3-EB8FEFD255E3}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/ContentScheduler/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47""><Toolbar Type=""Standard"" /><XslLink Default=""TRUE"">main.xsl</XslLink><RowLimit Paged=""TRUE"">30</RowLimit><Query /><CustomFormatter><![CDATA[{
+    ""additionalRowClass"": {
+        ""operator"": "":"",
+            ""operands"": [{
+                ""operator"": ""&&"",
+                ""operands"": [{
+                    ""operator"": ""!="",
+                    ""operands"": [""[$Status]"", ""Published""]
+                }, {
+                    ""operator"": ""<="",
+                    ""operands"": [{
+                        ""operator"": ""Date()"",
+                        ""operands"": [{
+                            ""operator"": ""toDateString()"",
+                            ""operands"": [{
+                                ""operator"": ""Date()"",
+                                ""operands"": [""[$PublishBy]""]
+                            }]
+                        }]
+                    }, {
+                        ""operator"": ""Date()"",
+                        ""operands"": [{
+                            ""operator"": ""toDateString()"",
+                            ""operands"": [{
+                                ""operator"": ""Date()"",
+                                ""operands"": [""@now""]
+                            }]
+                        }]
+                    }]
+                }]
+            }, ""sp-css-backgroundColor-neutralBackground"", """"]
+    },
+    ""rowClassTemplateId"": ""ConditionalView""
+}]]></CustomFormatter><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Description"" /><FieldRef Name=""Author"" /><FieldRef Name=""Status"" /><FieldRef Name=""DraftDueBy"" /><FieldRef Name=""PublishBy"" /><FieldRef Name=""ContentTypes"" /><FieldRef Name=""PublishedLink"" /><FieldRef Name=""ContentImage"" /><FieldRef Name=""Attachments"" /></ViewFields><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","1c33271f-f8a8-46fc-b0e3-eb8fefd255e3"
+"ImageUrl","/_layouts/15/images/generic.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{1C33271F-F8A8-46FC-B0E3-EB8FEFD255E3}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/ContentScheduler/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47"" ><Query /><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Description"" /><FieldRef Name=""Author"" /><FieldRef Name=""Status"" /><FieldRef Name=""DraftDueBy"" /><FieldRef Name=""PublishBy"" /><FieldRef Name=""ContentTypes"" /><FieldRef Name=""PublishedLink"" /><FieldRef Name=""ContentImage"" /><FieldRef Name=""Attachments"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CustomFormatter><![CDATA[{
+    ""additionalRowClass"": {
+        ""operator"": "":"",
+            ""operands"": [{
+                ""operator"": ""&&"",
+                ""operands"": [{
+                    ""operator"": ""!="",
+                    ""operands"": [""[$Status]"", ""Published""]
+                }, {
+                    ""operator"": ""<="",
+                    ""operands"": [{
+                        ""operator"": ""Date()"",
+                        ""operands"": [{
+                            ""operator"": ""toDateString()"",
+                            ""operands"": [{
+                                ""operator"": ""Date()"",
+                                ""operands"": [""[$PublishBy]""]
+                            }]
+                        }]
+                    }, {
+                        ""operator"": ""Date()"",
+                        ""operands"": [{
+                            ""operator"": ""toDateString()"",
+                            ""operands"": [{
+                                ""operator"": ""Date()"",
+                                ""operands"": [""@now""]
+                            }]
+                        }]
+                    }]
+                }]
+            }, ""sp-css-backgroundColor-neutralBackground"", """"]
+    },
+    ""rowClassTemplateId"": ""ConditionalView""
+}]]></CustomFormatter><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery",""
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/ContentScheduler/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""Description"", ""Author"", ""Status"", ""DraftDueBy"", ""PublishBy"", ""ContentTypes"", ""PublishedLink"", ""ContentImage"", ""Attachments"""

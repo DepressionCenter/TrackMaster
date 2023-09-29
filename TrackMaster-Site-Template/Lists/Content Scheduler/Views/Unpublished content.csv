@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId",
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{3C6A4A58-7143-44F7-8BBA-F766748089FA}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""Unpublished content"" Url=""/sites/DepressionCenter-TrackMaster/Lists/ContentScheduler/Unpublished content.aspx"" Level=""1"" ContentTypeID=""0x""><Toolbar Type=""Standard"" /><XslLink Default=""TRUE"">main.xsl</XslLink><RowLimit Paged=""TRUE"">30</RowLimit><Query><Where><Or><Or><Or><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Ready to publish</Value></Eq><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Planned</Value></Eq></Or><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Draft needs approval</Value></Eq></Or><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Assigned</Value></Eq></Or></Where></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Description"" /><FieldRef Name=""Author"" /><FieldRef Name=""Status"" /><FieldRef Name=""DraftDueBy"" /><FieldRef Name=""PublishBy"" /><FieldRef Name=""ContentTypes"" /><FieldRef Name=""PublishedLink"" /><FieldRef Name=""ContentImage"" /><FieldRef Name=""Attachments"" /></ViewFields></View>"
+"Id","3c6a4a58-7143-44f7-8bba-f766748089fa"
+"ImageUrl",
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink",
+"ListViewXml","<View Name=""{3C6A4A58-7143-44F7-8BBA-F766748089FA}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""Unpublished content"" Url=""/sites/DepressionCenter-TrackMaster/Lists/ContentScheduler/Unpublished content.aspx"" Level=""1"" ContentTypeID=""0x"" ><Query><Where><Or><Or><Or><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Ready to publish</Value></Eq><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Planned</Value></Eq></Or><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Draft needs approval</Value></Eq></Or><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Assigned</Value></Eq></Or></Where></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Description"" /><FieldRef Name=""Author"" /><FieldRef Name=""Status"" /><FieldRef Name=""DraftDueBy"" /><FieldRef Name=""PublishBy"" /><FieldRef Name=""ContentTypes"" /><FieldRef Name=""PublishedLink"" /><FieldRef Name=""ContentImage"" /><FieldRef Name=""Attachments"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><XslLink Default=""TRUE"">main.xsl</XslLink><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<Where><Or><Or><Or><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Ready to publish</Value></Eq><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Planned</Value></Eq></Or><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Draft needs approval</Value></Eq></Or><Eq><FieldRef Name=""Status"" /><Value Type=""Choice"">Assigned</Value></Eq></Or></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/ContentScheduler/Unpublished content.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Unpublished content"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""Description"", ""Author"", ""Status"", ""DraftDueBy"", ""PublishBy"", ""ContentTypes"", ""PublishedLink"", ""ContentImage"", ""Attachments"""
