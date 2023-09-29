@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",""
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{F45A7FB8-300B-4BF7-90A4-D093ECE95E77}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47""><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""Host"" /><FieldRef Name=""Speakers"" /><FieldRef Name=""VideoViews"" /><FieldRef Name=""Attendees"" /><FieldRef Name=""Departments"" /><FieldRef Name=""Schools"" /><FieldRef Name=""EventWebPage"" /><FieldRef Name=""VideoRecording"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Attendees0"" /><FieldRef Name=""EventLocation"" /><FieldRef Name=""Conference_x0020_Link"" /><FieldRef Name=""Topics"" /><FieldRef Name=""Attendees_x003a_UniqName"" /></ViewFields><ViewData /><Query /><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""LinkTitle"" /><CustomFormatter /><Toolbar Type=""Standard"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","f45a7fb8-300b-4bf7-90a4-d093ece95e77"
+"ImageUrl","/_layouts/15/images/generic.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{F45A7FB8-300B-4BF7-90A4-D093ECE95E77}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47"" ><Query /><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""Host"" /><FieldRef Name=""Speakers"" /><FieldRef Name=""VideoViews"" /><FieldRef Name=""Attendees"" /><FieldRef Name=""Departments"" /><FieldRef Name=""Schools"" /><FieldRef Name=""EventWebPage"" /><FieldRef Name=""VideoRecording"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Attendees0"" /><FieldRef Name=""EventLocation"" /><FieldRef Name=""Conference_x0020_Link"" /><FieldRef Name=""Topics"" /><FieldRef Name=""Attendees_x003a_UniqName"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CustomFormatter /><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery",""
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""EventDate"", ""Host"", ""Speakers"", ""VideoViews"", ""Attendees"", ""Departments"", ""Schools"", ""EventWebPage"", ""VideoRecording"", ""Notes"", ""Attendees0"", ""EventLocation"", ""Conference_x0020_Link"", ""Topics"", ""Attendees_x003a_UniqName"""

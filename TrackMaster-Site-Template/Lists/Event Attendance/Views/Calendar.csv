@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles","<CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" />"
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{3DA101E8-8E7D-4433-B3C5-53B8354BC60F}"" Type=""HTML"" DisplayName=""Calendar"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/Calendar.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47""><ViewData><FieldRef Name=""Title"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekLocation"" /><FieldRef Name=""Title"" Type=""CalendarDayTitle"" /><FieldRef Name="""" Type=""CalendarDayLocation"" /></ViewData><ViewType2>MODERNCALENDAR</ViewType2><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /></CalendarViewStyles><ViewFields><FieldRef Name=""EventDate"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""Title"" /><FieldRef Name=""Title"" /></ViewFields><Query><Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EventDate"" /><Value Type=""DateTime""><Month /></Value></DateRangesOverlap></Where></Query><RowLimit Paged=""TRUE"">0</RowLimit><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><Toolbar Type=""Standard"" /><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","3da101e8-8e7d-4433-b3c5-53b8354bc60f"
+"ImageUrl","/_layouts/15/images/generic.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{3DA101E8-8E7D-4433-B3C5-53B8354BC60F}"" Type=""HTML"" DisplayName=""Calendar"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/Calendar.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47"" ><Query><Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EventDate"" /><Value Type=""DateTime""><Month /></Value></DateRangesOverlap></Where></Query><ViewFields><FieldRef Name=""EventDate"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""Title"" /><FieldRef Name=""Title"" /></ViewFields><RowLimit Paged=""TRUE"">0</RowLimit><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ViewType2>MODERNCALENDAR</ViewType2><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /></CalendarViewStyles><ViewData><FieldRef Name=""Title"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekLocation"" /><FieldRef Name=""Title"" Type=""CalendarDayTitle"" /><FieldRef Name="""" Type=""CalendarDayLocation"" /></ViewData><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EventDate"" /><Value Type=""DateTime""><Month /></Value></DateRangesOverlap></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","0"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/Calendar.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Calendar"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData","<FieldRef Name=""Title"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekLocation"" /><FieldRef Name=""Title"" Type=""CalendarDayTitle"" /><FieldRef Name="""" Type=""CalendarDayLocation"" />"
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2","MODERNCALENDAR"
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""EventDate"", ""EventDate"", ""Title"", ""Title"""
