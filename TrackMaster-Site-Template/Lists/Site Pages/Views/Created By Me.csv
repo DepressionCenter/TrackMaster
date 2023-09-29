@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId","3"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{A90D361B-5A92-41FC-9B3F-9AC6BACF0404}"" Type=""HTML"" DisplayName=""Created By Me"" Url=""/sites/DepressionCenter-TrackMaster/SitePages/Forms/CreatedByMe.aspx"" Level=""1"" BaseViewID=""3"" ContentTypeID=""0x"" ToolbarTemplate=""WikiLibraryViewToolBar"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=47""><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><Toolbar Type=""Standard"" /><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""Editor"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Author"" /><FieldRef Name=""Created"" /></ViewFields><Query><Where><Eq><FieldRef Name=""Author"" /><Value Type=""Integer""><UserID /></Value></Eq></Where><OrderBy><FieldRef Name=""FileLeafRef"" /></OrderBy></Query></View>"
+"Id","a90d361b-5a92-41fc-9b3f-9ac6bacf0404"
+"ImageUrl","/_layouts/15/images/dlicon.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{A90D361B-5A92-41FC-9B3F-9AC6BACF0404}"" Type=""HTML"" DisplayName=""Created By Me"" Url=""/sites/DepressionCenter-TrackMaster/SitePages/Forms/CreatedByMe.aspx"" Level=""1"" BaseViewID=""3"" ContentTypeID=""0x"" ToolbarTemplate=""WikiLibraryViewToolBar"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=47"" ><Query><Where><Eq><FieldRef Name=""Author"" /><Value Type=""Integer""><UserID /></Value></Eq></Where><OrderBy><FieldRef Name=""FileLeafRef"" /></OrderBy></Query><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""Editor"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Author"" /><FieldRef Name=""Created"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<Where><Eq><FieldRef Name=""Author"" /><Value Type=""Integer""><UserID /></Value></Eq></Where><OrderBy><FieldRef Name=""FileLeafRef"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/SitePages/Forms/CreatedByMe.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Created By Me"
+"Toolbar",""
+"ToolbarTemplateName","WikiLibraryViewToolBar"
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""DocIcon"", ""LinkFilename"", ""Editor"", ""Modified"", ""Author"", ""Created"""
