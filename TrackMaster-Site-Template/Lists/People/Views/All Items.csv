@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",""
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{EAC2F0A9-FD28-4AE7-8C4A-E59F6A28E036}"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47""><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""TeamsAccount"" /><FieldRef Name=""UniqName"" /><FieldRef Name=""Honorific"" /><FieldRef Name=""FirstName"" /><FieldRef Name=""LastName"" /><FieldRef Name=""JobTitle"" /><FieldRef Name=""Department"" /><FieldRef Name=""Company"" /><FieldRef Name=""SchoolAffiliation"" /><FieldRef Name=""BusinessPhone"" /><FieldRef Name=""MobilePhone"" /><FieldRef Name=""HomePhone"" /><FieldRef Name=""FaxNumber"" /><FieldRef Name=""Email"" /><FieldRef Name=""PreferredEmail"" /><FieldRef Name=""Address"" /><FieldRef Name=""City"" /><FieldRef Name=""State_x002f_Province"" /><FieldRef Name=""Country_x002f_Region"" /><FieldRef Name=""DepressionCenterProfile"" /><FieldRef Name=""Website"" /><FieldRef Name=""Twitter"" /><FieldRef Name=""GitHub"" /><FieldRef Name=""Facebook"" /><FieldRef Name=""LinkedIn"" /><FieldRef Name=""Notes"" /><FieldRef Name=""MREID"" /><FieldRef Name=""ORCID"" /><FieldRef Name=""Attachment"" /><FieldRef Name=""Publication_x0020_Topics"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""CenterMember"" /><FieldRef Name=""CenterMembershipJoinDate"" /><FieldRef Name=""Group_x0020_Membership"" /><FieldRef Name=""ReferralSource"" /><FieldRef Name=""PrimaryInvestigator"" /><FieldRef Name=""StudyTeamMember"" /><FieldRef Name=""HasReceivedServices"" /><FieldRef Name=""LastServiceDate"" /><FieldRef Name=""HasAttendedEvents"" /><FieldRef Name=""LastEventAttndanceDate"" /><FieldRef Name=""PrimaryTeamEngagement"" /><FieldRef Name=""Active"" /><FieldRef Name=""ID"" /></ViewFields><ViewData /><Query><OrderBy><FieldRef Name=""Title"" /></OrderBy></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""LinkTitle"" /><CustomFormatter /><Toolbar Type=""Standard"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","eac2f0a9-fd28-4ae7-8c4a-e59f6a28e036"
+"ImageUrl","/_layouts/15/images/generic.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{EAC2F0A9-FD28-4AE7-8C4A-E59F6A28E036}"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47"" ><Query><OrderBy><FieldRef Name=""Title"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""TeamsAccount"" /><FieldRef Name=""UniqName"" /><FieldRef Name=""Honorific"" /><FieldRef Name=""FirstName"" /><FieldRef Name=""LastName"" /><FieldRef Name=""JobTitle"" /><FieldRef Name=""Department"" /><FieldRef Name=""Company"" /><FieldRef Name=""SchoolAffiliation"" /><FieldRef Name=""BusinessPhone"" /><FieldRef Name=""MobilePhone"" /><FieldRef Name=""HomePhone"" /><FieldRef Name=""FaxNumber"" /><FieldRef Name=""Email"" /><FieldRef Name=""PreferredEmail"" /><FieldRef Name=""Address"" /><FieldRef Name=""City"" /><FieldRef Name=""State_x002f_Province"" /><FieldRef Name=""Country_x002f_Region"" /><FieldRef Name=""DepressionCenterProfile"" /><FieldRef Name=""Website"" /><FieldRef Name=""Twitter"" /><FieldRef Name=""GitHub"" /><FieldRef Name=""Facebook"" /><FieldRef Name=""LinkedIn"" /><FieldRef Name=""Notes"" /><FieldRef Name=""MREID"" /><FieldRef Name=""ORCID"" /><FieldRef Name=""Attachment"" /><FieldRef Name=""Publication_x0020_Topics"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""CenterMember"" /><FieldRef Name=""CenterMembershipJoinDate"" /><FieldRef Name=""Group_x0020_Membership"" /><FieldRef Name=""ReferralSource"" /><FieldRef Name=""PrimaryInvestigator"" /><FieldRef Name=""StudyTeamMember"" /><FieldRef Name=""HasReceivedServices"" /><FieldRef Name=""LastServiceDate"" /><FieldRef Name=""HasAttendedEvents"" /><FieldRef Name=""LastEventAttndanceDate"" /><FieldRef Name=""PrimaryTeamEngagement"" /><FieldRef Name=""Active"" /><FieldRef Name=""ID"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CustomFormatter /><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""Title"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/People/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""TeamsAccount"", ""UniqName"", ""Honorific"", ""FirstName"", ""LastName"", ""JobTitle"", ""Department"", ""Company"", ""SchoolAffiliation"", ""BusinessPhone"", ""MobilePhone"", ""HomePhone"", ""FaxNumber"", ""Email"", ""PreferredEmail"", ""Address"", ""City"", ""State_x002f_Province"", ""Country_x002f_Region"", ""DepressionCenterProfile"", ""Website"", ""Twitter"", ""GitHub"", ""Facebook"", ""LinkedIn"", ""Notes"", ""MREID"", ""ORCID"", ""Attachment"", ""Publication_x0020_Topics"", ""ContactType"", ""CenterMember"", ""CenterMembershipJoinDate"", ""Group_x0020_Membership"", ""ReferralSource"", ""PrimaryInvestigator"", ""StudyTeamMember"", ""HasReceivedServices"", ""LastServiceDate"", ""HasAttendedEvents"", ""LastEventAttndanceDate"", ""PrimaryTeamEngagement"", ""Active"", ""ID"""

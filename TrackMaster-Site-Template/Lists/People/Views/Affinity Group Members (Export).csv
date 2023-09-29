@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{0A15B147-7FE0-4BE2-874F-1FB5486D222A}"" Type=""HTML"" DisplayName=""Affinity Group Members (Export)"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/Affinity Group Members Export.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47""><Query><Where><In><FieldRef Name=""Group_x0020_Membership"" /><Values><Value Type=""LookupMulti"">MDEN</Value><Value Type=""LookupMulti"">MCN</Value><Value Type=""LookupMulti"">MeTRIC</Value><Value Type=""LookupMulti"">DIGIT-MI</Value></Values></In></Where><OrderBy><FieldRef Name=""Title"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""TeamsAccount"" /><FieldRef Name=""UniqName"" /><FieldRef Name=""Honorific"" /><FieldRef Name=""FirstName"" /><FieldRef Name=""LastName"" /><FieldRef Name=""JobTitle"" /><FieldRef Name=""Department"" /><FieldRef Name=""Company"" /><FieldRef Name=""SchoolAffiliation"" /><FieldRef Name=""BusinessPhone"" /><FieldRef Name=""MobilePhone"" /><FieldRef Name=""HomePhone"" /><FieldRef Name=""FaxNumber"" /><FieldRef Name=""Email"" /><FieldRef Name=""PreferredEmail"" /><FieldRef Name=""Address"" /><FieldRef Name=""City"" /><FieldRef Name=""State_x002f_Province"" /><FieldRef Name=""Country_x002f_Region"" /><FieldRef Name=""DepressionCenterProfile"" /><FieldRef Name=""Website"" /><FieldRef Name=""Twitter"" /><FieldRef Name=""GitHub"" /><FieldRef Name=""Facebook"" /><FieldRef Name=""LinkedIn"" /><FieldRef Name=""Notes"" /><FieldRef Name=""MREID"" /><FieldRef Name=""ORCID"" /><FieldRef Name=""Attachment"" /><FieldRef Name=""Publication_x0020_Topics"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""CenterMember"" /><FieldRef Name=""CenterMembershipJoinDate"" /><FieldRef Name=""Group_x0020_Membership"" /><FieldRef Name=""ReferralSource"" /><FieldRef Name=""PrimaryInvestigator"" /><FieldRef Name=""StudyTeamMember"" /><FieldRef Name=""HasReceivedServices"" /><FieldRef Name=""LastServiceDate"" /><FieldRef Name=""HasAttendedEvents"" /><FieldRef Name=""LastEventAttndanceDate"" /><FieldRef Name=""PrimaryTeamEngagement"" /><FieldRef Name=""Active"" /><FieldRef Name=""ID"" /></ViewFields><Toolbar Type=""Standard"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","0a15b147-7fe0-4be2-874f-1fb5486d222a"
+"ImageUrl","/_layouts/15/images/generic.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{0A15B147-7FE0-4BE2-874F-1FB5486D222A}"" Type=""HTML"" DisplayName=""Affinity Group Members (Export)"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/Affinity Group Members Export.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47"" ><Query><Where><In><FieldRef Name=""Group_x0020_Membership"" /><Values><Value Type=""LookupMulti"">MDEN</Value><Value Type=""LookupMulti"">MCN</Value><Value Type=""LookupMulti"">MeTRIC</Value><Value Type=""LookupMulti"">DIGIT-MI</Value></Values></In></Where><OrderBy><FieldRef Name=""Title"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""TeamsAccount"" /><FieldRef Name=""UniqName"" /><FieldRef Name=""Honorific"" /><FieldRef Name=""FirstName"" /><FieldRef Name=""LastName"" /><FieldRef Name=""JobTitle"" /><FieldRef Name=""Department"" /><FieldRef Name=""Company"" /><FieldRef Name=""SchoolAffiliation"" /><FieldRef Name=""BusinessPhone"" /><FieldRef Name=""MobilePhone"" /><FieldRef Name=""HomePhone"" /><FieldRef Name=""FaxNumber"" /><FieldRef Name=""Email"" /><FieldRef Name=""PreferredEmail"" /><FieldRef Name=""Address"" /><FieldRef Name=""City"" /><FieldRef Name=""State_x002f_Province"" /><FieldRef Name=""Country_x002f_Region"" /><FieldRef Name=""DepressionCenterProfile"" /><FieldRef Name=""Website"" /><FieldRef Name=""Twitter"" /><FieldRef Name=""GitHub"" /><FieldRef Name=""Facebook"" /><FieldRef Name=""LinkedIn"" /><FieldRef Name=""Notes"" /><FieldRef Name=""MREID"" /><FieldRef Name=""ORCID"" /><FieldRef Name=""Attachment"" /><FieldRef Name=""Publication_x0020_Topics"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""CenterMember"" /><FieldRef Name=""CenterMembershipJoinDate"" /><FieldRef Name=""Group_x0020_Membership"" /><FieldRef Name=""ReferralSource"" /><FieldRef Name=""PrimaryInvestigator"" /><FieldRef Name=""StudyTeamMember"" /><FieldRef Name=""HasReceivedServices"" /><FieldRef Name=""LastServiceDate"" /><FieldRef Name=""HasAttendedEvents"" /><FieldRef Name=""LastEventAttndanceDate"" /><FieldRef Name=""PrimaryTeamEngagement"" /><FieldRef Name=""Active"" /><FieldRef Name=""ID"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<Where><In><FieldRef Name=""Group_x0020_Membership"" /><Values><Value Type=""LookupMulti"">MDEN</Value><Value Type=""LookupMulti"">MCN</Value><Value Type=""LookupMulti"">MeTRIC</Value><Value Type=""LookupMulti"">DIGIT-MI</Value></Values></In></Where><OrderBy><FieldRef Name=""Title"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/People/Affinity Group Members Export.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Affinity Group Members (Export)"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""TeamsAccount"", ""UniqName"", ""Honorific"", ""FirstName"", ""LastName"", ""JobTitle"", ""Department"", ""Company"", ""SchoolAffiliation"", ""BusinessPhone"", ""MobilePhone"", ""HomePhone"", ""FaxNumber"", ""Email"", ""PreferredEmail"", ""Address"", ""City"", ""State_x002f_Province"", ""Country_x002f_Region"", ""DepressionCenterProfile"", ""Website"", ""Twitter"", ""GitHub"", ""Facebook"", ""LinkedIn"", ""Notes"", ""MREID"", ""ORCID"", ""Attachment"", ""Publication_x0020_Topics"", ""ContactType"", ""CenterMember"", ""CenterMembershipJoinDate"", ""Group_x0020_Membership"", ""ReferralSource"", ""PrimaryInvestigator"", ""StudyTeamMember"", ""HasReceivedServices"", ""LastServiceDate"", ""HasAttendedEvents"", ""LastEventAttndanceDate"", ""PrimaryTeamEngagement"", ""Active"", ""ID"""
