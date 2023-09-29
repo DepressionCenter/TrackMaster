@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{8FE651B2-AFF9-4A1C-AE48-F592FE2AA853}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/PublishedFeed/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/images/generic.png""><XslLink>main.xsl</XslLink><Query><OrderBy><FieldRef Name=""Created_x0020_Date"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitleNoMenu"" /><FieldRef Name=""MicroBlogType"" /><FieldRef Name=""PostAuthor"" /><FieldRef Name=""DefinitionId"" /><FieldRef Name=""RootPostID"" /><FieldRef Name=""RootPostUniqueID"" /><FieldRef Name=""RootPostOwnerID"" /><FieldRef Name=""UniqueId"" /><FieldRef Name=""ReplyCount"" /><FieldRef Name=""Created"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Author"" /><FieldRef Name=""Editor"" /><FieldRef Name=""ID"" /><FieldRef Name=""ReferenceID"" /><FieldRef Name=""Attributes"" /><FieldRef Name=""Content"" /><FieldRef Name=""ContentData"" /><FieldRef Name=""SearchContent"" /><FieldRef Name=""RefRoot"" /><FieldRef Name=""RefReply"" /><FieldRef Name=""PostSource"" /><FieldRef Name=""PeopleCount"" /><FieldRef Name=""PeopleList"" /><FieldRef Name=""MediaLinkType"" /><FieldRef Name=""MediaLinkDescription"" /><FieldRef Name=""MediaLinkURI"" /><FieldRef Name=""MediaLinkUISnippet"" /><FieldRef Name=""MediaLinkContentURI"" /><FieldRef Name=""MediaLength"" /><FieldRef Name=""MediaWidth"" /><FieldRef Name=""MediaHeight"" /><FieldRef Name=""MediaActionClickUrl"" /><FieldRef Name=""MediaActionClickKind"" /><FieldRef Name=""eMailSubscribers"" /><FieldRef Name=""eMailUnsubscribed"" /><FieldRef Name=""LikesCount"" /><FieldRef Name=""LikedBy"" /></ViewFields><RowLimit Paged=""TRUE"">100</RowLimit></View>"
+"Id","8fe651b2-aff9-4a1c-ae48-f592fe2aa853"
+"ImageUrl","/_layouts/images/generic.png"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink",
+"ListViewXml","<View Name=""{8FE651B2-AFF9-4A1C-AE48-F592FE2AA853}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/PublishedFeed/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/images/generic.png"" ><Query><OrderBy><FieldRef Name=""Created_x0020_Date"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitleNoMenu"" /><FieldRef Name=""MicroBlogType"" /><FieldRef Name=""PostAuthor"" /><FieldRef Name=""DefinitionId"" /><FieldRef Name=""RootPostID"" /><FieldRef Name=""RootPostUniqueID"" /><FieldRef Name=""RootPostOwnerID"" /><FieldRef Name=""UniqueId"" /><FieldRef Name=""ReplyCount"" /><FieldRef Name=""Created"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Author"" /><FieldRef Name=""Editor"" /><FieldRef Name=""ID"" /><FieldRef Name=""ReferenceID"" /><FieldRef Name=""Attributes"" /><FieldRef Name=""Content"" /><FieldRef Name=""ContentData"" /><FieldRef Name=""SearchContent"" /><FieldRef Name=""RefRoot"" /><FieldRef Name=""RefReply"" /><FieldRef Name=""PostSource"" /><FieldRef Name=""PeopleCount"" /><FieldRef Name=""PeopleList"" /><FieldRef Name=""MediaLinkType"" /><FieldRef Name=""MediaLinkDescription"" /><FieldRef Name=""MediaLinkURI"" /><FieldRef Name=""MediaLinkUISnippet"" /><FieldRef Name=""MediaLinkContentURI"" /><FieldRef Name=""MediaLength"" /><FieldRef Name=""MediaWidth"" /><FieldRef Name=""MediaHeight"" /><FieldRef Name=""MediaActionClickUrl"" /><FieldRef Name=""MediaActionClickKind"" /><FieldRef Name=""eMailSubscribers"" /><FieldRef Name=""eMailUnsubscribed"" /><FieldRef Name=""LikesCount"" /><FieldRef Name=""LikedBy"" /></ViewFields><RowLimit Paged=""TRUE"">100</RowLimit><XslLink>main.xsl</XslLink><Toolbar Type=""None""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""Created_x0020_Date"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","100"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/PublishedFeed/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitleNoMenu"", ""MicroBlogType"", ""PostAuthor"", ""DefinitionId"", ""RootPostID"", ""RootPostUniqueID"", ""RootPostOwnerID"", ""UniqueId"", ""ReplyCount"", ""Created"", ""Modified"", ""Author"", ""Editor"", ""ID"", ""ReferenceID"", ""Attributes"", ""Content"", ""ContentData"", ""SearchContent"", ""RefRoot"", ""RefReply"", ""PostSource"", ""PeopleCount"", ""PeopleList"", ""MediaLinkType"", ""MediaLinkDescription"", ""MediaLinkURI"", ""MediaLinkUISnippet"", ""MediaLinkContentURI"", ""MediaLength"", ""MediaWidth"", ""MediaHeight"", ""MediaActionClickUrl"", ""MediaActionClickKind"", ""eMailSubscribers"", ""eMailUnsubscribed"", ""LikesCount"", ""LikedBy"""
