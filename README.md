@@ -38,18 +38,25 @@ If you need assistance identifying a contact person, email the EFDC's Mobile Tec
 + Eisenberg Family Depression Center [(@DepressionCenter)](https://github.com/DepressionCenter/)
 
 
-A huge thank you to the ITS Summer Internship team who created TrackMaster for the Eisenberg Family Depression Center! The project team includes:
+A huge thank you to the ITS Summer Internship teams who created TrackMaster for the Eisenberg Family Depression Center! The project teams include:
 
-+ Amit Nyamagoudar - anyamag@umich.edu
-+ Avinash Singh - singhav@umich.edu
-+ Nivethaa Srijayanthi Ravichandran - nivethaa@umich.edu
-+ Reed McAlpin - rmcalpin@umich.edu
-+ Taha Abbas - tahaa@umich.edu
+***ITS Summer Internship 2023 Project Cohort:*** 
++ Amit Nyamagoudar - anyamag@umich.edu
++ Avinash Singh - singhav@umich.edu
++ Nivethaa Srijayanthi Ravichandran - nivethaa@umich.edu
++ Reed McAlpin - rmcalpin@umich.edu
++ Taha Abbas - tahaa@umich.edu
 
+***ITS Summer Internship 2024 Project Cohort:*** 
++ Mohammad Arjamand Ali - mohamma@umich.edu
++ Atharva Mandar Kulkarni - atharvak@umich.edu
++ Zhanfeng Charlie Zheng - zfzheng@umich.edu
++ Sandeep Dwarkaprasad Jala - jsandeep@umich.edu
 
-Project sponsors:
+***Project sponsors:***
 + Conni Harrigan
 + Gabriel Mongefranco [(@gabrielmongefranco)](https://github.com/gabrielmongefranco)
++ Victoria Bennett
 
 
 
