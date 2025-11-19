@@ -1,9 +1,9 @@
 ![Depression Center Logo](https://github.com/DepressionCenter/.github/blob/main/images/EFDCLogo_375w.png "depressioncenter.org")
 
-# <Repository Title>
+# TrackMaster
 
 ## Description
-Code and documentation for TrackMaster membership tracking tool and related infrastructure, developed by the 2023 ITS intern cohort at the University of Michigan. This tool allows research centers and institutes at the University of Michigan to track membership activities, run reports on publications, and automate some membership-related activities such as sending newsletters.
+Welcome to the TrackMaster Membership Management tool. This tool allows research centers and institutes at the University of Michigan to track membership activities, run reports on publications, and automate some membership-related activities such as sending newsletters. This repository contains all the code for the project, along with basic instructions. For complete documentation, visit the Eisenberg Family Depression Center's knowledge base at: https://michmed.org/efdc-kb
 
 
 
