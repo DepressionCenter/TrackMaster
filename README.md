@@ -1,14 +1,14 @@
 ![Depression Center Logo](https://github.com/DepressionCenter/.github/blob/main/images/EFDCLogo_375w.png "depressioncenter.org")
 
-# TrackMaster
+# TrackMaster™
 
 ## Description
-Welcome to the TrackMaster Membership Management tool. This tool allows research centers and institutes at the University of Michigan to track membership activities, run reports on publications, and automate some membership-related activities such as sending newsletters. This repository contains all the code for the project, along with basic instructions. For complete documentation, visit the Eisenberg Family Depression Center's knowledge base at: https://michmed.org/efdc-kb
+Welcome to the TrackMaster Membership Management Tool™. This tool allows research centers and institutes at the University of Michigan to track membership activities, run reports on publications, and automate some membership-related activities such as sending newsletters. This repository contains all the code for the project, along with basic instructions. For complete documentation, visit the Eisenberg Family Depression Center's knowledge base at: https://michmed.org/efdc-kb
 
 
 
 ## Quick Start Guide
-+ TrackMaster for Eisenberg Family Depression Center: https://umhealth.sharepoint.com/sites/DepressionCenter-TrackMaster
++ TrackMaster™ for Eisenberg Family Depression Center: https://umhealth.sharepoint.com/sites/DepressionCenter-TrackMaster
 
 
 
@@ -67,7 +67,7 @@ A huge thank you to the ITS Summer Internship teams who created TrackMaster fo
 
 ## License
 ### Copyright Notice
-Copyright © 2023 The Regents of the University of Michigan
+Copyright © 2023-2026 The Regents of the University of Michigan
 
 
 ### Software and Library License
@@ -93,4 +93,4 @@ If you find this repository, code or paper useful for your research, please cite
 
 ----
 
-Copyright © 2023 The Regents of the University of Michigan
+Copyright © 2023-2020 The Regents of the University of Michigan
