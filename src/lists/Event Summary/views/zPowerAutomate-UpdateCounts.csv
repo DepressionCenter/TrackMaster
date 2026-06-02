@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{5E0192F1-DA4C-4110-A6BC-2887D3F51AAD}"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""zPowerAutomate-UpdateCounts"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/PowerAutomateUpdateCounts.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><ViewFields><FieldRef Name=""ID"" /><FieldRef Name=""Registrants"" /><FieldRef Name=""Attendees0"" /><FieldRef Name=""RegistrantsCount"" /><FieldRef Name=""AttendeesCount"" /><FieldRef Name=""Speakers"" /><FieldRef Name=""AutoCalculateCounts"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""Created"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Program"" /></ViewFields><ViewData /><Query><OrderBy><FieldRef Name=""Modified"" /></OrderBy></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""ID"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><Toolbar Type=""Standard"" /><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","5e0192f1-da4c-4110-a6bc-2887d3f51aad"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{5E0192F1-DA4C-4110-A6BC-2887D3F51AAD}"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""zPowerAutomate-UpdateCounts"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/PowerAutomateUpdateCounts.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""Modified"" /></OrderBy></Query><ViewFields><FieldRef Name=""ID"" /><FieldRef Name=""Registrants"" /><FieldRef Name=""Attendees0"" /><FieldRef Name=""RegistrantsCount"" /><FieldRef Name=""AttendeesCount"" /><FieldRef Name=""Speakers"" /><FieldRef Name=""AutoCalculateCounts"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""Created"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Program"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""Modified"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/PowerAutomateUpdateCounts.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","zPowerAutomate-UpdateCounts"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""ID"", ""Registrants"", ""Attendees0"", ""RegistrantsCount"", ""AttendeesCount"", ""Speakers"", ""AutoCalculateCounts"", ""EventDate"", ""Created"", ""Modified"", ""Program"""

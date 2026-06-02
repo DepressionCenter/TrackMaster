@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Email Recipients"" width=""279"" /><FieldRef Name=""Email Subject"" width=""327.1999969482422"" /><FieldRef Name=""Sender"" width=""198"" /><FieldRef Name=""Program"" width=""226.6363525390625"" /><FieldRef Name=""Email Recipients in Prospects List (School)"" width=""287.82952880859375"" /><FieldRef Name=""Email Recipients in Prospects List (UniqName)"" width=""324.0113525390625"" /><FieldRef Name=""Email Recipients in Prospects List"" width=""243.18179321289062"" /><FieldRef Name=""Email Recipients in People List (School)"" width=""255.81817626953125"" /><FieldRef Name=""Email Recipients in People List (UniqName)"" width=""280.81817626953125"" /><FieldRef Name=""Email Recipients in People List"" width=""226.1875"" /><FieldRef Name=""Team"" width=""256.7272644042969"" /><FieldRef Name=""Notes"" width=""304.45452880859375"" /><FieldRef Name=""Results and Outcomes"" width=""527.3875122070312"" /><FieldRef Name=""# Recipients in People List"" width=""209.0113525390625"" /><FieldRef Name=""# Recipients in Prospects List"" width=""216.0113525390625"" /><FieldRef Name=""# New Prospects"" width=""168.82952880859375"" /><FieldRef Name=""Email Open Rate"" width=""169.8125"" /><FieldRef Name=""Email Click Rate"" width=""163.647705078125"" /><FieldRef Name=""# Existing Contacts"" width=""187.14996337890625"" /><FieldRef Name=""# New Contacts"" width=""139"" /><FieldRef Name=""Tags"" width=""246.1624755859375"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{FE58A8EC-A282-41EF-AC05-99C9851A5396}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/EmailTracker/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""DateSent"" /><FieldRef Name=""Sender"" /><FieldRef Name=""Team"" /><FieldRef Name=""Program"" /><FieldRef Name=""Notes"" /><FieldRef Name=""EmailRecipientsPeople"" /><FieldRef Name=""EmailRecipientsPeople_x003a_Uniq"" /><FieldRef Name=""EmailRecipientsPeople_x003a__hid"" /><FieldRef Name=""TotalRecipients"" /><FieldRef Name=""EmailOpenRate"" /><FieldRef Name=""EmailClickRate"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><ViewData /><Query><OrderBy><FieldRef Name=""DateSent"" Ascending=""FALSE"" /></OrderBy></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""LinkTitle"" /><ViewType2>COMPACTLIST</ViewType2><ColumnWidth><FieldRef Name=""Email Recipients"" width=""279"" /><FieldRef Name=""Email Subject"" width=""327.1999969482422"" /><FieldRef Name=""Sender"" width=""198"" /><FieldRef Name=""Program"" width=""226.6363525390625"" /><FieldRef Name=""Email Recipients in Prospects List (School)"" width=""287.82952880859375"" /><FieldRef Name=""Email Recipients in Prospects List (UniqName)"" width=""324.0113525390625"" /><FieldRef Name=""Email Recipients in Prospects List"" width=""243.18179321289062"" /><FieldRef Name=""Email Recipients in People List (School)"" width=""255.81817626953125"" /><FieldRef Name=""Email Recipients in People List (UniqName)"" width=""280.81817626953125"" /><FieldRef Name=""Email Recipients in People List"" width=""226.1875"" /><FieldRef Name=""Team"" width=""256.7272644042969"" /><FieldRef Name=""Notes"" width=""304.45452880859375"" /><FieldRef Name=""Results and Outcomes"" width=""527.3875122070312"" /><FieldRef Name=""# Recipients in People List"" width=""209.0113525390625"" /><FieldRef Name=""# Recipients in Prospects List"" width=""216.0113525390625"" /><FieldRef Name=""# New Prospects"" width=""168.82952880859375"" /><FieldRef Name=""Email Open Rate"" width=""169.8125"" /><FieldRef Name=""Email Click Rate"" width=""163.647705078125"" /><FieldRef Name=""# Existing Contacts"" width=""187.14996337890625"" /><FieldRef Name=""# New Contacts"" width=""139"" /><FieldRef Name=""Tags"" width=""246.1624755859375"" /></ColumnWidth><Toolbar Type=""Standard"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","fe58a8ec-a282-41ef-ac05-99c9851a5396"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{FE58A8EC-A282-41EF-AC05-99C9851A5396}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/EmailTracker/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""DateSent"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""DateSent"" /><FieldRef Name=""Sender"" /><FieldRef Name=""Team"" /><FieldRef Name=""Program"" /><FieldRef Name=""Notes"" /><FieldRef Name=""EmailRecipientsPeople"" /><FieldRef Name=""EmailRecipientsPeople_x003a_Uniq"" /><FieldRef Name=""EmailRecipientsPeople_x003a__hid"" /><FieldRef Name=""TotalRecipients"" /><FieldRef Name=""EmailOpenRate"" /><FieldRef Name=""EmailClickRate"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ViewType2>COMPACTLIST</ViewType2><ColumnWidth><FieldRef Name=""Email Recipients"" width=""279"" /><FieldRef Name=""Email Subject"" width=""327.1999969482422"" /><FieldRef Name=""Sender"" width=""198"" /><FieldRef Name=""Program"" width=""226.6363525390625"" /><FieldRef Name=""Email Recipients in Prospects List (School)"" width=""287.82952880859375"" /><FieldRef Name=""Email Recipients in Prospects List (UniqName)"" width=""324.0113525390625"" /><FieldRef Name=""Email Recipients in Prospects List"" width=""243.18179321289062"" /><FieldRef Name=""Email Recipients in People List (School)"" width=""255.81817626953125"" /><FieldRef Name=""Email Recipients in People List (UniqName)"" width=""280.81817626953125"" /><FieldRef Name=""Email Recipients in People List"" width=""226.1875"" /><FieldRef Name=""Team"" width=""256.7272644042969"" /><FieldRef Name=""Notes"" width=""304.45452880859375"" /><FieldRef Name=""Results and Outcomes"" width=""527.3875122070312"" /><FieldRef Name=""# Recipients in People List"" width=""209.0113525390625"" /><FieldRef Name=""# Recipients in Prospects List"" width=""216.0113525390625"" /><FieldRef Name=""# New Prospects"" width=""168.82952880859375"" /><FieldRef Name=""Email Open Rate"" width=""169.8125"" /><FieldRef Name=""Email Click Rate"" width=""163.647705078125"" /><FieldRef Name=""# Existing Contacts"" width=""187.14996337890625"" /><FieldRef Name=""# New Contacts"" width=""139"" /><FieldRef Name=""Tags"" width=""246.1624755859375"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""DateSent"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/EmailTracker/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2","COMPACTLIST"
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""DateSent"", ""Sender"", ""Team"", ""Program"", ""Notes"", ""EmailRecipientsPeople"", ""EmailRecipientsPeople_x003a_Uniq"", ""EmailRecipientsPeople_x003a__hid"", ""TotalRecipients"", ""EmailOpenRate"", ""EmailClickRate"", ""TaxKeyword"""

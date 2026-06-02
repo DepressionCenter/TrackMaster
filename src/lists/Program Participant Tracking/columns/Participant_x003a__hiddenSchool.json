@@ -1,0 +1,1 @@
+﻿{"$schema":"https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json","elmType":"div","customRowAction":{"action":"defaultClick"},"style":{"padding":"0 2px","overflow":"hidden","text-overflow":"ellipsis","cursor":"pointer"},"children":[{"elmType":"span","style":{"padding":"0 2px"},"txtContent":"@currentField"}]}

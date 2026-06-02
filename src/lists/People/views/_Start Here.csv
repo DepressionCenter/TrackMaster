@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Group Membership"" width=""226.16668701171875"" /><FieldRef Name=""School Affiliation"" width=""172.5999755859375"" /><FieldRef Name=""Appointing Department"" width=""184.5999755859375"" /><FieldRef Name=""Department (MCommunity)"" width=""200.5999755859375"" /><FieldRef Name=""Job Rank"" width=""145.5999755859375"" /><FieldRef Name=""Job Title"" width=""221"" /><FieldRef Name=""Contact Type"" width=""171"" /><FieldRef Name=""Email"" width=""193.0625"" /><FieldRef Name=""Teams Account"" width=""123.7777099609375"" /><FieldRef Name=""Tags"" width=""485.63751220703125"" /><FieldRef Name=""📷"" width=""110"" /><FieldRef Name=""Full Name"" width=""302.27272033691406"" /><FieldRef Name=""Contact Name"" width=""361.1111068725586"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{61BB3A72-EB1E-4E06-A81D-63267D60E58A}"" Type=""HTML"" DisplayName=""_Start Here"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/StartHere.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><OrderBy><FieldRef Name=""Title"" /><FieldRef Name=""UniqName"" /></OrderBy><Where><Eq><FieldRef Name=""Active"" /><Value Type=""Boolean"">1</Value></Eq></Where></Query><ViewFields><FieldRef Name=""ContactName"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""JobTitle"" /><FieldRef Name=""Department"" /><FieldRef Name=""Appointing_x0020_Department_x003"" /><FieldRef Name=""SchoolAffiliation"" /><FieldRef Name=""Job_x0020_Rank"" /><FieldRef Name=""Group_x0020_Membership"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Email"" /><FieldRef Name=""TeamsAccount"" /></ViewFields><RowLimit Paged=""TRUE"">20</RowLimit><ColumnWidth><FieldRef Name=""Group Membership"" width=""226.16668701171875"" /><FieldRef Name=""School Affiliation"" width=""172.5999755859375"" /><FieldRef Name=""Appointing Department"" width=""184.5999755859375"" /><FieldRef Name=""Department (MCommunity)"" width=""200.5999755859375"" /><FieldRef Name=""Job Rank"" width=""145.5999755859375"" /><FieldRef Name=""Job Title"" width=""221"" /><FieldRef Name=""Contact Type"" width=""171"" /><FieldRef Name=""Email"" width=""193.0625"" /><FieldRef Name=""Teams Account"" width=""123.7777099609375"" /><FieldRef Name=""Tags"" width=""485.63751220703125"" /><FieldRef Name=""📷"" width=""110"" /><FieldRef Name=""Full Name"" width=""302.27272033691406"" /><FieldRef Name=""Contact Name"" width=""361.1111068725586"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","61bb3a72-eb1e-4e06-a81d-63267d60e58a"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{61BB3A72-EB1E-4E06-A81D-63267D60E58A}"" Type=""HTML"" DisplayName=""_Start Here"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/StartHere.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""Title"" /><FieldRef Name=""UniqName"" /></OrderBy><Where><Eq><FieldRef Name=""Active"" /><Value Type=""Boolean"">1</Value></Eq></Where></Query><ViewFields><FieldRef Name=""ContactName"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""JobTitle"" /><FieldRef Name=""Department"" /><FieldRef Name=""Appointing_x0020_Department_x003"" /><FieldRef Name=""SchoolAffiliation"" /><FieldRef Name=""Job_x0020_Rank"" /><FieldRef Name=""Group_x0020_Membership"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Email"" /><FieldRef Name=""TeamsAccount"" /></ViewFields><RowLimit Paged=""TRUE"">20</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""Group Membership"" width=""226.16668701171875"" /><FieldRef Name=""School Affiliation"" width=""172.5999755859375"" /><FieldRef Name=""Appointing Department"" width=""184.5999755859375"" /><FieldRef Name=""Department (MCommunity)"" width=""200.5999755859375"" /><FieldRef Name=""Job Rank"" width=""145.5999755859375"" /><FieldRef Name=""Job Title"" width=""221"" /><FieldRef Name=""Contact Type"" width=""171"" /><FieldRef Name=""Email"" width=""193.0625"" /><FieldRef Name=""Teams Account"" width=""123.7777099609375"" /><FieldRef Name=""Tags"" width=""485.63751220703125"" /><FieldRef Name=""📷"" width=""110"" /><FieldRef Name=""Full Name"" width=""302.27272033691406"" /><FieldRef Name=""Contact Name"" width=""361.1111068725586"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""Title"" /><FieldRef Name=""UniqName"" /></OrderBy><Where><Eq><FieldRef Name=""Active"" /><Value Type=""Boolean"">1</Value></Eq></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","20"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/People/StartHere.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","_Start Here"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""ContactName"", ""ContactType"", ""JobTitle"", ""Department"", ""Appointing_x0020_Department_x003"", ""SchoolAffiliation"", ""Job_x0020_Rank"", ""Group_x0020_Membership"", ""TaxKeyword"", ""Email"", ""TeamsAccount"""

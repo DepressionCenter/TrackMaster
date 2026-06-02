@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Program"" width=""272"" /><FieldRef Name=""Summary"" width=""319"" /><FieldRef Name=""ProvidedBy"" width=""215"" /><FieldRef Name=""Intended Audience"" width=""169"" /><FieldRef Name=""Service Name"" width=""376.1999969482422"" /><FieldRef Name=""Provided By"" width=""215"" /><FieldRef Name=""Description"" width=""370.20001220703125"" /><FieldRef Name=""hiddenProgram"" width=""207.21246337890625"" /><FieldRef Name=""hiddenProvidedBy"" width=""227.2125244140625"" /><FieldRef Name=""Tags"" width=""270.7874755859375"" /><FieldRef Name=""Provided By Team Member Emails"" width=""343.5999755859375"" /><FieldRef Name=""Consultation Type"" width=""349.1999969482422"" /><FieldRef Name=""Team Member Emails"" width=""175.0250244140625"" />"
+"ContentTypeId","0x"
+"CustomFormatter",""
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{08F2EAC6-BA1D-4CBD-954C-28D561B334D5}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Services/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><OrderBy><FieldRef Name=""Title"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Program"" /><FieldRef Name=""ProvidedBy"" /><FieldRef Name=""Summary"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Provided_x0020_By_x003a__hiddenT"" /><FieldRef Name=""ID"" /></ViewFields><CustomFormatter /><ColumnWidth><FieldRef Name=""Program"" width=""272"" /><FieldRef Name=""Summary"" width=""319"" /><FieldRef Name=""ProvidedBy"" width=""215"" /><FieldRef Name=""Intended Audience"" width=""169"" /><FieldRef Name=""Service Name"" width=""376.1999969482422"" /><FieldRef Name=""Provided By"" width=""215"" /><FieldRef Name=""Description"" width=""370.20001220703125"" /><FieldRef Name=""hiddenProgram"" width=""207.21246337890625"" /><FieldRef Name=""hiddenProvidedBy"" width=""227.2125244140625"" /><FieldRef Name=""Tags"" width=""270.7874755859375"" /><FieldRef Name=""Provided By Team Member Emails"" width=""343.5999755859375"" /><FieldRef Name=""Consultation Type"" width=""349.1999969482422"" /><FieldRef Name=""Team Member Emails"" width=""175.0250244140625"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","08f2eac6-ba1d-4cbd-954c-28d561b334d5"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{08F2EAC6-BA1D-4CBD-954C-28D561B334D5}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Services/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""Title"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Program"" /><FieldRef Name=""ProvidedBy"" /><FieldRef Name=""Summary"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Provided_x0020_By_x003a__hiddenT"" /><FieldRef Name=""ID"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CustomFormatter /><ColumnWidth><FieldRef Name=""Program"" width=""272"" /><FieldRef Name=""Summary"" width=""319"" /><FieldRef Name=""ProvidedBy"" width=""215"" /><FieldRef Name=""Intended Audience"" width=""169"" /><FieldRef Name=""Service Name"" width=""376.1999969482422"" /><FieldRef Name=""Provided By"" width=""215"" /><FieldRef Name=""Description"" width=""370.20001220703125"" /><FieldRef Name=""hiddenProgram"" width=""207.21246337890625"" /><FieldRef Name=""hiddenProvidedBy"" width=""227.2125244140625"" /><FieldRef Name=""Tags"" width=""270.7874755859375"" /><FieldRef Name=""Provided By Team Member Emails"" width=""343.5999755859375"" /><FieldRef Name=""Consultation Type"" width=""349.1999969482422"" /><FieldRef Name=""Team Member Emails"" width=""175.0250244140625"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""Title"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Services/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""Program"", ""ProvidedBy"", ""Summary"", ""TaxKeyword"", ""Provided_x0020_By_x003a__hiddenT"", ""ID"""

@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles","<CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" />"
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{538B899C-48A8-434E-8A3C-AC8035841BCE}"" Type=""HTML"" DisplayName=""zPowerAutomate (System)"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Engagement History/zPowerAutomateSystem.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><OrderBy><FieldRef Name=""Modified"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""ServicesReceived"" /><FieldRef Name=""Recipient"" /><FieldRef Name=""PI"" /><FieldRef Name=""Date"" /><FieldRef Name=""FollowUpDate"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP0"" /><FieldRef Name=""Created"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Title"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Recipients_x003a_Last_x0020_Serv"" /><FieldRef Name=""Assignee"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Project_x0020_PI_x003a__SysProfi"" /><FieldRef Name=""Project_x0020_PI_x0020_or_x0020_0"" /><FieldRef Name=""ID"" /><FieldRef Name=""Active"" /><FieldRef Name=""RelatedEmail"" /><FieldRef Name=""Status"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData /><Toolbar Type=""None"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","538b899c-48a8-434e-8a3c-ac8035841bce"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{538B899C-48A8-434E-8A3C-AC8035841BCE}"" Type=""HTML"" DisplayName=""zPowerAutomate (System)"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Engagement History/zPowerAutomateSystem.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""Modified"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""ServicesReceived"" /><FieldRef Name=""Recipient"" /><FieldRef Name=""PI"" /><FieldRef Name=""Date"" /><FieldRef Name=""FollowUpDate"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP0"" /><FieldRef Name=""Created"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Title"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Recipients_x003a_Last_x0020_Serv"" /><FieldRef Name=""Assignee"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Project_x0020_PI_x003a__SysProfi"" /><FieldRef Name=""Project_x0020_PI_x0020_or_x0020_0"" /><FieldRef Name=""ID"" /><FieldRef Name=""Active"" /><FieldRef Name=""RelatedEmail"" /><FieldRef Name=""Status"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData /><Toolbar Type=""None""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""Modified"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Engagement History/zPowerAutomateSystem.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","zPowerAutomate (System)"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""ServicesReceived"", ""Recipient"", ""PI"", ""Date"", ""FollowUpDate"", ""Service_x0020_Type_x003a_hiddenP"", ""Service_x0020_Type_x003a_hiddenP0"", ""Created"", ""Modified"", ""Title"", ""LinkTitle"", ""Recipients_x003a_Last_x0020_Serv"", ""Assignee"", ""Notes"", ""Project_x0020_PI_x003a__SysProfi"", ""Project_x0020_PI_x0020_or_x0020_0"", ""ID"", ""Active"", ""RelatedEmail"", ""Status"", ""TaxKeyword"""

@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","2"
+"CalendarViewStyles","&lt;CalendarViewStyle  Title='Day' Type='day' Template='CalendarViewdayChrome' Sequence='1' Default='FALSE' /&gt;&lt;CalendarViewStyle  Title='Week' Type='week' Template='CalendarViewweekChrome' Sequence='2' Default='FALSE' /&gt;&lt;CalendarViewStyle  Title='Month' Type='month' Template='CalendarViewmonthChrome' Sequence='3' Default='TRUE' /&gt;"
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{1446093D-B459-4E3D-AC9D-7D7BC218E61A}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" RecurrenceRowset=""TRUE"" Type=""CALENDAR"" TabularView=""FALSE"" Scope=""Recursive"" DisplayName=""Calendar"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Events/calendar.aspx"" Level=""1"" BaseViewID=""2"" ContentTypeID=""0x"" MobileUrl=""_layouts/15/mobile/viewdaily.aspx"" ImageUrl=""/_layouts/15/images/events.png?rev=50""><ViewFields><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""Title"" /><FieldRef Name=""fRecurrence"" Explicit=""TRUE"" /><FieldRef Name=""Event_x0020_Month_x0020_Section"" /><FieldRef Name=""Program"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><CalendarViewStyles>&lt;CalendarViewStyle  Title='Day' Type='day' Template='CalendarViewdayChrome' Sequence='1' Default='FALSE' /&gt;&lt;CalendarViewStyle  Title='Week' Type='week' Template='CalendarViewweekChrome' Sequence='2' Default='FALSE' /&gt;&lt;CalendarViewStyle  Title='Month' Type='month' Template='CalendarViewmonthChrome' Sequence='3' Default='TRUE' /&gt;</CalendarViewStyles><ViewData><FieldRef Name=""Title"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekTitle"" /><FieldRef Name=""Category"" Type=""CalendarWeekLocation"" /><FieldRef Name=""Title"" Type=""CalendarDayTitle"" /><FieldRef Name=""Category"" Type=""CalendarDayLocation"" /></ViewData><Aggregations Value=""Off"" /><RowLimit>0</RowLimit><Mobile MobileItemLimit=""3"" /><Toolbar Type=""Standard"" ShowAlways=""TRUE"" /><ViewHeader /><ViewBody /><ViewFooter /><ViewEmpty /><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings><Query><Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""RecurrenceID"" /><Value Type=""DateTime""><Month /></Value></DateRangesOverlap></Where></Query></View>"
+"Id","1446093d-b459-4e3d-ac9d-7d7bc218e61a"
+"ImageUrl","/_layouts/15/images/events.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink",
+"ListViewXml","<View Name=""{1446093D-B459-4E3D-AC9D-7D7BC218E61A}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" RecurrenceRowset=""TRUE"" Type=""CALENDAR"" TabularView=""FALSE"" Scope=""Recursive"" DisplayName=""Calendar"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Events/calendar.aspx"" Level=""1"" BaseViewID=""2"" ContentTypeID=""0x"" MobileUrl=""_layouts/15/mobile/viewdaily.aspx"" ImageUrl=""/_layouts/15/images/events.png?rev=50"" ><Query><Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""RecurrenceID"" /><Value Type=""DateTime""><Month /></Value></DateRangesOverlap></Where></Query><ViewFields><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""Title"" /><FieldRef Name=""fRecurrence"" Explicit=""TRUE"" /><FieldRef Name=""Event_x0020_Month_x0020_Section"" /><FieldRef Name=""Program"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><RowLimit>0</RowLimit><Aggregations Value=""Off"" /><CalendarViewStyles>&lt;CalendarViewStyle  Title='Day' Type='day' Template='CalendarViewdayChrome' Sequence='1' Default='FALSE' /&gt;&lt;CalendarViewStyle  Title='Week' Type='week' Template='CalendarViewweekChrome' Sequence='2' Default='FALSE' /&gt;&lt;CalendarViewStyle  Title='Month' Type='month' Template='CalendarViewmonthChrome' Sequence='3' Default='TRUE' /&gt;</CalendarViewStyles><ViewData><FieldRef Name=""Title"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekTitle"" /><FieldRef Name=""Category"" Type=""CalendarWeekLocation"" /><FieldRef Name=""Title"" Type=""CalendarDayTitle"" /><FieldRef Name=""Category"" Type=""CalendarDayLocation"" /></ViewData><Toolbar Type=""Standard"" ShowAlways=""TRUE""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","False"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""RecurrenceID"" /><Value Type=""DateTime""><Month /></Value></DateRangesOverlap></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","0"
+"Scope","Recursive"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Events/calendar.aspx"
+"StyleId",
+"TabularView","False"
+"Threaded","False"
+"Title","Calendar"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","CALENDAR"
+"ViewData","<FieldRef Name=""Title"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekTitle"" /><FieldRef Name=""Category"" Type=""CalendarWeekLocation"" /><FieldRef Name=""Title"" Type=""CalendarDayTitle"" /><FieldRef Name=""Category"" Type=""CalendarDayLocation"" />"
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""EventDate"", ""EndDate"", ""Title"", ""fRecurrence"", ""Event_x0020_Month_x0020_Section"", ""Program"", ""TaxKeyword"""

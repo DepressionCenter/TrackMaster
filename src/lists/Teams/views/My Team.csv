@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{96A3CFB7-145B-4A0F-A614-BCF533567E16}"" Type=""HTML"" DisplayName=""My Team"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Teams List/MyTeam.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Description"" /><FieldRef Name=""Team_x0020_Leader"" /><FieldRef Name=""FacultyLeads"" /><FieldRef Name=""TeamMembers"" /><FieldRef Name=""Team_x0020_Calendar"" /><FieldRef Name=""Team_x0020_Drive"" /><FieldRef Name=""MCommunity_x0020_Group"" /><FieldRef Name=""Teams"" /><FieldRef Name=""GitHub"" /><FieldRef Name=""Slack"" /><FieldRef Name=""Team_x0020_WebPage"" /><FieldRef Name=""Team_x0020_Leader_x003a_Email"" /><FieldRef Name=""TeamMembersAccounts"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Active"" /></ViewFields><ViewData /><Query><Where><Or><Or><Eq><FieldRef Name=""Team_x0020_Leader"" /><Value Type=""Integer""><UserID Type=""Integer"" /></Value></Eq><Eq><FieldRef Name=""TeamMembersAccounts"" /><Value Type=""Integer""><UserID Type=""Integer"" /></Value></Eq></Or><Eq><FieldRef Name=""FacultyLeads"" /><Value Type=""Integer""><UserID Type=""Integer"" /></Value></Eq></Or></Where></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""LinkTitle"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><Toolbar Type=""Standard"" /><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","96a3cfb7-145b-4a0f-a614-bcf533567e16"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{96A3CFB7-145B-4A0F-A614-BCF533567E16}"" Type=""HTML"" DisplayName=""My Team"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Teams List/MyTeam.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><Where><Or><Or><Eq><FieldRef Name=""Team_x0020_Leader"" /><Value Type=""Integer""><UserID Type=""Integer"" /></Value></Eq><Eq><FieldRef Name=""TeamMembersAccounts"" /><Value Type=""Integer""><UserID Type=""Integer"" /></Value></Eq></Or><Eq><FieldRef Name=""FacultyLeads"" /><Value Type=""Integer""><UserID Type=""Integer"" /></Value></Eq></Or></Where></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Description"" /><FieldRef Name=""Team_x0020_Leader"" /><FieldRef Name=""FacultyLeads"" /><FieldRef Name=""TeamMembers"" /><FieldRef Name=""Team_x0020_Calendar"" /><FieldRef Name=""Team_x0020_Drive"" /><FieldRef Name=""MCommunity_x0020_Group"" /><FieldRef Name=""Teams"" /><FieldRef Name=""GitHub"" /><FieldRef Name=""Slack"" /><FieldRef Name=""Team_x0020_WebPage"" /><FieldRef Name=""Team_x0020_Leader_x003a_Email"" /><FieldRef Name=""TeamMembersAccounts"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Active"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<Where><Or><Or><Eq><FieldRef Name=""Team_x0020_Leader"" /><Value Type=""Integer""><UserID Type=""Integer"" /></Value></Eq><Eq><FieldRef Name=""TeamMembersAccounts"" /><Value Type=""Integer""><UserID Type=""Integer"" /></Value></Eq></Or><Eq><FieldRef Name=""FacultyLeads"" /><Value Type=""Integer""><UserID Type=""Integer"" /></Value></Eq></Or></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Teams List/MyTeam.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","My Team"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""Description"", ""Team_x0020_Leader"", ""FacultyLeads"", ""TeamMembers"", ""Team_x0020_Calendar"", ""Team_x0020_Drive"", ""MCommunity_x0020_Group"", ""Teams"", ""GitHub"", ""Slack"", ""Team_x0020_WebPage"", ""Team_x0020_Leader_x003a_Email"", ""TeamMembersAccounts"", ""TaxKeyword"", ""Active"""

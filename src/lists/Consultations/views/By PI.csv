@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Consultation Type"" width=""200.1999969482422"" /><FieldRef Name=""Follow Up Deadline"" width=""167"" /><FieldRef Name=""Notes"" width=""288"" /><FieldRef Name=""Tags"" width=""219"" /><FieldRef Name=""Program"" width=""185.7999267578125"" /><FieldRef Name=""Team"" width=""207.7999267578125"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{F3791DE9-8C2A-4AC2-859E-E251A2A9BC07}"" Type=""HTML"" DisplayName=""By PI"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Engagement History/ByPI.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><GroupBy Collapse=""TRUE"" GroupLimit=""30""><FieldRef Name=""PI"" /></GroupBy><OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""ServicesReceived"" /><FieldRef Name=""Recipient"" /><FieldRef Name=""PI"" /><FieldRef Name=""Date"" /><FieldRef Name=""FollowUpDate"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Author"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP0"" /><FieldRef Name=""Notebook"" /><FieldRef Name=""Attachments"" /><FieldRef Name=""FiscalYear"" /><FieldRef Name=""CalendarYear"" /></ViewFields><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><ColumnWidth><FieldRef Name=""Consultation Type"" width=""200.1999969482422"" /><FieldRef Name=""Follow Up Deadline"" width=""167"" /><FieldRef Name=""Notes"" width=""288"" /><FieldRef Name=""Tags"" width=""219"" /><FieldRef Name=""Program"" width=""185.7999267578125"" /><FieldRef Name=""Team"" width=""207.7999267578125"" /></ColumnWidth><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","f3791de9-8c2a-4ac2-859e-e251a2a9bc07"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{F3791DE9-8C2A-4AC2-859E-E251A2A9BC07}"" Type=""HTML"" DisplayName=""By PI"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Engagement History/ByPI.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><GroupBy Collapse=""TRUE"" GroupLimit=""30""><FieldRef Name=""PI"" /></GroupBy><OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""ServicesReceived"" /><FieldRef Name=""Recipient"" /><FieldRef Name=""PI"" /><FieldRef Name=""Date"" /><FieldRef Name=""FollowUpDate"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Author"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP0"" /><FieldRef Name=""Notebook"" /><FieldRef Name=""Attachments"" /><FieldRef Name=""FiscalYear"" /><FieldRef Name=""CalendarYear"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""Consultation Type"" width=""200.1999969482422"" /><FieldRef Name=""Follow Up Deadline"" width=""167"" /><FieldRef Name=""Notes"" width=""288"" /><FieldRef Name=""Tags"" width=""219"" /><FieldRef Name=""Program"" width=""185.7999267578125"" /><FieldRef Name=""Team"" width=""207.7999267578125"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy Collapse=""TRUE"" GroupLimit=""30""><FieldRef Name=""PI"" /></GroupBy><OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Engagement History/ByPI.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","By PI"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""ServicesReceived"", ""Recipient"", ""PI"", ""Date"", ""FollowUpDate"", ""TaxKeyword"", ""Notes"", ""Author"", ""Service_x0020_Type_x003a_hiddenP"", ""Service_x0020_Type_x003a_hiddenP0"", ""Notebook"", ""Attachments"", ""FiscalYear"", ""CalendarYear"""

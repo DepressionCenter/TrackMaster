@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Notes"" width=""223.7999267578125"" /><FieldRef Name=""Next Renewal Date"" width=""173.111083984375"" /><FieldRef Name=""Renewal Link"" width=""204.013916015625"" /><FieldRef Name=""Tags"" width=""177"" /><FieldRef Name=""Assignee"" width=""138.111083984375"" /><FieldRef Name=""Owner"" width=""233.111083984375"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{D18F83EE-30C3-4075-AA16-3B662577AC5B}"" Type=""HTML"" DisplayName=""By Team"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Shared Digital Assets Tracker/ByTeam.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""Team"" /></GroupBy><OrderBy><FieldRef Name=""NextRenewalDate"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""AssetType"" /><FieldRef Name=""AssetID"" /><FieldRef Name=""Location"" /><FieldRef Name=""Team"" /><FieldRef Name=""Assignee"" /><FieldRef Name=""NextRenewalDate"" /><FieldRef Name=""RenewalLink"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /></ViewFields><ColumnWidth><FieldRef Name=""Notes"" width=""223.7999267578125"" /><FieldRef Name=""Next Renewal Date"" width=""173.111083984375"" /><FieldRef Name=""Renewal Link"" width=""204.013916015625"" /><FieldRef Name=""Tags"" width=""177"" /><FieldRef Name=""Assignee"" width=""138.111083984375"" /><FieldRef Name=""Owner"" width=""233.111083984375"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","d18f83ee-30c3-4075-aa16-3b662577ac5b"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{D18F83EE-30C3-4075-AA16-3B662577AC5B}"" Type=""HTML"" DisplayName=""By Team"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Shared Digital Assets Tracker/ByTeam.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""Team"" /></GroupBy><OrderBy><FieldRef Name=""NextRenewalDate"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""AssetType"" /><FieldRef Name=""AssetID"" /><FieldRef Name=""Location"" /><FieldRef Name=""Team"" /><FieldRef Name=""Assignee"" /><FieldRef Name=""NextRenewalDate"" /><FieldRef Name=""RenewalLink"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""Notes"" width=""223.7999267578125"" /><FieldRef Name=""Next Renewal Date"" width=""173.111083984375"" /><FieldRef Name=""Renewal Link"" width=""204.013916015625"" /><FieldRef Name=""Tags"" width=""177"" /><FieldRef Name=""Assignee"" width=""138.111083984375"" /><FieldRef Name=""Owner"" width=""233.111083984375"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""Team"" /></GroupBy><OrderBy><FieldRef Name=""NextRenewalDate"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Shared Digital Assets Tracker/ByTeam.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","By Team"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""AssetType"", ""AssetID"", ""Location"", ""Team"", ""Assignee"", ""NextRenewalDate"", ""RenewalLink"", ""TaxKeyword"", ""Notes"""

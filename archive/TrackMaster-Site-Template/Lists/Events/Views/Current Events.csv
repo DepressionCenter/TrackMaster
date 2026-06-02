@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId","3"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{1138B42A-05BF-40BD-B328-7D15924BF887}"" MobileView=""TRUE"" Type=""HTML"" RecurrenceRowset=""TRUE"" DisplayName=""Current Events"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Events/MyItems.aspx"" Level=""1"" BaseViewID=""3"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/events.png?rev=47""><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><Toolbar Type=""Standard"" /><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings><ViewFields><FieldRef Name=""fRecurrence"" /><FieldRef Name=""WorkspaceLink"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Location"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""fAllDayEvent"" /></ViewFields><Query><Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""RecurrenceID"" /><Value Type=""DateTime""><Now /></Value></DateRangesOverlap></Where><OrderBy><FieldRef Name=""EventDate"" /></OrderBy></Query></View>"
+"Id","1138b42a-05bf-40bd-b328-7d15924bf887"
+"ImageUrl","/_layouts/15/images/events.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{1138B42A-05BF-40BD-B328-7D15924BF887}"" MobileView=""TRUE"" Type=""HTML"" RecurrenceRowset=""TRUE"" DisplayName=""Current Events"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Events/MyItems.aspx"" Level=""1"" BaseViewID=""3"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/events.png?rev=47"" ><Query><Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""RecurrenceID"" /><Value Type=""DateTime""><Now /></Value></DateRangesOverlap></Where><OrderBy><FieldRef Name=""EventDate"" /></OrderBy></Query><ViewFields><FieldRef Name=""fRecurrence"" /><FieldRef Name=""WorkspaceLink"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Location"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""fAllDayEvent"" /></ViewFields><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","False"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""RecurrenceID"" /><Value Type=""DateTime""><Now /></Value></DateRangesOverlap></Where><OrderBy><FieldRef Name=""EventDate"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Events/MyItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Current Events"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""fRecurrence"", ""WorkspaceLink"", ""LinkTitle"", ""Location"", ""EventDate"", ""EndDate"", ""fAllDayEvent"""

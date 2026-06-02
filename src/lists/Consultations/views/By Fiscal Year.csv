@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Title (Optional)"" width=""412.1999969482422"" /><FieldRef Name=""Recipients"" width=""140"" /><FieldRef Name=""Date"" width=""115"" /><FieldRef Name=""Service Type"" width=""231"" /><FieldRef Name=""Team"" width=""192"" /><FieldRef Name=""Program"" width=""281"" /><FieldRef Name=""Notes"" width=""487"" /><FieldRef Name=""Consultation Type"" width=""190.1999969482422"" /><FieldRef Name=""Tags"" width=""269"" /><FieldRef Name=""Project PI or Main Contact"" width=""184"" /><FieldRef Name=""Consultation Date"" width=""141"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{FB4C9734-845E-44BB-8F09-C799CD78F33F}"" Type=""HTML"" DisplayName=""By Fiscal Year"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Engagement History/ByFiscalYear.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><GroupBy Collapse=""TRUE"" GroupLimit=""100""><FieldRef Name=""FiscalYear"" Ascending=""FALSE"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /></GroupBy><OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""ServicesReceived"" /><FieldRef Name=""Recipient"" /><FieldRef Name=""PI"" /><FieldRef Name=""Date"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP0"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Notebook"" /></ViewFields><ColumnWidth><FieldRef Name=""Title (Optional)"" width=""412.1999969482422"" /><FieldRef Name=""Recipients"" width=""140"" /><FieldRef Name=""Date"" width=""115"" /><FieldRef Name=""Service Type"" width=""231"" /><FieldRef Name=""Team"" width=""192"" /><FieldRef Name=""Program"" width=""281"" /><FieldRef Name=""Notes"" width=""487"" /><FieldRef Name=""Consultation Type"" width=""190.1999969482422"" /><FieldRef Name=""Tags"" width=""269"" /><FieldRef Name=""Project PI or Main Contact"" width=""184"" /><FieldRef Name=""Consultation Date"" width=""141"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","fb4c9734-845e-44bb-8f09-c799cd78f33f"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{FB4C9734-845E-44BB-8F09-C799CD78F33F}"" Type=""HTML"" DisplayName=""By Fiscal Year"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Engagement History/ByFiscalYear.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><GroupBy Collapse=""TRUE"" GroupLimit=""100""><FieldRef Name=""FiscalYear"" Ascending=""FALSE"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /></GroupBy><OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""ServicesReceived"" /><FieldRef Name=""Recipient"" /><FieldRef Name=""PI"" /><FieldRef Name=""Date"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP0"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Notebook"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""Title (Optional)"" width=""412.1999969482422"" /><FieldRef Name=""Recipients"" width=""140"" /><FieldRef Name=""Date"" width=""115"" /><FieldRef Name=""Service Type"" width=""231"" /><FieldRef Name=""Team"" width=""192"" /><FieldRef Name=""Program"" width=""281"" /><FieldRef Name=""Notes"" width=""487"" /><FieldRef Name=""Consultation Type"" width=""190.1999969482422"" /><FieldRef Name=""Tags"" width=""269"" /><FieldRef Name=""Project PI or Main Contact"" width=""184"" /><FieldRef Name=""Consultation Date"" width=""141"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy Collapse=""TRUE"" GroupLimit=""100""><FieldRef Name=""FiscalYear"" Ascending=""FALSE"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /></GroupBy><OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Engagement History/ByFiscalYear.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","By Fiscal Year"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""ServicesReceived"", ""Recipient"", ""PI"", ""Date"", ""Service_x0020_Type_x003a_hiddenP"", ""Service_x0020_Type_x003a_hiddenP0"", ""TaxKeyword"", ""Notes"", ""Notebook"""

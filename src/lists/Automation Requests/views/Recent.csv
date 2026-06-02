@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles","<CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" />"
+"ColumnWidth","<FieldRef Name=""LinkTitle"" width=""356.1111068725586"" /><FieldRef Name=""SubmissionForm"" width=""140.1111068725586"" /><FieldRef Name=""Status"" width=""110"" /><FieldRef Name=""LinkTitleNoMenu"" width=""200"" /><FieldRef Name=""Author"" width=""138"" /><FieldRef Name=""Created"" width=""131"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{2DC98639-1687-4C6D-8E70-CFA002C35BBB}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""Recent"" Url=""/sites/DepressionCenter-TrackMaster/Lists/AutomationRequests/Recent.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><OrderBy><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy><Where><Or><Or><Geq><FieldRef Name=""Created"" /><Value Type=""DateTime""><Today OffsetDays=""-3"" /></Value></Geq><Eq><FieldRef Name=""Status"" /><Value Type=""Text"">Submitted</Value></Eq></Or><Eq><FieldRef Name=""Status"" /><Value Type=""Text"">Running</Value></Eq></Or></Where></Query><ViewFields><FieldRef Name=""SubmissionForm"" /><FieldRef Name=""Status"" /><FieldRef Name=""Created"" /><FieldRef Name=""Author"" /></ViewFields><RowLimit>5</RowLimit><ColumnWidth><FieldRef Name=""LinkTitle"" width=""356.1111068725586"" /><FieldRef Name=""SubmissionForm"" width=""140.1111068725586"" /><FieldRef Name=""Status"" width=""110"" /><FieldRef Name=""LinkTitleNoMenu"" width=""200"" /><FieldRef Name=""Author"" width=""138"" /><FieldRef Name=""Created"" width=""131"" /></ColumnWidth><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData /><Toolbar Type=""None"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","2dc98639-1687-4c6d-8e70-cfa002c35bbb"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{2DC98639-1687-4C6D-8E70-CFA002C35BBB}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""Recent"" Url=""/sites/DepressionCenter-TrackMaster/Lists/AutomationRequests/Recent.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy><Where><Or><Or><Geq><FieldRef Name=""Created"" /><Value Type=""DateTime""><Today OffsetDays=""-3"" /></Value></Geq><Eq><FieldRef Name=""Status"" /><Value Type=""Text"">Submitted</Value></Eq></Or><Eq><FieldRef Name=""Status"" /><Value Type=""Text"">Running</Value></Eq></Or></Where></Query><ViewFields><FieldRef Name=""SubmissionForm"" /><FieldRef Name=""Status"" /><FieldRef Name=""Created"" /><FieldRef Name=""Author"" /></ViewFields><RowLimit>5</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""LinkTitle"" width=""356.1111068725586"" /><FieldRef Name=""SubmissionForm"" width=""140.1111068725586"" /><FieldRef Name=""Status"" width=""110"" /><FieldRef Name=""LinkTitleNoMenu"" width=""200"" /><FieldRef Name=""Author"" width=""138"" /><FieldRef Name=""Created"" width=""131"" /></ColumnWidth><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData /><Toolbar Type=""None""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","False"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy><Where><Or><Or><Geq><FieldRef Name=""Created"" /><Value Type=""DateTime""><Today OffsetDays=""-3"" /></Value></Geq><Eq><FieldRef Name=""Status"" /><Value Type=""Text"">Submitted</Value></Eq></Or><Eq><FieldRef Name=""Status"" /><Value Type=""Text"">Running</Value></Eq></Or></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","5"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/AutomationRequests/Recent.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Recent"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""SubmissionForm"", ""Status"", ""Created"", ""Author"""

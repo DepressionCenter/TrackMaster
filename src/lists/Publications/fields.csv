@@ -1,0 +1,109 @@
+"ID","ColumnDisplayName","ColumnInternalName","Required","ColumnTye","Description","Format","MaxLength","EnforceUniqueValues","Indexed","ValidationFormula","DefaultValue","DefaultFormula","CustomFormatter"
+"fa564e0f-0c70-4ab9-b863-0177e6ddd247","Title","Title","True","Text","The title of the publication.",,"255","False","False",,,,
+"e42d4e8e-439b-4e46-8eb3-dc8bc70ae236","Authors (Free-Text)","AuthorNames","False","Text","(Optional) List of authors (names only) as shown in the article or citation.",,"255","False","False",,,,
+"75ca2274-e4d9-4862-b7e8-fc7134efe507","Publication Date","PublicationDate","True","DateTime","",,,"False","False",,"[today]",,
+"04987118-a647-4da3-9203-eea93b9469e0","DOI","DOI","True","Text","The digital object identifier (DOI) for this publication. Use the URL form (e.g. https://doi.org/10.6084/m9.figshare.25669173.v1).",,"255","True","True",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""children"":[{""elmType"":""a"",""style"":{""display"":""=if(@currentField=='', 'none', 'inherit')"",""text-decoration"":""none""},""attributes"":{""href"":""=if(@currentField=='', '', if(startsWith(@currentField,'http'), @currentField, 'https://doi.org/'+replace(replace(@currentField,'dx.doi.org/',''),'doi.org/','')))"",""target"":""_blank"",""title"":""Click to open link"",""class"":""sp-quickActions""},""txtContent"":""=if(@currentField=='', '', if(startsWith(@currentField,'http'), @currentField, 'https://doi.org/'+replace(replace(@currentField,'dx.doi.org/',''),'doi.org/','')))""}]}"
+"b14ed6f6-21e5-47e1-a82d-f68846e5fa80","Journal Name","JournalName","False","Choice","The journal, code repository, database, or primary website where this entry was published.",,,"False","False",,"Other",,
+"b0f3e097-ddb3-4cf4-9650-78fa44f8ac64","Publication Link","PublicationLink","False","Text","Link to publication. When the publication is found in multiple sources, use the link to the primary source or journal in which it was published.",,"255","False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""children"":[{""elmType"":""a"",""style"":{""display"":""=if(@currentField=='', 'none', 'inherit')"",""text-decoration"":""none""},""attributes"":{""href"":""=if(@currentField=='', '', if(startsWith(@currentField,'http'), @currentField, 'https://'+@currentField))"",""target"":""_blank"",""title"":""Click to open link"",""class"":""sp-quickActions""},""txtContent"":""=if(@currentField=='', '', if(startsWith(@currentField,'http'), @currentField, 'https://'+@currentField))""}]}"
+"aa0c51ea-5934-42d3-ae50-a786d93882c6","PI or First Author","PI","False","Lookup","Link to the PI (first author) in the People list. The system will attempt to find this when it syncs to Michigan Experts.",,,"False","False",,,,
+"e350abbf-6e0d-4704-85c0-24492049b919","Authors","Authors","False","LookupMulti","Link to author(s) in the People list. The system will attempt to find this when it syncs to Michigan Experts, but it can also be entered manually.",,,"False","False",,,,
+"7a47ae0f-9ba5-4982-a089-8f972cc95d0e","Dimensions ID","DimensionsID","False","Text","The ID for this Publication in Michigan Experts (Symplectic Elements or Dimensions), if known. The system will try to fill this based on DOI#.",,"48","True","True",,,,
+"984a6183-b747-421c-8c86-427f77a11c4a","PubMed ID","PubMedID","False","Text","(Optional) The PubMed ID (PMID) for this publication, if it is available on PubMed. Enter either the ID only (e.g. 12345678), the abstract URL (e.g. https://pubmed.ncbi.nlm.nih.gov/12345678).",,"255","False","False",,,,
+"3d34d9a6-77ac-49e6-8322-9b49296b7fc6","Arxiv ID","ArxivID","False","Text","(Optional) The arxiv.org publication ID, if known. Enter either the ID only (1234.5678v9) or the abstract URL (e.g. https://arxiv.org/abs/1234.5678v9).",,"255","False","False",,,,
+"c631a3da-8a5a-4933-99c7-bef24896849a","Consultations","Consultations","False","LookupMulti","Consultations that contributed to this publication.",,,"False","False",,,,
+"75fa532c-93a4-4b87-b510-f9f0ba7fdd6d","Programs","Programs","False","LookupMulti","Programs that contributed to this publication.",,,"False","False",,,,
+"7ee5676a-b9fb-4f29-ad65-e10a6be099e5","Related Email Outreach","RelatedEmail","False","LookupMulti","Outreach emails or newsletters that featured this publication.",,,"False","False",,,,
+"0eea4b5f-0b11-42dc-9da5-1883fa691a51","Notes","Notes","False","Note","Additional notes, remarks, or links.",,,"False","False",,,,
+"23f27201-bee3-471e-b2e7-b64fd8b7ca38","Tags","TaxKeyword","False","TaxonomyFieldTypeMulti","Custom tags and keywords for searching.",,,"False","False",,,,"{
+  ""$schema"": ""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",
+  ""elmType"": ""div"",
+  ""style"": {
+    ""display"": ""flex"",
+    ""flex-wrap"": ""wrap"",
+    ""width"": ""100%""
+  },
+  ""children"": [
+    {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""margin"": ""4px"",
+        ""padding"": ""4px 8px 4px 8px"",
+        ""border-radius"": ""10px""
+      },
+      ""attributes"": {
+        ""class"": ""ms-bgColor-themeLighterAlt ms-bgColor-themeDarkAlt--hover ms-fontColor-themeLighterAlt--hover""
+      },
+      ""forEach"": ""tag in @currentField"",
+      ""children"": [
+        {
+          ""elmType"": ""div"",
+          ""style"": {
+            ""vertical-align"": ""middle"",
+            ""white-space"": ""nowrap"",
+            ""width"": ""auto""
+          },
+          ""attributes"": {
+            ""class"": ""ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs""
+          },
+		  ""children"": [
+		  {
+			  ""elmType"": ""a"",
+			  ""attributes"": {
+				""href"": ""=@currentWeb + '/_layouts/15/search.aspx/siteall?q=tags:\""' + [$tag] + '\""'"",
+				""target"": ""_blank"",
+				""class"": ""ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs""
+              },
+			  ""style"":{
+				  ""text-decoration"": ""none""
+			  },
+			  ""children"": [
+				{
+				  ""elmType"": ""span"",
+				  ""style"": {
+					""position"": ""relative"",
+					""top"": ""2px"",
+					""text-decoration"": ""none""
+				  },
+				  ""attributes"": {
+					""iconName"": ""Tag""
+				  }
+				},
+				{
+				  ""elmType"": ""span"",
+				  ""style"": {
+					""padding-left"": ""4px""
+				  },
+				  ""txtContent"": ""[$tag]""
+				}
+			  ]
+			}
+			]
+		}
+	  ]
+    }
+  ]
+}"
+"76d13cd2-1bae-45a5-8b74-545b87b65037","Color Tag","_ColorTag","False","Text","",,"255","False","False",,,,
+"3a6b296c-3f50-445c-a13f-9c679ea9dda3","Compliance Asset Id","ComplianceAssetId","False","Text","",,"255","False","False",,,,
+"3941b8c0-890e-4a66-a573-9f9abeade103","Authors UniqNames","Authors_x003a_UniqName","False","LookupMulti","The UniqNames of authors in the People list. The system will attempt to find this when it syncs to Michigan Experts, but it can also be entered manually.",,,"False","False",,,,
+"1d22ea11-1e32-424e-89ab-9fedbadb6ce1","ID","ID","False","Counter","",,,"False","False",,,,
+"c042a256-787d-4a6f-8a8a-cf6ab767f12d","Content Type","ContentType","False","Computed","",,,"False","False",,,,
+"28cf69c5-fa48-462a-b5cd-27b6f9d2bd5f","Modified","Modified","False","DateTime","",,,"False","False",,,,
+"8c06beca-0777-48f7-91c7-6da68bc07b69","Created","Created","False","DateTime","",,,"False","False",,,,
+"1df5e554-ec7e-46a6-901d-d85a3881cb18","Created By","Author","False","User","",,,"False","False",,,,
+"d31655d1-1d5b-4511-95a1-7a09e9b75bf2","Modified By","Editor","False","User","",,,"False","False",,,,
+"dce8262a-3ae9-45aa-aab4-83bd75fb738a","Version","_UIVersionString","False","Text","",,"255","False","False",,,,
+"67df98f4-9dec-48ff-a553-29bece9c5bf4","Attachments","Attachments","False","Attachments","",,,"False","False",,,,
+"503f1caa-358e-4918-9094-4a2cdc4bc034","Edit","Edit","False","Computed","",,,"False","False",,,,
+"bc91a437-52e7-49e1-8c4e-4698904b2b6d","Title","LinkTitleNoMenu","False","Computed","",,,"False","False",,,,
+"82642ec8-ef9b-478f-acf9-31f7d45fbc31","Title","LinkTitle","False","Computed","",,,"False","False",,,,
+"081c6e4c-5c14-4f20-b23e-1a71ceb6a67c","Type","DocIcon","False","Computed","",,,"False","False",,,,
+"b824e17e-a1b3-426e-aecf-f0184d900485","Item Child Count","ItemChildCount","False","Lookup","",,,"False","False",,,,
+"960ff01f-2b6d-4f1b-9c3f-e19ad8927341","Folder Child Count","FolderChildCount","False","Lookup","",,,"False","False",,,,
+"ccc1037f-f65e-434a-868e-8c98af31fe29","Label setting","_ComplianceFlags","False","Lookup","",,,"False","False",,,,
+"d4b6480a-4bed-4094-9a52-30181ea38f1d","Retention label","_ComplianceTag","False","Lookup","",,,"False","False",,,,
+"92be610e-ddbb-49f4-b3b1-5c2bc768df8f","Retention label Applied","_ComplianceTagWrittenTime","False","Lookup","",,,"False","False",,,,
+"418d7676-2d6f-42cf-a16a-e43d2971252a","Label applied by","_ComplianceTagUserId","False","Lookup","",,,"False","False",,,,
+"8382d247-72a9-44b1-9794-7b177edc89f3","Item is a Record","_IsRecord","False","Computed","",,,"False","False",,,,
+"6bfaba20-36bf-44b5-a1b2-eb6346d49716","App Created By","AppAuthor","False","Lookup","",,,"False","False",,,,
+"e08400f3-c779-4ed2-a18c-ab7f34caa318","App Modified By","AppEditor","False","Lookup","",,,"False","False",,,,

@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles","<CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" />"
+"ColumnWidth","<FieldRef Name=""Notes"" width=""360.5999755859375"" /><FieldRef Name=""Program"" width=""257.79998779296875"" /><FieldRef Name=""Team"" width=""258"" /><FieldRef Name=""Service Type"" width=""246.20001220703125"" /><FieldRef Name=""Date"" width=""110"" /><FieldRef Name=""Project PI"" width=""131.20001220703125"" /><FieldRef Name=""Title (Optional)"" width=""383.1999969482422"" /><FieldRef Name=""Notebook Link"" width=""154.012451171875"" /><FieldRef Name=""Tags"" width=""303.79998779296875"" /><FieldRef Name=""Consultation Type"" width=""196.1999969482422"" /><FieldRef Name=""Project PI or Main Contact"" width=""173"" /><FieldRef Name=""Consultation Date"" width=""154"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{24EEFA94-0A72-4751-8BF5-A56A84DEFDB0}"" Type=""HTML"" DisplayName=""By Year"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Engagement History/By Year.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><GroupBy Collapse=""TRUE"" GroupLimit=""100""><FieldRef Name=""CalendarYear"" Ascending=""FALSE"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /></GroupBy><OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""ServicesReceived"" /><FieldRef Name=""Recipient"" /><FieldRef Name=""PI"" /><FieldRef Name=""Date"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP0"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Notebook"" /></ViewFields><ColumnWidth><FieldRef Name=""Notes"" width=""360.5999755859375"" /><FieldRef Name=""Program"" width=""257.79998779296875"" /><FieldRef Name=""Team"" width=""258"" /><FieldRef Name=""Service Type"" width=""246.20001220703125"" /><FieldRef Name=""Date"" width=""110"" /><FieldRef Name=""Project PI"" width=""131.20001220703125"" /><FieldRef Name=""Title (Optional)"" width=""383.1999969482422"" /><FieldRef Name=""Notebook Link"" width=""154.012451171875"" /><FieldRef Name=""Tags"" width=""303.79998779296875"" /><FieldRef Name=""Consultation Type"" width=""196.1999969482422"" /><FieldRef Name=""Project PI or Main Contact"" width=""173"" /><FieldRef Name=""Consultation Date"" width=""154"" /></ColumnWidth><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData /><Toolbar Type=""None"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","24eefa94-0a72-4751-8bf5-a56a84defdb0"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{24EEFA94-0A72-4751-8BF5-A56A84DEFDB0}"" Type=""HTML"" DisplayName=""By Year"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Engagement History/By Year.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><GroupBy Collapse=""TRUE"" GroupLimit=""100""><FieldRef Name=""CalendarYear"" Ascending=""FALSE"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /></GroupBy><OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""ServicesReceived"" /><FieldRef Name=""Recipient"" /><FieldRef Name=""PI"" /><FieldRef Name=""Date"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP0"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Notebook"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""Notes"" width=""360.5999755859375"" /><FieldRef Name=""Program"" width=""257.79998779296875"" /><FieldRef Name=""Team"" width=""258"" /><FieldRef Name=""Service Type"" width=""246.20001220703125"" /><FieldRef Name=""Date"" width=""110"" /><FieldRef Name=""Project PI"" width=""131.20001220703125"" /><FieldRef Name=""Title (Optional)"" width=""383.1999969482422"" /><FieldRef Name=""Notebook Link"" width=""154.012451171875"" /><FieldRef Name=""Tags"" width=""303.79998779296875"" /><FieldRef Name=""Consultation Type"" width=""196.1999969482422"" /><FieldRef Name=""Project PI or Main Contact"" width=""173"" /><FieldRef Name=""Consultation Date"" width=""154"" /></ColumnWidth><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData /><Toolbar Type=""None""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy Collapse=""TRUE"" GroupLimit=""100""><FieldRef Name=""CalendarYear"" Ascending=""FALSE"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /></GroupBy><OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Engagement History/By Year.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","By Year"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""ServicesReceived"", ""Recipient"", ""PI"", ""Date"", ""Service_x0020_Type_x003a_hiddenP"", ""Service_x0020_Type_x003a_hiddenP0"", ""TaxKeyword"", ""Notes"", ""Notebook"""

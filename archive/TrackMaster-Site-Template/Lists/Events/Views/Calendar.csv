@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId","2"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{1446093D-B459-4E3D-AC9D-7D7BC218E61A}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""CALENDAR"" TabularView=""FALSE"" RecurrenceRowset=""TRUE"" DisplayName=""Calendar"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Events/calendar.aspx"" Level=""1"" BaseViewID=""2"" ContentTypeID=""0x"" MobileUrl=""_layouts/15/mobile/viewdaily.aspx"" ImageUrl=""/_layouts/15/images/events.png?rev=47""><Toolbar Type=""Standard"" /><ViewHeader /><ViewBody /><ViewFooter /><ViewEmpty /><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings><ViewFields><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""fRecurrence"" /><FieldRef Name=""EventType"" /><FieldRef Name=""WorkspaceLink"" /><FieldRef Name=""Title"" /><FieldRef Name=""Location"" /><FieldRef Name=""Description"" /><FieldRef Name=""Workspace"" /><FieldRef Name=""MasterSeriesItemID"" /><FieldRef Name=""fAllDayEvent"" /></ViewFields><ViewData><FieldRef Name=""Title"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekTitle"" /><FieldRef Name=""Location"" Type=""CalendarWeekLocation"" /><FieldRef Name=""Title"" Type=""CalendarDayTitle"" /><FieldRef Name=""Location"" Type=""CalendarDayLocation"" /></ViewData><Query><Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""RecurrenceID"" /><Value Type=""DateTime""><Month /></Value></DateRangesOverlap></Where></Query></View>"
+"Id","1446093d-b459-4e3d-ac9d-7d7bc218e61a"
+"ImageUrl","/_layouts/15/images/events.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink",
+"ListViewXml","<View Name=""{1446093D-B459-4E3D-AC9D-7D7BC218E61A}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""CALENDAR"" TabularView=""FALSE"" RecurrenceRowset=""TRUE"" DisplayName=""Calendar"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Events/calendar.aspx"" Level=""1"" BaseViewID=""2"" ContentTypeID=""0x"" MobileUrl=""_layouts/15/mobile/viewdaily.aspx"" ImageUrl=""/_layouts/15/images/events.png?rev=47"" ><Query><Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""RecurrenceID"" /><Value Type=""DateTime""><Month /></Value></DateRangesOverlap></Where></Query><ViewFields><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""fRecurrence"" /><FieldRef Name=""EventType"" /><FieldRef Name=""WorkspaceLink"" /><FieldRef Name=""Title"" /><FieldRef Name=""Location"" /><FieldRef Name=""Description"" /><FieldRef Name=""Workspace"" /><FieldRef Name=""MasterSeriesItemID"" /><FieldRef Name=""fAllDayEvent"" /></ViewFields><ViewData><FieldRef Name=""Title"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekTitle"" /><FieldRef Name=""Location"" Type=""CalendarWeekLocation"" /><FieldRef Name=""Title"" Type=""CalendarDayTitle"" /><FieldRef Name=""Location"" Type=""CalendarDayLocation"" /></ViewData><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","False"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<Where><DateRangesOverlap><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""RecurrenceID"" /><Value Type=""DateTime""><Month /></Value></DateRangesOverlap></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Events/calendar.aspx"
+"StyleId",
+"TabularView","False"
+"Threaded","False"
+"Title","Calendar"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","CALENDAR"
+"ViewData","<FieldRef Name=""Title"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekTitle"" /><FieldRef Name=""Location"" Type=""CalendarWeekLocation"" /><FieldRef Name=""Title"" Type=""CalendarDayTitle"" /><FieldRef Name=""Location"" Type=""CalendarDayLocation"" />"
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""EventDate"", ""EndDate"", ""fRecurrence"", ""EventType"", ""WorkspaceLink"", ""Title"", ""Location"", ""Description"", ""Workspace"", ""MasterSeriesItemID"", ""fAllDayEvent"""

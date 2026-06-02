@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""School"" width=""195"" /><FieldRef Name=""Campus"" width=""140.01251220703125"" /><FieldRef Name=""Department Display Name"" width=""383"" /><FieldRef Name=""Department"" width=""416.1999969482422"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{91E622CB-64EE-4584-A8D0-F246ABC94911}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Department/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><OrderBy><FieldRef Name=""DisplayTitle"" /></OrderBy></Query><ViewFields><FieldRef Name=""ID"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""field_1"" /><FieldRef Name=""field_2"" /><FieldRef Name=""DisplayTitle"" /><FieldRef Name=""Prefixes"" /></ViewFields><ViewType2>COMPACTLIST</ViewType2><ColumnWidth><FieldRef Name=""School"" width=""195"" /><FieldRef Name=""Campus"" width=""140.01251220703125"" /><FieldRef Name=""Department Display Name"" width=""383"" /><FieldRef Name=""Department"" width=""416.1999969482422"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","91e622cb-64ee-4584-a8d0-f246abc94911"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{91E622CB-64EE-4584-A8D0-F246ABC94911}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Department/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""DisplayTitle"" /></OrderBy></Query><ViewFields><FieldRef Name=""ID"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""field_1"" /><FieldRef Name=""field_2"" /><FieldRef Name=""DisplayTitle"" /><FieldRef Name=""Prefixes"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ViewType2>COMPACTLIST</ViewType2><ColumnWidth><FieldRef Name=""School"" width=""195"" /><FieldRef Name=""Campus"" width=""140.01251220703125"" /><FieldRef Name=""Department Display Name"" width=""383"" /><FieldRef Name=""Department"" width=""416.1999969482422"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""DisplayTitle"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Department/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2","COMPACTLIST"
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""ID"", ""LinkTitle"", ""field_1"", ""field_2"", ""DisplayTitle"", ""Prefixes"""

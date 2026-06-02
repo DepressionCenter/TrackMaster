@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles","<CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" />"
+"ColumnWidth","<FieldRef Name=""Email Recipients"" width=""424.18182373046875"" /><FieldRef Name=""# Recipients in Prospects List"" width=""202.9090576171875"" /><FieldRef Name=""# Recipients in People List"" width=""200.9090576171875"" /><FieldRef Name=""# New Prospects"" width=""165.9090576171875"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{3A2BED8A-7C6E-4570-9D26-96E27DB517FC}"" Type=""HTML"" DisplayName=""zSystem-BulkAdd"" Url=""/sites/DepressionCenter-TrackMaster/Lists/EmailTracker/zSystemBulkAdd.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""DateSent"" /><FieldRef Name=""Sender"" /><FieldRef Name=""Team"" /><FieldRef Name=""Program"" /><FieldRef Name=""EmailRecipients"" /><FieldRef Name=""EmailRecipientsPeople"" /><FieldRef Name=""ID"" /><FieldRef Name=""_UIVersionString"" /><FieldRef Name=""TotalRecipients"" /><FieldRef Name=""PeopleCount"" /><FieldRef Name=""NewPeopleCount"" /><FieldRef Name=""Created"" /><FieldRef Name=""Modified"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""TagsSync"" /><FieldRef Name=""_SysFlow"" /><FieldRef Name=""_SysVersion"" /></ViewFields><ViewData /><Query><OrderBy><FieldRef Name=""DateSent"" Ascending=""FALSE"" /></OrderBy></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""LinkTitle"" /><ColumnWidth><FieldRef Name=""Email Recipients"" width=""424.18182373046875"" /><FieldRef Name=""# Recipients in Prospects List"" width=""202.9090576171875"" /><FieldRef Name=""# Recipients in People List"" width=""200.9090576171875"" /><FieldRef Name=""# New Prospects"" width=""165.9090576171875"" /></ColumnWidth><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><Toolbar Type=""None"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","3a2bed8a-7c6e-4570-9d26-96e27db517fc"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{3A2BED8A-7C6E-4570-9D26-96E27DB517FC}"" Type=""HTML"" DisplayName=""zSystem-BulkAdd"" Url=""/sites/DepressionCenter-TrackMaster/Lists/EmailTracker/zSystemBulkAdd.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""DateSent"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""DateSent"" /><FieldRef Name=""Sender"" /><FieldRef Name=""Team"" /><FieldRef Name=""Program"" /><FieldRef Name=""EmailRecipients"" /><FieldRef Name=""EmailRecipientsPeople"" /><FieldRef Name=""ID"" /><FieldRef Name=""_UIVersionString"" /><FieldRef Name=""TotalRecipients"" /><FieldRef Name=""PeopleCount"" /><FieldRef Name=""NewPeopleCount"" /><FieldRef Name=""Created"" /><FieldRef Name=""Modified"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""TagsSync"" /><FieldRef Name=""_SysFlow"" /><FieldRef Name=""_SysVersion"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""Email Recipients"" width=""424.18182373046875"" /><FieldRef Name=""# Recipients in Prospects List"" width=""202.9090576171875"" /><FieldRef Name=""# Recipients in People List"" width=""200.9090576171875"" /><FieldRef Name=""# New Prospects"" width=""165.9090576171875"" /></ColumnWidth><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData /><Toolbar Type=""None""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""DateSent"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/EmailTracker/zSystemBulkAdd.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","zSystem-BulkAdd"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""DateSent"", ""Sender"", ""Team"", ""Program"", ""EmailRecipients"", ""EmailRecipientsPeople"", ""ID"", ""_UIVersionString"", ""TotalRecipients"", ""PeopleCount"", ""NewPeopleCount"", ""Created"", ""Modified"", ""TaxKeyword"", ""TagsSync"", ""_SysFlow"", ""_SysVersion"""

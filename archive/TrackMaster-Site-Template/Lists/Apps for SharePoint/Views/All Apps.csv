@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{5403C7B4-644F-45E7-8E1A-F58E8A0F62CB}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Apps"" Url=""/sites/DepressionCenter-TrackMaster/AppCatalog/Forms/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=47""><Toolbar Type=""Standard"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><Query><GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""AppProductID"" /></GroupBy></Query><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""Title"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""AppVersion"" /><FieldRef Name=""Edit"" /><FieldRef Name=""AppProductID"" /><FieldRef Name=""AppMetadataLocale"" /><FieldRef Name=""IsDefaultAppMetadataLocale"" /><FieldRef Name=""Modified"" /><FieldRef Name=""IsAppPackageEnabled"" /><FieldRef Name=""IsValidAppPackage"" /><FieldRef Name=""IsClientSideSolutionDeployed"" /><FieldRef Name=""SkipFeatureDeployment"" /><FieldRef Name=""AppPackageErrorMessage"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /></View>"
+"Id","5403c7b4-644f-45e7-8e1a-f58e8a0f62cb"
+"ImageUrl","/_layouts/15/images/dlicon.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{5403C7B4-644F-45E7-8E1A-F58E8A0F62CB}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Apps"" Url=""/sites/DepressionCenter-TrackMaster/AppCatalog/Forms/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=47"" ><Query><GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""AppProductID"" /></GroupBy></Query><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""Title"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""AppVersion"" /><FieldRef Name=""Edit"" /><FieldRef Name=""AppProductID"" /><FieldRef Name=""AppMetadataLocale"" /><FieldRef Name=""IsDefaultAppMetadataLocale"" /><FieldRef Name=""Modified"" /><FieldRef Name=""IsAppPackageEnabled"" /><FieldRef Name=""IsValidAppPackage"" /><FieldRef Name=""IsClientSideSolutionDeployed"" /><FieldRef Name=""SkipFeatureDeployment"" /><FieldRef Name=""AppPackageErrorMessage"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""AppProductID"" /></GroupBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/AppCatalog/Forms/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Apps"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""DocIcon"", ""Title"", ""LinkFilename"", ""AppVersion"", ""Edit"", ""AppProductID"", ""AppMetadataLocale"", ""IsDefaultAppMetadataLocale"", ""Modified"", ""IsAppPackageEnabled"", ""IsValidAppPackage"", ""IsClientSideSolutionDeployed"", ""SkipFeatureDeployment"", ""AppPackageErrorMessage"""

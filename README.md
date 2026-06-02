@@ -8,7 +8,48 @@ Welcome to the TrackMaster Membership Management Tool™. This tool allows resea
 
 
 ## Quick Start Guide
-+ TrackMaster™ for Eisenberg Family Depression Center: https://umhealth.sharepoint.com/sites/DepressionCenter-TrackMaster
+
+### Prerequisites
+Before deploying or administering TrackMaster, ensure you have the following:
+
+**Microsoft 365 Environment**
+- A Microsoft 365 subscription through your employer that includes SharePoint Online
+- A SharePoint Online site to which you have Site Collection Administrator rights
+- Power Platform environment access (required for Power Automate flows)
+
+**Local Tooling**
+- [PowerShell 7](https://aka.ms/powershell) — required for all scripts in this repository
+- [PnP.PowerShell](https://pnp.github.io/powershell/) — used for SharePoint site export and deployment
+- [Power Platform CLI (`pac`)](https://aka.ms/PowerAppsCLI) — used for Power Automate solution export and version control
+
+### Installation
+
+1. **Install PowerShell 7** — download and run the MSI installer from [https://aka.ms/powershell](https://aka.ms/powershell). Open all subsequent terminal sessions using `pwsh.exe`, not `powershell.exe`.
+
+2. **Install PnP.PowerShell** — open PowerShell 7 as Administrator and run:
+   ```powershell
+   Install-Module PnP.PowerShell -RequiredVersion 1.12.0 -Scope AllUsers -AllowClobber
+   ```
+   <sub>Version 1.12.0 is required. PnP.PowerShell v2+ requires an Entra ID app registration, which is not available in most corporate environments.</sub>
+
+3. **Install Power Platform CLI** — download and run the MSI installer from [https://aka.ms/PowerAppsCLI](https://aka.ms/PowerAppsCLI).
+
+4. **Set PowerShell execution policy** — in PowerShell 7 as Administrator:
+   ```powershell
+   Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+   ```
+
+5. **Clone this repository** and navigate to the project root:
+   ```powershell
+   git clone https://github.com/DepressionCenter/TrackMaster.git
+   cd TrackMaster
+   ```
+
+### Launching TrackMaster
+TrackMaster is a SharePoint Online application — no local server or build step is required. Simply navigate to your SharePoint site in a web browser.
+
+**Eisenberg Family Depression Center staff** should use:
+[https://umhealth.sharepoint.com/sites/DepressionCenter-TrackMaster](https://umhealth.sharepoint.com/sites/DepressionCenter-TrackMaster)
 
 
 
@@ -93,4 +134,4 @@ If you find this repository, code or paper useful for your research, please cite
 
 ----
 
-Copyright © 2023-2020 The Regents of the University of Michigan
+Copyright © 2023-2026 The Regents of the University of Michigan

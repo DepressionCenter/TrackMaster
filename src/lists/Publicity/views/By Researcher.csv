@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""DateofPromotion"" width=""186.20001220703125"" /><FieldRef Name=""PromotionChannel"" width=""201"" /><FieldRef Name=""NameofPublication"" width=""240.20001220703125"" /><FieldRef Name=""Researcher_x0028_FirstAuthor_x00"" width=""210.19998168945312"" /><FieldRef Name=""Researcher_x003a_Job_x0020_Title"" width=""855.800048828125"" /><FieldRef Name=""Notes"" width=""663.800048828125"" /><FieldRef Name=""PromotionLink"" width=""1206.800048828125"" /><FieldRef Name=""Researcher"" width=""165.1999969482422"" /><FieldRef Name=""Date of Promotion"" width=""162"" /><FieldRef Name=""Title"" width=""336"" /><FieldRef Name=""Promotion Channel"" width=""157"" /><FieldRef Name=""Program"" width=""229"" /><FieldRef Name=""Short Link"" width=""195"" /><FieldRef Name=""Researcher UniqName"" width=""183.5999755859375"" /><FieldRef Name=""Tags"" width=""219.39999389648438"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{A20A440F-9606-4BD2-90B4-A90F6F02903F}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""By Researcher"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Promotions/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><GroupBy Collapse=""TRUE"" GroupLimit=""100""><FieldRef Name=""Researcher"" /></GroupBy><OrderBy><FieldRef Name=""Researcher"" /><FieldRef Name=""DateofPromotion"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""Researcher"" /><FieldRef Name=""LinkTitleNoMenu"" /><FieldRef Name=""DateofPromotion"" /><FieldRef Name=""PromotionChannel"" /><FieldRef Name=""Program"" /><FieldRef Name=""PromotionLink"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Researcher_x003a_UniqName"" /><FieldRef Name=""Researcher_x003a_Job_x0020_Title"" /><FieldRef Name=""Researcher_x003a_Email"" /></ViewFields><RowLimit Paged=""TRUE"">50</RowLimit><ColumnWidth><FieldRef Name=""DateofPromotion"" width=""186.20001220703125"" /><FieldRef Name=""PromotionChannel"" width=""201"" /><FieldRef Name=""NameofPublication"" width=""240.20001220703125"" /><FieldRef Name=""Researcher_x0028_FirstAuthor_x00"" width=""210.19998168945312"" /><FieldRef Name=""Researcher_x003a_Job_x0020_Title"" width=""855.800048828125"" /><FieldRef Name=""Notes"" width=""663.800048828125"" /><FieldRef Name=""PromotionLink"" width=""1206.800048828125"" /><FieldRef Name=""Researcher"" width=""165.1999969482422"" /><FieldRef Name=""Date of Promotion"" width=""162"" /><FieldRef Name=""Title"" width=""336"" /><FieldRef Name=""Promotion Channel"" width=""157"" /><FieldRef Name=""Program"" width=""229"" /><FieldRef Name=""Short Link"" width=""195"" /><FieldRef Name=""Researcher UniqName"" width=""183.5999755859375"" /><FieldRef Name=""Tags"" width=""219.39999389648438"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","a20a440f-9606-4bd2-90b4-a90f6f02903f"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{A20A440F-9606-4BD2-90B4-A90F6F02903F}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""By Researcher"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Promotions/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><GroupBy Collapse=""TRUE"" GroupLimit=""100""><FieldRef Name=""Researcher"" /></GroupBy><OrderBy><FieldRef Name=""Researcher"" /><FieldRef Name=""DateofPromotion"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""Researcher"" /><FieldRef Name=""LinkTitleNoMenu"" /><FieldRef Name=""DateofPromotion"" /><FieldRef Name=""PromotionChannel"" /><FieldRef Name=""Program"" /><FieldRef Name=""PromotionLink"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Researcher_x003a_UniqName"" /><FieldRef Name=""Researcher_x003a_Job_x0020_Title"" /><FieldRef Name=""Researcher_x003a_Email"" /></ViewFields><RowLimit Paged=""TRUE"">50</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""DateofPromotion"" width=""186.20001220703125"" /><FieldRef Name=""PromotionChannel"" width=""201"" /><FieldRef Name=""NameofPublication"" width=""240.20001220703125"" /><FieldRef Name=""Researcher_x0028_FirstAuthor_x00"" width=""210.19998168945312"" /><FieldRef Name=""Researcher_x003a_Job_x0020_Title"" width=""855.800048828125"" /><FieldRef Name=""Notes"" width=""663.800048828125"" /><FieldRef Name=""PromotionLink"" width=""1206.800048828125"" /><FieldRef Name=""Researcher"" width=""165.1999969482422"" /><FieldRef Name=""Date of Promotion"" width=""162"" /><FieldRef Name=""Title"" width=""336"" /><FieldRef Name=""Promotion Channel"" width=""157"" /><FieldRef Name=""Program"" width=""229"" /><FieldRef Name=""Short Link"" width=""195"" /><FieldRef Name=""Researcher UniqName"" width=""183.5999755859375"" /><FieldRef Name=""Tags"" width=""219.39999389648438"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy Collapse=""TRUE"" GroupLimit=""100""><FieldRef Name=""Researcher"" /></GroupBy><OrderBy><FieldRef Name=""Researcher"" /><FieldRef Name=""DateofPromotion"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","50"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Promotions/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","By Researcher"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""Researcher"", ""LinkTitleNoMenu"", ""DateofPromotion"", ""PromotionChannel"", ""Program"", ""PromotionLink"", ""TaxKeyword"", ""Notes"", ""Researcher_x003a_UniqName"", ""Researcher_x003a_Job_x0020_Title"", ""Researcher_x003a_Email"""

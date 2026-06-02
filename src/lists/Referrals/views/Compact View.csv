@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""LinkTitle"" width=""400.1999969482422"" /><FieldRef Name=""Client"" width=""139"" /><FieldRef Name=""Assignee"" width=""158"" /><FieldRef Name=""Notes"" width=""281"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{4874BFF5-A6D7-4EEA-9051-5522104B9B3B}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""Compact View"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Referrals/CompactView.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""ReferralStatus"" /><FieldRef Name=""Client"" /><FieldRef Name=""Assignee"" /><FieldRef Name=""FollowUpDate"" /></ViewFields><ViewData /><Query><GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""ReferredToTeam"" /></GroupBy><OrderBy><FieldRef Name=""ReferredToTeam"" /><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy><Where><And><Neq><FieldRef Name=""ReferralStatus"" /><Value Type=""Text"">Cancelled</Value></Neq><Neq><FieldRef Name=""ReferralStatus"" /><Value Type=""Text"">Completed</Value></Neq></And></Where></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""LinkTitle"" /><ViewType2>COMPACTLIST</ViewType2><Toolbar Type=""Standard"" /><ColumnWidth><FieldRef Name=""LinkTitle"" width=""400.1999969482422"" /><FieldRef Name=""Client"" width=""139"" /><FieldRef Name=""Assignee"" width=""158"" /><FieldRef Name=""Notes"" width=""281"" /></ColumnWidth><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","4874bff5-a6d7-4eea-9051-5522104b9b3b"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{4874BFF5-A6D7-4EEA-9051-5522104B9B3B}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""Compact View"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Referrals/CompactView.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""ReferredToTeam"" /></GroupBy><OrderBy><FieldRef Name=""ReferredToTeam"" /><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy><Where><And><Neq><FieldRef Name=""ReferralStatus"" /><Value Type=""Text"">Cancelled</Value></Neq><Neq><FieldRef Name=""ReferralStatus"" /><Value Type=""Text"">Completed</Value></Neq></And></Where></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""ReferralStatus"" /><FieldRef Name=""Client"" /><FieldRef Name=""Assignee"" /><FieldRef Name=""FollowUpDate"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ViewType2>COMPACTLIST</ViewType2><ColumnWidth><FieldRef Name=""LinkTitle"" width=""400.1999969482422"" /><FieldRef Name=""Client"" width=""139"" /><FieldRef Name=""Assignee"" width=""158"" /><FieldRef Name=""Notes"" width=""281"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""ReferredToTeam"" /></GroupBy><OrderBy><FieldRef Name=""ReferredToTeam"" /><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy><Where><And><Neq><FieldRef Name=""ReferralStatus"" /><Value Type=""Text"">Cancelled</Value></Neq><Neq><FieldRef Name=""ReferralStatus"" /><Value Type=""Text"">Completed</Value></Neq></And></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Referrals/CompactView.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Compact View"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2","COMPACTLIST"
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""ReferralStatus"", ""Client"", ""Assignee"", ""FollowUpDate"""

@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles","<CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" />"
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{79BF9255-33EF-4A72-982D-36FE0443A182}"" Type=""HTML"" DisplayName=""zSystem-BulkAdd"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/PowerAutomateBulkInserts.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><ViewFields><FieldRef Name=""UniqName"" /><FieldRef Name=""ID"" /><FieldRef Name=""PreferredEmail"" /><FieldRef Name=""Active"" /></ViewFields><ViewData /><Query><OrderBy><FieldRef Name=""UniqName"" /></OrderBy><Where><IsNotNull><FieldRef Name=""UniqName"" /></IsNotNull></Where></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""UniqName"" /><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><Toolbar Type=""None"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","79bf9255-33ef-4a72-982d-36fe0443a182"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{79BF9255-33EF-4A72-982D-36FE0443A182}"" Type=""HTML"" DisplayName=""zSystem-BulkAdd"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/PowerAutomateBulkInserts.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""UniqName"" /></OrderBy><Where><IsNotNull><FieldRef Name=""UniqName"" /></IsNotNull></Where></Query><ViewFields><FieldRef Name=""UniqName"" /><FieldRef Name=""ID"" /><FieldRef Name=""PreferredEmail"" /><FieldRef Name=""Active"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData /><Toolbar Type=""None""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""UniqName"" /></OrderBy><Where><IsNotNull><FieldRef Name=""UniqName"" /></IsNotNull></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/People/PowerAutomateBulkInserts.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","zSystem-BulkAdd"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""UniqName"", ""ID"", ""PreferredEmail"", ""Active"""

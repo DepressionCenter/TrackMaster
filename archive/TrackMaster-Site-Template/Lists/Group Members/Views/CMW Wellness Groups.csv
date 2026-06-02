@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{9D9A1499-23F9-460B-B749-177BD53B178A}"" Type=""HTML"" DisplayName=""CMW Wellness Groups"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Group Members/CMWWellnessGroups.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47""><ViewFields><FieldRef Name=""Full_x0020_Name"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Email"" /><FieldRef Name=""Owner"" /><FieldRef Name=""Member"" /><FieldRef Name=""Group_x0020_Name"" /><FieldRef Name=""Active"" /><FieldRef Name=""Notes"" /></ViewFields><ViewData /><Query><Where><Eq><FieldRef Name=""Group_x0020_Name"" /><Value Type=""Text"">CMW Wellness Groups</Value></Eq></Where></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""Full_x0020_Name"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><Toolbar Type=""Standard"" /><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","9d9a1499-23f9-460b-b749-177bd53b178a"
+"ImageUrl","/_layouts/15/images/generic.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{9D9A1499-23F9-460B-B749-177BD53B178A}"" Type=""HTML"" DisplayName=""CMW Wellness Groups"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Group Members/CMWWellnessGroups.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47"" ><Query><Where><Eq><FieldRef Name=""Group_x0020_Name"" /><Value Type=""Text"">CMW Wellness Groups</Value></Eq></Where></Query><ViewFields><FieldRef Name=""Full_x0020_Name"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Email"" /><FieldRef Name=""Owner"" /><FieldRef Name=""Member"" /><FieldRef Name=""Group_x0020_Name"" /><FieldRef Name=""Active"" /><FieldRef Name=""Notes"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<Where><Eq><FieldRef Name=""Group_x0020_Name"" /><Value Type=""Text"">CMW Wellness Groups</Value></Eq></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Group Members/CMWWellnessGroups.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","CMW Wellness Groups"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""Full_x0020_Name"", ""LinkTitle"", ""Email"", ""Owner"", ""Member"", ""Group_x0020_Name"", ""Active"", ""Notes"""

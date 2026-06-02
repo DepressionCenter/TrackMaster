@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId","5"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{A23BAE98-01F8-41DA-8DA1-354BBF5428BB}"" Type=""HTML"" DisplayName=""By Assigned To"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Tasks/byowner.aspx"" Level=""1"" BaseViewID=""5"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/issues.png?rev=47""><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><Toolbar Type=""Standard"" /><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""AssignedTo"" /><FieldRef Name=""Status"" /><FieldRef Name=""Priority"" /><FieldRef Name=""DueDate"" /><FieldRef Name=""PercentComplete"" /><FieldRef Name=""Predecessors"" /></ViewFields><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings><Query><OrderBy><FieldRef Name=""AssignedTo"" /><FieldRef Name=""Status"" /></OrderBy></Query></View>"
+"Id","a23bae98-01f8-41da-8da1-354bbf5428bb"
+"ImageUrl","/_layouts/15/images/issues.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{A23BAE98-01F8-41DA-8DA1-354BBF5428BB}"" Type=""HTML"" DisplayName=""By Assigned To"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Tasks/byowner.aspx"" Level=""1"" BaseViewID=""5"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/issues.png?rev=47"" ><Query><OrderBy><FieldRef Name=""AssignedTo"" /><FieldRef Name=""Status"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""AssignedTo"" /><FieldRef Name=""Status"" /><FieldRef Name=""Priority"" /><FieldRef Name=""DueDate"" /><FieldRef Name=""PercentComplete"" /><FieldRef Name=""Predecessors"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""AssignedTo"" /><FieldRef Name=""Status"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Tasks/byowner.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","By Assigned To"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""AssignedTo"", ""Status"", ""Priority"", ""DueDate"", ""PercentComplete"", ""Predecessors"""

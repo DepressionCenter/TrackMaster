@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles","<CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" />"
+"ColumnWidth","<FieldRef Name=""Date Sent"" width=""138.272705078125"" /><FieldRef Name=""Sender"" width=""161.0113525390625"" /><FieldRef Name=""Team"" width=""179.0113525390625"" /><FieldRef Name=""Program"" width=""222.0113525390625"" /><FieldRef Name=""Results and Outcomes"" width=""456.0113525390625"" /><FieldRef Name=""Email Recipients in Prospects List"" width=""266.0113525390625"" /><FieldRef Name=""Email Recipients in People List"" width=""235.647705078125"" /><FieldRef Name=""# New Prospects"" width=""151.647705078125"" /><FieldRef Name=""Email Click Rate"" width=""160.0113525390625"" /><FieldRef Name=""Email Open Rate"" width=""156.0113525390625"" /><FieldRef Name=""Tags"" width=""214.9375"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{558E9FEB-CD99-4692-8246-CEC5AC3C8154}"" Type=""HTML"" DisplayName=""_Summary"" Url=""/sites/DepressionCenter-TrackMaster/Lists/EmailTracker/Summary.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><OrderBy><FieldRef Name=""DateSent"" Ascending=""FALSE"" /><FieldRef Name=""ID"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""DateSent"" /><FieldRef Name=""Sender"" /><FieldRef Name=""Team"" /><FieldRef Name=""Program"" /><FieldRef Name=""TotalRecipients"" /><FieldRef Name=""EmailOpenRate"" /><FieldRef Name=""EmailClickRate"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><Aggregations Value=""Off"" /><ViewType2>COMPACTLIST</ViewType2><ColumnWidth><FieldRef Name=""Date Sent"" width=""138.272705078125"" /><FieldRef Name=""Sender"" width=""161.0113525390625"" /><FieldRef Name=""Team"" width=""179.0113525390625"" /><FieldRef Name=""Program"" width=""222.0113525390625"" /><FieldRef Name=""Results and Outcomes"" width=""456.0113525390625"" /><FieldRef Name=""Email Recipients in Prospects List"" width=""266.0113525390625"" /><FieldRef Name=""Email Recipients in People List"" width=""235.647705078125"" /><FieldRef Name=""# New Prospects"" width=""151.647705078125"" /><FieldRef Name=""Email Click Rate"" width=""160.0113525390625"" /><FieldRef Name=""Email Open Rate"" width=""156.0113525390625"" /><FieldRef Name=""Tags"" width=""214.9375"" /></ColumnWidth><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData /><Toolbar Type=""None"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","558e9feb-cd99-4692-8246-cec5ac3c8154"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{558E9FEB-CD99-4692-8246-CEC5AC3C8154}"" Type=""HTML"" DisplayName=""_Summary"" Url=""/sites/DepressionCenter-TrackMaster/Lists/EmailTracker/Summary.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""DateSent"" Ascending=""FALSE"" /><FieldRef Name=""ID"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""DateSent"" /><FieldRef Name=""Sender"" /><FieldRef Name=""Team"" /><FieldRef Name=""Program"" /><FieldRef Name=""TotalRecipients"" /><FieldRef Name=""EmailOpenRate"" /><FieldRef Name=""EmailClickRate"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ViewType2>COMPACTLIST</ViewType2><ColumnWidth><FieldRef Name=""Date Sent"" width=""138.272705078125"" /><FieldRef Name=""Sender"" width=""161.0113525390625"" /><FieldRef Name=""Team"" width=""179.0113525390625"" /><FieldRef Name=""Program"" width=""222.0113525390625"" /><FieldRef Name=""Results and Outcomes"" width=""456.0113525390625"" /><FieldRef Name=""Email Recipients in Prospects List"" width=""266.0113525390625"" /><FieldRef Name=""Email Recipients in People List"" width=""235.647705078125"" /><FieldRef Name=""# New Prospects"" width=""151.647705078125"" /><FieldRef Name=""Email Click Rate"" width=""160.0113525390625"" /><FieldRef Name=""Email Open Rate"" width=""156.0113525390625"" /><FieldRef Name=""Tags"" width=""214.9375"" /></ColumnWidth><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData /><Toolbar Type=""None""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""DateSent"" Ascending=""FALSE"" /><FieldRef Name=""ID"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/EmailTracker/Summary.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","_Summary"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2","COMPACTLIST"
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""DateSent"", ""Sender"", ""Team"", ""Program"", ""TotalRecipients"", ""EmailOpenRate"", ""EmailClickRate"", ""TaxKeyword"""

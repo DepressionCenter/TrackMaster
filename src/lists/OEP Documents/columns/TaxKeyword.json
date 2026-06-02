@@ -1,0 +1,69 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "flex-wrap": "wrap",
+    "width": "100%"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "margin": "4px",
+        "padding": "4px 8px 4px 8px",
+        "border-radius": "10px"
+      },
+      "attributes": {
+        "class": "ms-bgColor-themeLighterAlt ms-bgColor-themeDarkAlt--hover ms-fontColor-themeLighterAlt--hover"
+      },
+      "forEach": "tag in @currentField",
+      "children": [
+        {
+          "elmType": "div",
+          "style": {
+            "vertical-align": "middle",
+            "white-space": "nowrap",
+            "width": "auto"
+          },
+          "attributes": {
+            "class": "ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs"
+          },
+		  "children": [
+		  {
+			  "elmType": "a",
+			  "attributes": {
+				"href": "=@currentWeb + '/_layouts/15/search.aspx/siteall?q=tags:\"' + [$tag] + '\"'",
+				"target": "_blank",
+				"class": "ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs"
+              },
+			  "style":{
+				  "text-decoration": "none"
+			  },
+			  "children": [
+				{
+				  "elmType": "span",
+				  "style": {
+					"position": "relative",
+					"top": "2px",
+					"text-decoration": "none"
+				  },
+				  "attributes": {
+					"iconName": "Tag"
+				  }
+				},
+				{
+				  "elmType": "span",
+				  "style": {
+					"padding-left": "4px"
+				  },
+				  "txtContent": "[$tag]"
+				}
+			  ]
+			}
+			]
+		}
+	  ]
+    }
+  ]
+}

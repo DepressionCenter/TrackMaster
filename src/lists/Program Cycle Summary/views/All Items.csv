@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Application Opening Date"" width=""194.111083984375"" /><FieldRef Name=""Application Closing Date"" width=""177.013916015625"" /><FieldRef Name=""Final Decision Date"" width=""148"" /><FieldRef Name=""Award or Final Meeting Date"" width=""202.66668701171875"" /><FieldRef Name=""Final Follow Up Date"" width=""164"" /><FieldRef Name=""Notes"" width=""377"" /><FieldRef Name=""Total Award Amount"" width=""147"" /><FieldRef Name=""Team"" width=""213.22216796875"" /><FieldRef Name=""Program"" width=""305.1111068725586"" /><FieldRef Name=""Cycle"" width=""142"" /><FieldRef Name=""# Applicants"" width=""116"" /><FieldRef Name=""Tags"" width=""340.41668701171875"" /><FieldRef Name=""Population Focus"" width=""221.0999755859375"" /><FieldRef Name=""Research Methodologies and Applications"" width=""296.70001220703125"" /><FieldRef Name=""Research Areas"" width=""257.5"" /><FieldRef Name=""Avg Per Participant Award"" width=""204.33331298828125"" /><FieldRef Name=""Related Email Outreach"" width=""186.5555419921875"" /><FieldRef Name=""Acceptance Rate"" width=""187.875"" /><FieldRef Name=""Average Award Amount"" width=""200.875"" /><FieldRef Name=""Award or Presentation Date"" width=""176.33331298828125"" /><FieldRef Name=""Feedback Survey Date"" width=""170.01385498046875"" /><FieldRef Name=""ID"" width=""131.486083984375"" /><FieldRef Name=""Status"" width=""177"" /><FieldRef Name=""# Recipients"" width=""113"" />"
+"ContentTypeId","0x"
+"CustomFormatter","{""additionalRowClass"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[{""operator"":""%"",""operands"":[""@rowIndex"",2]},0]},""sp-css-backgroundColor-BgLightGray30"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[{""operator"":""%"",""operands"":[""@rowIndex"",2]},1]},""sp-css-backgroundColor-noFill"",""""]}]},""rowClassTemplateId"":""BgColorAlternateRows""}"
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{33B09A58-B640-433E-A027-B4C9F90BDD68}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/ProgramSummary/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><ViewFields><FieldRef Name=""Program"" /><FieldRef Name=""Cycle"" /><FieldRef Name=""Status"" /><FieldRef Name=""ApplicantsCount"" /><FieldRef Name=""ParticipantsCount"" /><FieldRef Name=""TotalAwardAmount"" /><FieldRef Name=""StartDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""PreLaunchDate"" /><FieldRef Name=""ApplicationOpeningDate"" /><FieldRef Name=""ApplicationClosingDate"" /><FieldRef Name=""FinalDecisionDate"" /><FieldRef Name=""PresentationDate"" /><FieldRef Name=""FinalFollowUpDate"" /><FieldRef Name=""Program_x003a__hiddenTmNam"" /><FieldRef Name=""ResearchAreas"" /><FieldRef Name=""ResearchMethodologies"" /><FieldRef Name=""Populations"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""ApplicationLink"" /><FieldRef Name=""AcceptanceRate"" /><FieldRef Name=""AverageAwardAmount"" /><FieldRef Name=""RelatedEmail"" /><FieldRef Name=""Modified"" /><FieldRef Name=""ID"" /></ViewFields><ViewData /><Query><OrderBy><FieldRef Name=""StartDate"" Ascending=""FALSE"" /><FieldRef Name=""Program"" /></OrderBy></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""Program"" /><CustomFormatter><![CDATA[{""additionalRowClass"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[{""operator"":""%"",""operands"":[""@rowIndex"",2]},0]},""sp-css-backgroundColor-BgLightGray30"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[{""operator"":""%"",""operands"":[""@rowIndex"",2]},1]},""sp-css-backgroundColor-noFill"",""""]}]},""rowClassTemplateId"":""BgColorAlternateRows""}]]></CustomFormatter><ColumnWidth><FieldRef Name=""Application Opening Date"" width=""194.111083984375"" /><FieldRef Name=""Application Closing Date"" width=""177.013916015625"" /><FieldRef Name=""Final Decision Date"" width=""148"" /><FieldRef Name=""Award or Final Meeting Date"" width=""202.66668701171875"" /><FieldRef Name=""Final Follow Up Date"" width=""164"" /><FieldRef Name=""Notes"" width=""377"" /><FieldRef Name=""Total Award Amount"" width=""147"" /><FieldRef Name=""Team"" width=""213.22216796875"" /><FieldRef Name=""Program"" width=""305.1111068725586"" /><FieldRef Name=""Cycle"" width=""142"" /><FieldRef Name=""# Applicants"" width=""116"" /><FieldRef Name=""Tags"" width=""340.41668701171875"" /><FieldRef Name=""Population Focus"" width=""221.0999755859375"" /><FieldRef Name=""Research Methodologies and Applications"" width=""296.70001220703125"" /><FieldRef Name=""Research Areas"" width=""257.5"" /><FieldRef Name=""Avg Per Participant Award"" width=""204.33331298828125"" /><FieldRef Name=""Related Email Outreach"" width=""186.5555419921875"" /><FieldRef Name=""Acceptance Rate"" width=""187.875"" /><FieldRef Name=""Average Award Amount"" width=""200.875"" /><FieldRef Name=""Award or Presentation Date"" width=""176.33331298828125"" /><FieldRef Name=""Feedback Survey Date"" width=""170.01385498046875"" /><FieldRef Name=""ID"" width=""131.486083984375"" /><FieldRef Name=""Status"" width=""177"" /><FieldRef Name=""# Recipients"" width=""113"" /></ColumnWidth><Toolbar Type=""Standard"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","33b09a58-b640-433e-a027-b4c9f90bdd68"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{33B09A58-B640-433E-A027-B4C9F90BDD68}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/ProgramSummary/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""StartDate"" Ascending=""FALSE"" /><FieldRef Name=""Program"" /></OrderBy></Query><ViewFields><FieldRef Name=""Program"" /><FieldRef Name=""Cycle"" /><FieldRef Name=""Status"" /><FieldRef Name=""ApplicantsCount"" /><FieldRef Name=""ParticipantsCount"" /><FieldRef Name=""TotalAwardAmount"" /><FieldRef Name=""StartDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""PreLaunchDate"" /><FieldRef Name=""ApplicationOpeningDate"" /><FieldRef Name=""ApplicationClosingDate"" /><FieldRef Name=""FinalDecisionDate"" /><FieldRef Name=""PresentationDate"" /><FieldRef Name=""FinalFollowUpDate"" /><FieldRef Name=""Program_x003a__hiddenTmNam"" /><FieldRef Name=""ResearchAreas"" /><FieldRef Name=""ResearchMethodologies"" /><FieldRef Name=""Populations"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""ApplicationLink"" /><FieldRef Name=""AcceptanceRate"" /><FieldRef Name=""AverageAwardAmount"" /><FieldRef Name=""RelatedEmail"" /><FieldRef Name=""Modified"" /><FieldRef Name=""ID"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CustomFormatter><![CDATA[{""additionalRowClass"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[{""operator"":""%"",""operands"":[""@rowIndex"",2]},0]},""sp-css-backgroundColor-BgLightGray30"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[{""operator"":""%"",""operands"":[""@rowIndex"",2]},1]},""sp-css-backgroundColor-noFill"",""""]}]},""rowClassTemplateId"":""BgColorAlternateRows""}]]></CustomFormatter><ColumnWidth><FieldRef Name=""Application Opening Date"" width=""194.111083984375"" /><FieldRef Name=""Application Closing Date"" width=""177.013916015625"" /><FieldRef Name=""Final Decision Date"" width=""148"" /><FieldRef Name=""Award or Final Meeting Date"" width=""202.66668701171875"" /><FieldRef Name=""Final Follow Up Date"" width=""164"" /><FieldRef Name=""Notes"" width=""377"" /><FieldRef Name=""Total Award Amount"" width=""147"" /><FieldRef Name=""Team"" width=""213.22216796875"" /><FieldRef Name=""Program"" width=""305.1111068725586"" /><FieldRef Name=""Cycle"" width=""142"" /><FieldRef Name=""# Applicants"" width=""116"" /><FieldRef Name=""Tags"" width=""340.41668701171875"" /><FieldRef Name=""Population Focus"" width=""221.0999755859375"" /><FieldRef Name=""Research Methodologies and Applications"" width=""296.70001220703125"" /><FieldRef Name=""Research Areas"" width=""257.5"" /><FieldRef Name=""Avg Per Participant Award"" width=""204.33331298828125"" /><FieldRef Name=""Related Email Outreach"" width=""186.5555419921875"" /><FieldRef Name=""Acceptance Rate"" width=""187.875"" /><FieldRef Name=""Average Award Amount"" width=""200.875"" /><FieldRef Name=""Award or Presentation Date"" width=""176.33331298828125"" /><FieldRef Name=""Feedback Survey Date"" width=""170.01385498046875"" /><FieldRef Name=""ID"" width=""131.486083984375"" /><FieldRef Name=""Status"" width=""177"" /><FieldRef Name=""# Recipients"" width=""113"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""StartDate"" Ascending=""FALSE"" /><FieldRef Name=""Program"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/ProgramSummary/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""Program"", ""Cycle"", ""Status"", ""ApplicantsCount"", ""ParticipantsCount"", ""TotalAwardAmount"", ""StartDate"", ""EndDate"", ""PreLaunchDate"", ""ApplicationOpeningDate"", ""ApplicationClosingDate"", ""FinalDecisionDate"", ""PresentationDate"", ""FinalFollowUpDate"", ""Program_x003a__hiddenTmNam"", ""ResearchAreas"", ""ResearchMethodologies"", ""Populations"", ""TaxKeyword"", ""Notes"", ""ApplicationLink"", ""AcceptanceRate"", ""AverageAwardAmount"", ""RelatedEmail"", ""Modified"", ""ID"""

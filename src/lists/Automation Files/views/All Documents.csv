@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{C35BE71F-7C29-46C6-95CD-E00C98BB4738}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Documents"" Url=""/sites/DepressionCenter-TrackMaster/AutomationFiles/Forms/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=50""><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Editor"" /><FieldRef Name=""AutomationRequestID"" /><FieldRef Name=""FlowName"" /></ViewFields><Toolbar Type=""Standard"" /><NewDocumentTemplates>[{""templateId"":""NewFolder"",""title"":""Folder"",""visible"":true},{""templateId"":""NewDOC"",""title"":""Word document"",""visible"":true},{""templateId"":""NewXSL"",""title"":""Excel workbook"",""visible"":true},{""templateId"":""NewPPT"",""title"":""PowerPoint presentation"",""visible"":true},{""templateId"":""NewONE"",""title"":""OneNote notebook"",""visible"":true},{""templateId"":""NewXSLSurvey"",""title"":""Excel survey"",""visible"":true},{""templateId"":""NewXSLForm"",""title"":""Forms survey"",""visible"":true},{""templateId"":""NewVSDX"",""title"":""Visio drawing"",""visible"":true},{""templateId"":""NewClipchamp"",""title"":""Clipchamp video"",""visible"":true},{""title"":""Agent"",""visible"":true},{""contentTypeId"":""0x01010093733A39A202144E9542215B392BFB82"",""isUpload"":true,""templateId"":""TrackMaster-People-Upload-Template"",""title"":""TrackMaster-People-Upload-Template"",""url"":""/sites/DepressionCenter-TrackMaster/AutomationFiles/Forms/TrackMaster-People-Upload-Template.xlsx"",""visible"":true}]</NewDocumentTemplates><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noitemsinview_doclibrary)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noitemsinview_doclibrary_howto2)"" /></ParameterBindings><Query><OrderBy><FieldRef Name=""FileLeafRef"" /></OrderBy></Query></View>"
+"Id","c35be71f-7c29-46c6-95cd-e00c98bb4738"
+"ImageUrl","/_layouts/15/images/dlicon.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{C35BE71F-7C29-46C6-95CD-E00C98BB4738}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Documents"" Url=""/sites/DepressionCenter-TrackMaster/AutomationFiles/Forms/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=50"" ><Query><OrderBy><FieldRef Name=""FileLeafRef"" /></OrderBy></Query><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Editor"" /><FieldRef Name=""AutomationRequestID"" /><FieldRef Name=""FlowName"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><NewDocumentTemplates>[{""templateId"":""NewFolder"",""title"":""Folder"",""visible"":true},{""templateId"":""NewDOC"",""title"":""Word document"",""visible"":true},{""templateId"":""NewXSL"",""title"":""Excel workbook"",""visible"":true},{""templateId"":""NewPPT"",""title"":""PowerPoint presentation"",""visible"":true},{""templateId"":""NewONE"",""title"":""OneNote notebook"",""visible"":true},{""templateId"":""NewXSLSurvey"",""title"":""Excel survey"",""visible"":true},{""templateId"":""NewXSLForm"",""title"":""Forms survey"",""visible"":true},{""templateId"":""NewVSDX"",""title"":""Visio drawing"",""visible"":true},{""templateId"":""NewClipchamp"",""title"":""Clipchamp video"",""visible"":true},{""title"":""Agent"",""visible"":true},{""contentTypeId"":""0x01010093733A39A202144E9542215B392BFB82"",""isUpload"":true,""templateId"":""TrackMaster-People-Upload-Template"",""title"":""TrackMaster-People-Upload-Template"",""url"":""/sites/DepressionCenter-TrackMaster/AutomationFiles/Forms/TrackMaster-People-Upload-Template.xlsx"",""visible"":true}]</NewDocumentTemplates><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates","[{""templateId"":""NewFolder"",""title"":""Folder"",""visible"":true},{""templateId"":""NewDOC"",""title"":""Word document"",""visible"":true},{""templateId"":""NewXSL"",""title"":""Excel workbook"",""visible"":true},{""templateId"":""NewPPT"",""title"":""PowerPoint presentation"",""visible"":true},{""templateId"":""NewONE"",""title"":""OneNote notebook"",""visible"":true},{""templateId"":""NewXSLSurvey"",""title"":""Excel survey"",""visible"":true},{""templateId"":""NewXSLForm"",""title"":""Forms survey"",""visible"":true},{""templateId"":""NewVSDX"",""title"":""Visio drawing"",""visible"":true},{""templateId"":""NewClipchamp"",""title"":""Clipchamp video"",""visible"":true},{""title"":""Agent"",""visible"":true},{""contentTypeId"":""0x01010093733A39A202144E9542215B392BFB82"",""isUpload"":true,""templateId"":""TrackMaster-People-Upload-Template"",""title"":""TrackMaster-People-Upload-Template"",""url"":""/sites/DepressionCenter-TrackMaster/AutomationFiles/Forms/TrackMaster-People-Upload-Template.xlsx"",""visible"":true}]"
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""FileLeafRef"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/AutomationFiles/Forms/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Documents"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""DocIcon"", ""LinkFilename"", ""Modified"", ""Editor"", ""AutomationRequestID"", ""FlowName"""

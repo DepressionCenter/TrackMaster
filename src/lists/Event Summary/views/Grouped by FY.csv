@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Notes"" width=""354.9444580078125"" /><FieldRef Name=""Tags"" width=""227.20001220703125"" /><FieldRef Name=""Program"" width=""232.19998168945312"" /><FieldRef Name=""Event Description"" width=""346.111083984375"" /><FieldRef Name=""# Registrants"" width=""110"" /><FieldRef Name=""# Attendees"" width=""110"" /><FieldRef Name=""Speakers or Presenters"" width=""167.5555419921875"" /><FieldRef Name=""Vendors"" width=""178.5555419921875"" /><FieldRef Name=""Attendees"" width=""206.5555419921875"" /><FieldRef Name=""Registrants"" width=""201.5555419921875"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{74C9B241-F92D-4C43-BF83-D72ACAF46BC7}"" Type=""HTML"" DisplayName=""Grouped by FY"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/ByFiscalYear.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><GroupBy Collapse=""TRUE"" GroupLimit=""30""><FieldRef Name=""FiscalYear"" /><FieldRef Name=""Program"" /></GroupBy><OrderBy><FieldRef Name=""EventDate"" Ascending=""FALSE"" /><FieldRef Name=""Title"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""EventDescription"" /><FieldRef Name=""Video"" /><FieldRef Name=""RegistrantsCount"" /><FieldRef Name=""AttendeesCount"" /><FieldRef Name=""Webpage"" /><FieldRef Name=""SharedFolder"" /><FieldRef Name=""Program"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Registrants"" /><FieldRef Name=""Attendees0"" /><FieldRef Name=""Vendors"" /><FieldRef Name=""Speakers"" /></ViewFields><ColumnWidth><FieldRef Name=""Notes"" width=""354.9444580078125"" /><FieldRef Name=""Tags"" width=""227.20001220703125"" /><FieldRef Name=""Program"" width=""232.19998168945312"" /><FieldRef Name=""Event Description"" width=""346.111083984375"" /><FieldRef Name=""# Registrants"" width=""110"" /><FieldRef Name=""# Attendees"" width=""110"" /><FieldRef Name=""Speakers or Presenters"" width=""167.5555419921875"" /><FieldRef Name=""Vendors"" width=""178.5555419921875"" /><FieldRef Name=""Attendees"" width=""206.5555419921875"" /><FieldRef Name=""Registrants"" width=""201.5555419921875"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","74c9b241-f92d-4c43-bf83-d72acaf46bc7"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{74C9B241-F92D-4C43-BF83-D72ACAF46BC7}"" Type=""HTML"" DisplayName=""Grouped by FY"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/ByFiscalYear.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><GroupBy Collapse=""TRUE"" GroupLimit=""30""><FieldRef Name=""FiscalYear"" /><FieldRef Name=""Program"" /></GroupBy><OrderBy><FieldRef Name=""EventDate"" Ascending=""FALSE"" /><FieldRef Name=""Title"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""EventDescription"" /><FieldRef Name=""Video"" /><FieldRef Name=""RegistrantsCount"" /><FieldRef Name=""AttendeesCount"" /><FieldRef Name=""Webpage"" /><FieldRef Name=""SharedFolder"" /><FieldRef Name=""Program"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Registrants"" /><FieldRef Name=""Attendees0"" /><FieldRef Name=""Vendors"" /><FieldRef Name=""Speakers"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""Notes"" width=""354.9444580078125"" /><FieldRef Name=""Tags"" width=""227.20001220703125"" /><FieldRef Name=""Program"" width=""232.19998168945312"" /><FieldRef Name=""Event Description"" width=""346.111083984375"" /><FieldRef Name=""# Registrants"" width=""110"" /><FieldRef Name=""# Attendees"" width=""110"" /><FieldRef Name=""Speakers or Presenters"" width=""167.5555419921875"" /><FieldRef Name=""Vendors"" width=""178.5555419921875"" /><FieldRef Name=""Attendees"" width=""206.5555419921875"" /><FieldRef Name=""Registrants"" width=""201.5555419921875"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy Collapse=""TRUE"" GroupLimit=""30""><FieldRef Name=""FiscalYear"" /><FieldRef Name=""Program"" /></GroupBy><OrderBy><FieldRef Name=""EventDate"" Ascending=""FALSE"" /><FieldRef Name=""Title"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Event Attendance/ByFiscalYear.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Grouped by FY"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""EventDate"", ""EventDescription"", ""Video"", ""RegistrantsCount"", ""AttendeesCount"", ""Webpage"", ""SharedFolder"", ""Program"", ""TaxKeyword"", ""Notes"", ""Registrants"", ""Attendees0"", ""Vendors"", ""Speakers"""

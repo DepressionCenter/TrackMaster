@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles","<CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" />"
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter","{""tileProps"":{""height"":163,""width"":254,""hideSelection"":false,""fillHorizontally"":true,""formatter"":{""elmType"":""div"",""attributes"":{""class"":""sp-card-container""},""children"":[{""elmType"":""div"",""attributes"":{""class"":""sp-card-defaultClickButton""},""customRowAction"":{""action"":""defaultClick""}},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-white sp-css-borderColor-neutralLight sp-card-borderHighlight sp-card-subContainer""},""children"":[{""elmType"":""div"",""attributes"":{""class"":""sp-card-displayColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Title]"",""class"":""ms-fontColor-neutralPrimary sp-card-content sp-card-highlightedContent"",""role"":""heading"",""aria-level"":""3""},""txtContent"":""=if ([$Title] == '', '–', [$Title])""}]},{""elmType"":""div"",""attributes"":{""class"":""sp-card-displayColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Description]"",""class"":""ms-fontColor-neutralPrimary sp-card-content  sp-card-multiline""},""txtContent"":""=if ([$Description] == '', '–', [$Description])"",""style"":{""-webkit-line-clamp"":""2"",""height"":""40px""}}]},{""elmType"":""div"",""attributes"":{""class"":""sp-card-displayColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Program_x0020_Manager]"",""class"":""ms-fontColor-neutralPrimary sp-card-content ""},""txtContent"":""=if ([$Program_x0020_Manager] == '', '–', [$Program_x0020_Manager])""}]},{""elmType"":""div"",""attributes"":{""class"":""sp-card-lastTextColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Team]"",""class"":""ms-fontColor-neutralPrimary sp-card-content ""},""txtContent"":""=if ([$Team] == '', '–', [$Team])""}]}]}],""templateId"":""TileDesigner100""},""designerConfig"":[0,0,""LinkTitle"",0,""Description"",0,""Program_x0020_Manager"",0,""Team""]}}"
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{915654F3-6C92-4E8F-A6D5-68B24918BEE4}"" Type=""HTML"" DisplayName=""Contact Cards"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Programs/ContactCards.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Description"" /><FieldRef Name=""Program_x0020_Manager"" /><FieldRef Name=""Team"" /><FieldRef Name=""Documents"" /><FieldRef Name=""Webpage"" /></ViewFields><ViewData /><Query /><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""LinkTitle"" /><ViewType2>TILES</ViewType2><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><Toolbar Type=""None"" /><CustomFormatter><![CDATA[{""tileProps"":{""height"":163,""width"":254,""hideSelection"":false,""fillHorizontally"":true,""formatter"":{""elmType"":""div"",""attributes"":{""class"":""sp-card-container""},""children"":[{""elmType"":""div"",""attributes"":{""class"":""sp-card-defaultClickButton""},""customRowAction"":{""action"":""defaultClick""}},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-white sp-css-borderColor-neutralLight sp-card-borderHighlight sp-card-subContainer""},""children"":[{""elmType"":""div"",""attributes"":{""class"":""sp-card-displayColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Title]"",""class"":""ms-fontColor-neutralPrimary sp-card-content sp-card-highlightedContent"",""role"":""heading"",""aria-level"":""3""},""txtContent"":""=if ([$Title] == '', '–', [$Title])""}]},{""elmType"":""div"",""attributes"":{""class"":""sp-card-displayColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Description]"",""class"":""ms-fontColor-neutralPrimary sp-card-content  sp-card-multiline""},""txtContent"":""=if ([$Description] == '', '–', [$Description])"",""style"":{""-webkit-line-clamp"":""2"",""height"":""40px""}}]},{""elmType"":""div"",""attributes"":{""class"":""sp-card-displayColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Program_x0020_Manager]"",""class"":""ms-fontColor-neutralPrimary sp-card-content ""},""txtContent"":""=if ([$Program_x0020_Manager] == '', '–', [$Program_x0020_Manager])""}]},{""elmType"":""div"",""attributes"":{""class"":""sp-card-lastTextColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Team]"",""class"":""ms-fontColor-neutralPrimary sp-card-content ""},""txtContent"":""=if ([$Team] == '', '–', [$Team])""}]}]}],""templateId"":""TileDesigner100""},""designerConfig"":[0,0,""LinkTitle"",0,""Description"",0,""Program_x0020_Manager"",0,""Team""]}}]]></CustomFormatter><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","915654f3-6c92-4e8f-a6d5-68b24918bee4"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{915654F3-6C92-4E8F-A6D5-68B24918BEE4}"" Type=""HTML"" DisplayName=""Contact Cards"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Programs/ContactCards.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query /><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Description"" /><FieldRef Name=""Program_x0020_Manager"" /><FieldRef Name=""Team"" /><FieldRef Name=""Documents"" /><FieldRef Name=""Webpage"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CustomFormatter><![CDATA[{""tileProps"":{""height"":163,""width"":254,""hideSelection"":false,""fillHorizontally"":true,""formatter"":{""elmType"":""div"",""attributes"":{""class"":""sp-card-container""},""children"":[{""elmType"":""div"",""attributes"":{""class"":""sp-card-defaultClickButton""},""customRowAction"":{""action"":""defaultClick""}},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-white sp-css-borderColor-neutralLight sp-card-borderHighlight sp-card-subContainer""},""children"":[{""elmType"":""div"",""attributes"":{""class"":""sp-card-displayColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Title]"",""class"":""ms-fontColor-neutralPrimary sp-card-content sp-card-highlightedContent"",""role"":""heading"",""aria-level"":""3""},""txtContent"":""=if ([$Title] == '', '–', [$Title])""}]},{""elmType"":""div"",""attributes"":{""class"":""sp-card-displayColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Description]"",""class"":""ms-fontColor-neutralPrimary sp-card-content  sp-card-multiline""},""txtContent"":""=if ([$Description] == '', '–', [$Description])"",""style"":{""-webkit-line-clamp"":""2"",""height"":""40px""}}]},{""elmType"":""div"",""attributes"":{""class"":""sp-card-displayColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Program_x0020_Manager]"",""class"":""ms-fontColor-neutralPrimary sp-card-content ""},""txtContent"":""=if ([$Program_x0020_Manager] == '', '–', [$Program_x0020_Manager])""}]},{""elmType"":""div"",""attributes"":{""class"":""sp-card-lastTextColumnContainer""},""children"":[{""elmType"":""p"",""attributes"":{""title"":""[$Team]"",""class"":""ms-fontColor-neutralPrimary sp-card-content ""},""txtContent"":""=if ([$Team] == '', '–', [$Team])""}]}]}],""templateId"":""TileDesigner100""},""designerConfig"":[0,0,""LinkTitle"",0,""Description"",0,""Program_x0020_Manager"",0,""Team""]}}]]></CustomFormatter><ViewType2>TILES</ViewType2><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""FALSE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData /><Toolbar Type=""None""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery",""
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Programs/ContactCards.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Contact Cards"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2","TILES"
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""Description"", ""Program_x0020_Manager"", ""Team"", ""Documents"", ""Webpage"""

@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles","<CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""TRUE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" />"
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter","{""calendarProps"":{""monthProps"":{""additionalEventClass"":{""operator"":"":"",""operands"":[{""operator"":""&&"",""operands"":[{""operator"":"">="",""operands"":[""[$Days_x0020_Left]"",1]},{""operator"":""<="",""operands"":[""[$Days_x0020_Left]"",30]}]},""=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgBrown' , 'sp-css-backgroundColor-BgGold sp-css-color-GoldFont')+' sp-field-fontSizeSmall'"",{""operator"":"":"",""operands"":[{""operator"":"">="",""operands"":[""[$Days_x0020_Left]"",0]},""=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgDarkRed' , 'sp-css-backgroundColor-BgCoral sp-css-color-CoralFont')+' sp-field-fontSizeSmall'"",""=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgGray' , 'sp-css-backgroundColor-BgLightGray sp-css-color-LightGrayFont')+' sp-field-fontSizeSmall'""]}]},""rowClassTemplateId"":""CalendarConditionalView""}}}"
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{B8D55AFE-3091-4E2E-852D-5BA23D8B06EE}"" Type=""HTML"" DisplayName=""Renewal Calendar"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Shared Digital Assets Tracker/Renewal Calendar.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><ViewFields><FieldRef Name=""NextRenewalDate"" /><FieldRef Name=""NextRenewalDate"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Title"" /><FieldRef Name=""Team"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><Query /><Aggregations Value=""Off"" /><RowLimit>0</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""NextRenewalDate"" /><CustomFormatter><![CDATA[{""calendarProps"":{""monthProps"":{""additionalEventClass"":{""operator"":"":"",""operands"":[{""operator"":""&&"",""operands"":[{""operator"":"">="",""operands"":[""[$Days_x0020_Left]"",1]},{""operator"":""<="",""operands"":[""[$Days_x0020_Left]"",30]}]},""=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgBrown' , 'sp-css-backgroundColor-BgGold sp-css-color-GoldFont')+' sp-field-fontSizeSmall'"",{""operator"":"":"",""operands"":[{""operator"":"">="",""operands"":[""[$Days_x0020_Left]"",0]},""=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgDarkRed' , 'sp-css-backgroundColor-BgCoral sp-css-color-CoralFont')+' sp-field-fontSizeSmall'"",""=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgGray' , 'sp-css-backgroundColor-BgLightGray sp-css-color-LightGrayFont')+' sp-field-fontSizeSmall'""]}]},""rowClassTemplateId"":""CalendarConditionalView""}}}]]></CustomFormatter><ViewType2>MODERNCALENDAR</ViewType2><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""TRUE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData><FieldRef Name=""LinkTitle"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekLocation"" /><FieldRef Name="""" Type=""CalendarDayLocation"" /></ViewData><Toolbar Type=""None"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","b8d55afe-3091-4e2e-852d-5ba23d8b06ee"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{B8D55AFE-3091-4E2E-852D-5BA23D8B06EE}"" Type=""HTML"" DisplayName=""Renewal Calendar"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Shared Digital Assets Tracker/Renewal Calendar.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query /><ViewFields><FieldRef Name=""NextRenewalDate"" /><FieldRef Name=""NextRenewalDate"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Title"" /><FieldRef Name=""Team"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><RowLimit>0</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CustomFormatter><![CDATA[{""calendarProps"":{""monthProps"":{""additionalEventClass"":{""operator"":"":"",""operands"":[{""operator"":""&&"",""operands"":[{""operator"":"">="",""operands"":[""[$Days_x0020_Left]"",1]},{""operator"":""<="",""operands"":[""[$Days_x0020_Left]"",30]}]},""=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgBrown' , 'sp-css-backgroundColor-BgGold sp-css-color-GoldFont')+' sp-field-fontSizeSmall'"",{""operator"":"":"",""operands"":[{""operator"":"">="",""operands"":[""[$Days_x0020_Left]"",0]},""=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgDarkRed' , 'sp-css-backgroundColor-BgCoral sp-css-color-CoralFont')+' sp-field-fontSizeSmall'"",""=if(@isSelected == true, 'sp-css-color-WhiteFont sp-css-backgroundColor-BgGray' , 'sp-css-backgroundColor-BgLightGray sp-css-color-LightGrayFont')+' sp-field-fontSizeSmall'""]}]},""rowClassTemplateId"":""CalendarConditionalView""}}}]]></CustomFormatter><ViewType2>MODERNCALENDAR</ViewType2><CalendarViewStyles><CalendarViewStyle Title=""Day"" Type=""day"" Template=""CalendarViewdayChrome"" Sequence=""1"" Default=""FALSE"" /><CalendarViewStyle Title=""Week"" Type=""week"" Template=""CalendarViewweekChrome"" Sequence=""2"" Default=""FALSE"" /><CalendarViewStyle Title=""Month"" Type=""month"" Template=""CalendarViewmonthChrome"" Sequence=""3"" Default=""TRUE"" /><CalendarViewStyle Title=""Work week"" Type=""workweek"" Template=""CalendarViewweekChrome"" Sequence=""4"" Default=""FALSE"" /></CalendarViewStyles><ViewData><FieldRef Name=""LinkTitle"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekLocation"" /><FieldRef Name="""" Type=""CalendarDayLocation"" /></ViewData><Toolbar Type=""None""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","False"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery",""
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","0"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Shared Digital Assets Tracker/Renewal Calendar.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","Renewal Calendar"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData","<FieldRef Name=""LinkTitle"" Type=""CalendarMonthTitle"" /><FieldRef Name=""Title"" Type=""CalendarWeekLocation"" /><FieldRef Name="""" Type=""CalendarDayLocation"" />"
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2","MODERNCALENDAR"
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""NextRenewalDate"", ""NextRenewalDate"", ""LinkTitle"", ""Title"", ""Team"", ""TaxKeyword"""

@@ -1,0 +1,285 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Event Month Section"" width=""90"" />"
+"ContentTypeId","0x"
+"CustomFormatter","{
+  ""$schema"": ""https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json"",
+  ""groupProps"": {
+    ""headerFormatter"": {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""padding-left"": ""12px"",
+        ""font-size"": ""16px"",
+        ""font-weight"": ""400"",
+        ""cursor"": ""pointer"",
+        ""outline"": ""0px"",
+        ""white-space"": ""nowrap"",
+        ""text-overflow"": ""ellipsis""
+      },
+      ""customRowAction"": {
+        ""action"": ""defaultClick""
+      },
+      ""children"": [
+        {
+          ""elmType"": ""div"",
+          ""children"": [
+            {
+              ""elmType"": ""span"",
+              ""style"": {
+                ""padding"": ""5px 5px 5px 5px""
+              },
+              ""txtContent"": ""@group.fieldData.displayValue""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}"
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{F239C17A-FF7F-4ABA-A88A-A7949AFD8D35}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""Year View"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Events/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/events.png?rev=50""><ViewFields><FieldRef Name=""Category"" /><FieldRef Name=""Title"" /><FieldRef Name=""Description"" /><FieldRef Name=""Program"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""fAllDayEvent"" /><FieldRef Name=""Location"" /><FieldRef Name=""FreeBusy"" /><FieldRef Name=""fRecurrence"" /><FieldRef Name=""ParticipantsPicker"" /><FieldRef Name=""Created"" /><FieldRef Name=""Author"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Editor"" /><FieldRef Name=""Event_x0020_Year"" /><FieldRef Name=""Event_x0020_Month"" /></ViewFields><ViewData /><Query><GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""Event_x0020_Year"" /><FieldRef Name=""Event_x0020_Month"" /></GroupBy><OrderBy Override=""TRUE""><FieldRef Name=""EventDate"" /><FieldRef Name=""fAllDayEvent"" Ascending=""FALSE"" /></OrderBy></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">100</RowLimit><Mobile MobileItemLimit=""3"" /><ViewStyle ID=""17"" /><CustomFormatter><![CDATA[{
+  ""$schema"": ""https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json"",
+  ""groupProps"": {
+    ""headerFormatter"": {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""padding-left"": ""12px"",
+        ""font-size"": ""16px"",
+        ""font-weight"": ""400"",
+        ""cursor"": ""pointer"",
+        ""outline"": ""0px"",
+        ""white-space"": ""nowrap"",
+        ""text-overflow"": ""ellipsis""
+      },
+      ""customRowAction"": {
+        ""action"": ""defaultClick""
+      },
+      ""children"": [
+        {
+          ""elmType"": ""div"",
+          ""children"": [
+            {
+              ""elmType"": ""span"",
+              ""style"": {
+                ""padding"": ""5px 5px 5px 5px""
+              },
+              ""txtContent"": ""@group.fieldData.displayValue""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}]]></CustomFormatter><Toolbar Type=""Standard"" /><ColumnWidth><FieldRef Name=""Event Month Section"" width=""90"" /></ColumnWidth><GroupByHeader><HTML><![CDATA[<tbody id=""titl]]></HTML><GetVar Name=""GroupByLevelString"" /><HTML><![CDATA["" groupString=""]]></HTML><GetVar Name=""GroupByValueString"" /><HTML><![CDATA[""><tr><td colspan=""100""]]></HTML><Switch><Expr><GetVar Name=""GroupByIndent"" /></Expr><Case Value=""0""><HTML><![CDATA[ class=""ms-gb"" ]]></HTML></Case><Default><HTML><![CDATA[ class=""ms-gb2"" ]]></HTML></Default></Switch><HTML><![CDATA[ nowrap=""nowrap""><img src=""/_layouts/15/images/blank.gif?rev=50"" alt="""" height=""1"" width=""]]></HTML><GetVar Name=""GroupByIndent"" /><HTML><![CDATA["" /><a href=""javascript:"" onclick=""javascript:ExpCollGroup(']]></HTML><GetVar Name=""GroupByLevelString"" /><HTML><![CDATA[','img_]]></HTML><GetVar Name=""GroupByLevelString"" /><HTML><![CDATA[');return false;""><img id=""img_]]></HTML><GetVar Name=""GroupByLevelString"" /><HTML><![CDATA["" src=""/_layouts/15/images/minus.gif?rev=50"" alt=""]]></HTML><HTML>Expand/Collapse</HTML><HTML><![CDATA["" border=""0"" /></a>&#160;]]></HTML><HTML><![CDATA[<a href=""javascript:"" onclick=""javascript:ExpCollGroup(']]></HTML><GetVar Name=""GroupByLevelString"" /><HTML><![CDATA[','img_]]></HTML><GetVar Name=""GroupByLevelString"" /><HTML><![CDATA[');return false;"">]]></HTML><GetVar Name=""GroupByField"" HTMLEncode=""TRUE"" /><HTML><![CDATA[</a> :&#160;]]></HTML><GetVar Name=""GroupByValue"" /><HTML><![CDATA[</td></tr></tbody>]]></HTML></GroupByHeader><GroupByFooter><Switch><Expr><GetVar Name=""GroupByIndent"" /></Expr><Case Value=""0""><HTML><![CDATA[<tbody id=""foot]]></HTML><GetVar Name=""GroupByLevelString"" /><HTML><![CDATA[_""></tbody>]]></HTML></Case><Default /></Switch><Switch><Expr><GetVar Name=""GroupByCollapse"" /></Expr><Case Value=""TRUE""><HTML><![CDATA[<script type=""text/javascript"">ExpCollGroup(']]></HTML><GetVar Name=""GroupByLevelString"" /><HTML><![CDATA[','img_]]></HTML><GetVar Name=""GroupByLevelString"" /><HTML><![CDATA[');</script>]]></HTML></Case><Default /></Switch></GroupByFooter><ViewHeader><HTML><![CDATA[<table width=""100%"" cellspacing=""0"" cellpadding=""0"" border=""0"">]]></HTML><HTML><![CDATA[<script type=""text/javascript"">
+ctx = new ContextInfo();
+ctx.listBaseType = ]]></HTML><ListProperty Select=""BaseType"" /><HTML><![CDATA[;
+ctx.listTemplate = ]]></HTML><ListProperty Select=""ServerTemplate"" /><HTML><![CDATA[;
+ctx.listName = ]]></HTML><ScriptQuote><List /></ScriptQuote><HTML><![CDATA[;
+ctx.view = ]]></HTML><ScriptQuote><GetVar Name=""View"" /></ScriptQuote><HTML><![CDATA[;
+ctx.listUrlDir = ]]></HTML><ScriptQuote><ListUrlDir ServerRel=""TRUE"" URLEncodeAsURL=""TRUE"" /></ScriptQuote><HTML><![CDATA[;
+ctx.HttpPath = ]]></HTML><ScriptQuote><HttpPath ServerRel=""TRUE"" /></ScriptQuote><HTML><![CDATA[;
+ctx.HttpRoot = ]]></HTML><ScriptQuote><HttpVDir /></ScriptQuote><HTML><![CDATA[;
+ctx.imagesPath = ]]></HTML><ScriptQuote>/_layouts/15/images/</ScriptQuote><HTML><![CDATA[;
+ctx.PortalUrl = ]]></HTML><ScriptQuote><ProjectProperty Select=""PortalUrl"" /></ScriptQuote><HTML><![CDATA[;
+ctx.SendToLocationName = ]]></HTML><ScriptQuote><ListProperty Select=""SendToLocationName"" /></ScriptQuote><HTML><![CDATA[;
+ctx.SendToLocationUrl = ]]></HTML><ScriptQuote><ListProperty Select=""SendToLocationUrl"" /></ScriptQuote><HTML><![CDATA[;
+ctx.RecycleBinEnabled = ]]></HTML><ProjectProperty Select=""RecycleBinEnabled"" /><HTML><![CDATA[;
+ctx.OfficialFileName = ]]></HTML><ScriptQuote><ServerProperty Select=""OfficialFileName"" /></ScriptQuote><HTML><![CDATA[;
+ctx.OfficialFileNames = ]]></HTML><ScriptQuote><ServerProperty Select=""OfficialFileNames"" /></ScriptQuote><HTML><![CDATA[;
+ctx.WriteSecurity = ]]></HTML><ScriptQuote><ListProperty Select=""WriteSecurity"" /></ScriptQuote><HTML><![CDATA[;
+ctx.SiteTitle = ]]></HTML><ScriptQuote><ProjectProperty Select=""Title"" /></ScriptQuote><HTML><![CDATA[;
+ctx.ListTitle = ]]></HTML><ScriptQuote><ListProperty Select=""Title"" /></ScriptQuote><HTML><![CDATA[;
+if (ctx.PortalUrl == """") ctx.PortalUrl = null;
+ctx.displayFormUrl = ]]></HTML><ScriptQuote><URL Cmd=""DISPLAY"" NoID=""TRUE"" /></ScriptQuote><HTML><![CDATA[;
+ctx.editFormUrl = ]]></HTML><ScriptQuote><URL Cmd=""EDIT"" NoID=""TRUE"" /></ScriptQuote><HTML><![CDATA[;
+ctx.isWebEditorPreview = ]]></HTML><Switch><Expr><GetVar Name=""WebEditorPreview"" /></Expr><Case Value=""TRUE"">1</Case><Default>0</Default></Switch><HTML><![CDATA[;
+ctx.ctxId = ]]></HTML><Counter Type=""View"" /><HTML><![CDATA[;
+g_ViewIdToViewCounterMap[ ]]></HTML><ScriptQuote><GetVar Name=""View"" /></ScriptQuote><HTML><![CDATA[ ]= ]]></HTML><Counter Type=""View"" /><HTML><![CDATA[;
+ctx.CurrentUserId = ]]></HTML><UserID AllowAnonymous=""TRUE"" /><HTML><![CDATA[;
+]]></HTML><Switch><Expr><GetVar Name=""JsGrid"" /></Expr><Case Value=""1"">
+ctx.isJsGrid = true;
+</Case><Default>
+ctx.isJsGrid = false;
+</Default></Switch><Switch><Expr><ListProperty Select=""NavigateForFormsPages"" /></Expr><Case Value=""1"">
+ctx.NavigateForFormsPages = true;
+</Case><Default>
+ctx.NavigateForFormsPages = false;
+</Default></Switch><Switch><Expr><ListProperty Select=""ModeratedList"" /></Expr><Case Value=""1"">
+ctx.isModerated = true;
+</Case></Switch><Switch><Expr><ListProperty Select=""ForceCheckout"" /></Expr><Case Value=""1"">
+ctx.isForceCheckout = true;
+</Case></Switch><Switch><Expr><ListProperty Select=""EnableMinorVersions"" /></Expr><Case Value=""1"">
+ctx.EnableMinorVersions = true;
+</Case></Switch><Switch><Expr><ListProperty Select=""VersioningEnabled"" /></Expr><Case Value=""1"">
+ctx.verEnabled = 1;
+</Case></Switch><Switch><Expr><GetVar Name=""RecursiveView"" /></Expr><Case Value=""1"">
+ctx.recursiveView = true;
+</Case></Switch><Switch><Expr><ListProperty Select=""WorkflowsAssociated"" /></Expr><Case Value=""1"">
+ctx.WorkflowsAssociated = true;
+</Case></Switch><Switch><Expr><ListProperty Select=""EnableContentTypes"" /></Expr><Case Value=""1"">
+ctx.ContentTypesEnabled = true;
+</Case></Switch><HTML><![CDATA[ 
+ctx]]></HTML><Counter Type=""View"" /><HTML><![CDATA[ = ctx;
+g_ctxDict['ctx]]></HTML><Counter Type=""View"" /><HTML><![CDATA['] = ctx;
+</script>]]></HTML><HTML><![CDATA[<tr><td>]]></HTML><HTML><![CDATA[<iframe src=""javascript:false;"" id=""FilterIframe]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" name=""FilterIframe]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" style=""display:none"" height=""0"" width=""0"" title=""]]></HTML><HTML>Hidden frame to filter list</HTML><HTML><![CDATA["" FilterLink=""]]></HTML><FilterLink HTMLEncode=""TRUE"" Paged=""FALSE"" /><HTML><![CDATA[""></iframe>]]></HTML><HTML><![CDATA[<table id=""]]></HTML><WebQueryInfo /><HTML><![CDATA["" class=""ms-listviewtable ms-basictable"" width=""100%"" border=""0"" cellspacing=""0"" cellpadding=1 dir=""]]></HTML><ListProperty Select=""Direction"" HTMLEncode=""TRUE"" /><HTML><![CDATA[""><tr class=""ms-viewheadertr"" valign=""top"">]]></HTML><Fields><Switch><Expr><Property Select=""Name"" /></Expr><Case Value=""Attachments""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh-icon"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Case><Default><Switch><Expr><Property Select=""Type"" /></Expr><Case Value=""Note""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh2-nograd"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Case><Default><Switch><Expr><Property Select=""Filterable"" /></Expr><Case Value=""FALSE""><Switch><Expr><Property Select=""Sortable"" /></Expr><Case Value=""FALSE""><Switch><Expr><Property Select=""Name"" /></Expr><Case Value=""SelectedFlag""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh3-nograd"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Case><Default><Switch><Expr><Property Select=""Type"" /><Property Select=""ShowFieldImnHeader"" /><PresenceEnabled /></Expr><Case Value=""UserTRUETRUE""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Case><Case Value=""UserMultiTRUETRUE""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Case><Default><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh2-nograd"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Default></Switch></Default></Switch></Case><Default><Switch><Expr><Property Select=""SortDisable"" /></Expr><Case Value=""TRUE""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh2-nograd"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Case><Default><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh2"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Default></Switch></Default></Switch></Case><Default><Switch><Expr><Property Select=""Type"" /><Property Select=""ShowFieldImnHeader"" /><PresenceEnabled /></Expr><Case Value=""UserTRUETRUE""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Case><Case Value=""UserMultiTRUETRUE""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Case><Default><Switch><Expr><Property Select=""HeaderImage"" /></Expr><Case Value=""""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh2"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Case><Default><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh-icon"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Default></Switch></Default></Switch></Default></Switch></Default></Switch></Default></Switch></Fields><HTML><![CDATA[</tr>]]></HTML></ViewHeader><ViewBody><Switch><Expr><GetVar Name=""AlternateStyle"" /></Expr><Case Value=""1""><SetVar Scope=""Request"" Name=""AlternateStyle"">0</SetVar></Case><Default><SetVar Scope=""Request"" Name=""AlternateStyle"">1</SetVar></Default></Switch><HTML><![CDATA[<tr class=""]]></HTML><Switch><Expr><GetVar Name=""AlternateStyle"" /></Expr><Case Value=""0"">ms-alternatingstrong</Case><Default /></Switch><HTML><![CDATA["">]]></HTML><Fields><HTML><![CDATA[<td Class=""]]></HTML><FieldSwitch><Expr><Property Select=""ClassInfo"" /></Expr><Case Value=""Menu""><HTML><![CDATA[ms-vb-title"" onmouseover=""OnChildItem(this)"" height=""100%]]></HTML></Case><Case Value=""Icon"">ms-vb-icon</Case><Default><FieldSwitch><Expr><Property Select=""Type"" /><PresenceEnabled /></Expr><Case Value=""UserTRUE"">ms-vb-user</Case><Case Value=""UserMultiTRUE"">ms-vb-user</Case><Default>ms-vb2</Default></FieldSwitch></Default></FieldSwitch><HTML><![CDATA["">]]></HTML><Field /><HTML><![CDATA[</td>]]></HTML></Fields><HTML><![CDATA[</tr>]]></HTML></ViewBody><ViewFooter><HTML><![CDATA[</table>]]></HTML><HTML><![CDATA[</td></tr></table>]]></HTML></ViewFooter><PagedRowset><HTML><![CDATA[<table width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""ms-bottompaging"">
+<tr><td class=""ms-bottompagingline1""><img src=""/_layouts/15/images/blank.gif?rev=50"" width='1' height='1' alt="""" data-accessibility-nocheck=""true""/></td></tr>
+<tr><td class=""ms-bottompagingline2""><img src=""/_layouts/15/images/blank.gif?rev=50"" width='1' height='1' alt="""" data-accessibility-nocheck=""true""/></td></tr>
+<tr><td align=""center"" class=""ms-vb"" id=""bottomPagingCell]]></HTML><GetVar Name=""WPQ"" /><HTML><![CDATA[""><table>]]></HTML><Switch><Expr><GetVar Name=""PrevPageData"" /></Expr><Case Value="""" /><Default><HTML><![CDATA[<td><a href=""javascript:"" onclick='javascript:RefreshPageTo(event, ""]]></HTML><ScriptQuote NotAddingQuote=""TRUE""><PageUrl /><HTML>?</HTML><GetVar Name=""PrevPageData"" /></ScriptQuote><HTML><![CDATA["");javascript:return false;'>]]></HTML><HTML><![CDATA[<img src=""/_layouts/15/1033/images/prev.gif"" border=""0"" alt=""Previous""/></a></td>]]></HTML></Default></Switch><HTML><![CDATA[<td nowrap=""nowrap"" class=""ms-paging"">]]></HTML><IfEqual><Expr1><GetVar Name=""IsViewEmpty"" /></Expr1><Expr2>1</Expr2><Then><HTML><![CDATA[<a href=""javascript:"" onclick='javascript:RefreshPageTo(event, ""]]></HTML><ScriptQuote NotAddingQuote=""TRUE""><PageUrl /></ScriptQuote><HTML><![CDATA["");javascript:return false;'><img src=""/_layouts/15/1033/images/prev.gif"" border=""0"" alt=""Rewind""/><img src=""/_layouts/15/1033/images/prev.gif"" border=""0"" alt=""Rewind""/></a>]]></HTML></Then><Else><GetVar Name=""PageFirstRow"" HTMLEncode=""TRUE"" /><HTML><![CDATA[&#160;]]></HTML><HTML>-</HTML><HTML><![CDATA[&#160;]]></HTML><GetVar Name=""PageLastRow"" HTMLEncode=""TRUE"" /></Else></IfEqual><HTML><![CDATA[</td>]]></HTML><Switch><Expr><GetVar Name=""NextPageData"" /></Expr><Case Value="""" /><Default><HTML><![CDATA[<td><a href=""javascript:"" onclick='javascript:RefreshPageTo(event, ""]]></HTML><ScriptQuote NotAddingQuote=""TRUE""><PageUrl /><HTML>?</HTML><GetVar Name=""NextPageData"" /></ScriptQuote><HTML><![CDATA["");javascript:return false;'>]]></HTML><HTML><![CDATA[<img src=""/_layouts/15/1033/images/next.gif"" border=""0"" alt=""Next""></a></td>]]></HTML></Default></Switch><HTML><![CDATA[</tr></table></td></tr>
+<tr><td class=""ms-bottompagingline3""><img src=""/_layouts/15/images/blank.gif?rev=50"" width='1' height='1' alt="""" data-accessibility-nocheck=""true""/></td></tr>
+</table>]]></HTML><HTML><![CDATA[
+<script type=""text/javascript"">
+  var topPagingCell = document.getElementById(""topPagingCell]]></HTML><GetVar Name=""WPQ"" /><HTML><![CDATA["");
+  var bottomPagingCell = document.getElementById(""bottomPagingCell]]></HTML><GetVar Name=""WPQ"" /><HTML><![CDATA["");
+  if (topPagingCell != null && bottomPagingCell != null)
+  {
+    topPagingCell.innerHTML = bottomPagingCell.innerHTML;
+  }
+</script>
+]]></HTML></PagedRowset><PagedClientCallbackRowset><HTML><![CDATA[<tr><td></td><td align=""left"" class=""ms-vb"">]]></HTML><Switch><Expr><GetVar Name=""NextPageData"" /></Expr><Case Value="""" /><Default><HTML><![CDATA[&#160;<a href=""]]></HTML><PageUrl HTMLEncode=""TRUE"" /><HTML>?</HTML><GetVar Name=""NextPageData"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" onclick='javascript:RefreshPageTo(event, ""]]></HTML><ScriptQuote NotAddingQuote=""TRUE""><PageUrl /><HTML>?</HTML><GetVar Name=""NextPageData"" /></ScriptQuote><HTML><![CDATA["");javascript:return false;'>]]></HTML><HTML><![CDATA[more...]]></HTML><HTML><![CDATA[</a>&#160;]]></HTML></Default></Switch><HTML><![CDATA[</td></tr>]]></HTML></PagedClientCallbackRowset><PagedRecurrenceRowset><HTML><![CDATA[<table width=""100%"" border=""0""><tr><td  nowrap=""nowrap"" class=""ms-vb"">]]></HTML><Switch><Expr><GetVar Name=""PrevPageData"" /></Expr><Case Value="""" /><Default><HTML><![CDATA[&#160;<a id=""onetidPrev"" href=
+                ""javascript:"" onclick='javascript:RefreshPageTo(event, ""]]></HTML><ScriptQuote NotAddingQuote=""TRUE""><PageUrl /><HTML>?</HTML><GetVar Name=""PrevPageData"" /></ScriptQuote><HTML><![CDATA["");javascript:return false;'
+                ><img src=""/_layouts/15/1033/images/prev.gif"" border=""0"" alt=""]] /><![CDATA[Previous""></a>
+                <a href=
+                ""javascript:"" onclick='javascript:RefreshPageTo(event, ""]]></HTML><ScriptQuote NotAddingQuote=""TRUE""><PageUrl /><HTML>?</HTML><GetVar Name=""PrevPageData"" /></ScriptQuote><HTML><![CDATA["");javascript:return false;'
+                >]]></HTML><HTML>Previous</HTML><HTML><![CDATA[</a>]]></HTML></Default></Switch><HTML><![CDATA[</td><td align=""right"" nowrap=""nowrap"" class=""ms-vb"">]]></HTML><HTML /><Switch><Expr><GetVar Name=""NextPageData"" /></Expr><Case Value="""" /><Default><HTML><![CDATA[<a href=
+                ""javascript:"" onclick='javascript:RefreshPageTo(event, ""]]></HTML><ScriptQuote NotAddingQuote=""TRUE""><PageUrl /><HTML>?</HTML><GetVar Name=""NextPageData"" /></ScriptQuote><HTML><![CDATA["");javascript:return false;'
+            >]]></HTML><HTML>Next</HTML><HTML><![CDATA[</a>
+            <a id=""onetidNext"" href=
+                ""javascript:"" onclick='javascript:RefreshPageTo(event, ""]]></HTML><ScriptQuote NotAddingQuote=""TRUE""><PageUrl /><HTML>?</HTML><GetVar Name=""NextPageData"" /></ScriptQuote><HTML><![CDATA["");javascript:return false;'
+                ><img src=""/_layouts/15/1033/images/next.gif"" border=""0"" alt=""]] /><![CDATA[Next""></a>&#160;]]></HTML></Default></Switch><HTML><![CDATA[</td></tr></table>]]></HTML></PagedRecurrenceRowset><ViewEmpty><HTML><![CDATA[<script type=""text/javascript"">
+ctx = new ContextInfo();
+ctx.listBaseType = ]]></HTML><ListProperty Select=""BaseType"" /><HTML><![CDATA[;
+ctx.listTemplate = ]]></HTML><ListProperty Select=""ServerTemplate"" /><HTML><![CDATA[;
+ctx.listName = ]]></HTML><ScriptQuote><List /></ScriptQuote><HTML><![CDATA[;
+ctx.view = ]]></HTML><ScriptQuote><GetVar Name=""View"" /></ScriptQuote><HTML><![CDATA[;
+ctx.listUrlDir = ]]></HTML><ScriptQuote><ListUrlDir ServerRel=""TRUE"" URLEncodeAsURL=""TRUE"" /></ScriptQuote><HTML><![CDATA[;
+ctx.HttpPath = ]]></HTML><ScriptQuote><HttpPath ServerRel=""TRUE"" /></ScriptQuote><HTML><![CDATA[;
+ctx.HttpRoot = ]]></HTML><ScriptQuote><HttpVDir /></ScriptQuote><HTML><![CDATA[;
+ctx.imagesPath = ]]></HTML><ScriptQuote>/_layouts/15/images/</ScriptQuote><HTML><![CDATA[;
+ctx.PortalUrl = ]]></HTML><ScriptQuote><ProjectProperty Select=""PortalUrl"" /></ScriptQuote><HTML><![CDATA[;
+ctx.SendToLocationName = ]]></HTML><ScriptQuote><ListProperty Select=""SendToLocationName"" /></ScriptQuote><HTML><![CDATA[;
+ctx.SendToLocationUrl = ]]></HTML><ScriptQuote><ListProperty Select=""SendToLocationUrl"" /></ScriptQuote><HTML><![CDATA[;
+ctx.RecycleBinEnabled = ]]></HTML><ProjectProperty Select=""RecycleBinEnabled"" /><HTML><![CDATA[;
+ctx.OfficialFileName = ]]></HTML><ScriptQuote><ServerProperty Select=""OfficialFileName"" /></ScriptQuote><HTML><![CDATA[;
+ctx.OfficialFileNames = ]]></HTML><ScriptQuote><ServerProperty Select=""OfficialFileNames"" /></ScriptQuote><HTML><![CDATA[;
+ctx.WriteSecurity = ]]></HTML><ScriptQuote><ListProperty Select=""WriteSecurity"" /></ScriptQuote><HTML><![CDATA[;
+ctx.SiteTitle = ]]></HTML><ScriptQuote><ProjectProperty Select=""Title"" /></ScriptQuote><HTML><![CDATA[;
+ctx.ListTitle = ]]></HTML><ScriptQuote><ListProperty Select=""Title"" /></ScriptQuote><HTML><![CDATA[;
+if (ctx.PortalUrl == """") ctx.PortalUrl = null;
+ctx.displayFormUrl = ]]></HTML><ScriptQuote><URL Cmd=""DISPLAY"" NoID=""TRUE"" /></ScriptQuote><HTML><![CDATA[;
+ctx.editFormUrl = ]]></HTML><ScriptQuote><URL Cmd=""EDIT"" NoID=""TRUE"" /></ScriptQuote><HTML><![CDATA[;
+ctx.isWebEditorPreview = ]]></HTML><Switch><Expr><GetVar Name=""WebEditorPreview"" /></Expr><Case Value=""TRUE"">1</Case><Default>0</Default></Switch><HTML><![CDATA[;
+ctx.ctxId = ]]></HTML><Counter Type=""View"" /><HTML><![CDATA[;
+g_ViewIdToViewCounterMap[ ]]></HTML><ScriptQuote><GetVar Name=""View"" /></ScriptQuote><HTML><![CDATA[ ]= ]]></HTML><Counter Type=""View"" /><HTML><![CDATA[;
+ctx.CurrentUserId = ]]></HTML><UserID AllowAnonymous=""TRUE"" /><HTML><![CDATA[;
+]]></HTML><Switch><Expr><GetVar Name=""JsGrid"" /></Expr><Case Value=""1"">
+ctx.isJsGrid = true;
+</Case><Default>
+ctx.isJsGrid = false;
+</Default></Switch><Switch><Expr><ListProperty Select=""NavigateForFormsPages"" /></Expr><Case Value=""1"">
+ctx.NavigateForFormsPages = true;
+</Case><Default>
+ctx.NavigateForFormsPages = false;
+</Default></Switch><Switch><Expr><ListProperty Select=""ModeratedList"" /></Expr><Case Value=""1"">
+ctx.isModerated = true;
+</Case></Switch><Switch><Expr><ListProperty Select=""ForceCheckout"" /></Expr><Case Value=""1"">
+ctx.isForceCheckout = true;
+</Case></Switch><Switch><Expr><ListProperty Select=""EnableMinorVersions"" /></Expr><Case Value=""1"">
+ctx.EnableMinorVersions = true;
+</Case></Switch><Switch><Expr><ListProperty Select=""VersioningEnabled"" /></Expr><Case Value=""1"">
+ctx.verEnabled = 1;
+</Case></Switch><Switch><Expr><GetVar Name=""RecursiveView"" /></Expr><Case Value=""1"">
+ctx.recursiveView = true;
+</Case></Switch><Switch><Expr><ListProperty Select=""WorkflowsAssociated"" /></Expr><Case Value=""1"">
+ctx.WorkflowsAssociated = true;
+</Case></Switch><Switch><Expr><ListProperty Select=""EnableContentTypes"" /></Expr><Case Value=""1"">
+ctx.ContentTypesEnabled = true;
+</Case></Switch><HTML><![CDATA[ 
+ctx]]></HTML><Counter Type=""View"" /><HTML><![CDATA[ = ctx;
+g_ctxDict['ctx]]></HTML><Counter Type=""View"" /><HTML><![CDATA['] = ctx;
+</script>]]></HTML><HTML><![CDATA[<iframe src=""javascript:false;"" id=""FilterIframe]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" name=""FilterIframe]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" style=""display:none"" height=""0"" width=""0"" title=""]]></HTML><HTML>Hidden frame to filter list</HTML><HTML><![CDATA["" FilterLink=""]]></HTML><FilterLink HTMLEncode=""TRUE"" Paged=""FALSE"" /><HTML><![CDATA[""></iframe>]]></HTML><HTML><![CDATA[<table id=""onetidDoclibViewTbl0"" summary=""]]></HTML><ListProperty Select=""Title"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" width=""100%"" ]]></HTML><HTML><![CDATA[border=0 dir=""]]></HTML><ListProperty Select=""Direction"" HTMLEncode=""TRUE"" /><HTML><![CDATA[""><tr class=""ms-viewheadertr"">]]></HTML><Fields><Switch><Expr><Property Select=""Name"" /></Expr><Case Value=""Attachments""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh-icon"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Case><Default><Switch><Expr><Property Select=""Type"" /></Expr><Case Value=""Note""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh2-nograd"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Case><Default><Switch><Expr><Property Select=""Filterable"" /></Expr><Case Value=""FALSE""><Switch><Expr><Property Select=""Sortable"" /></Expr><Case Value=""FALSE""><Switch><Expr><Property Select=""Name"" /></Expr><Case Value=""SelectedFlag""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh3-nograd"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Case><Default><Switch><Expr><Property Select=""Type"" /><Property Select=""ShowFieldImnHeader"" /><PresenceEnabled /></Expr><Case Value=""UserTRUETRUE""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Case><Case Value=""UserMultiTRUETRUE""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Case><Default><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh2-nograd"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Default></Switch></Default></Switch></Case><Default><Switch><Expr><Property Select=""SortDisable"" /></Expr><Case Value=""TRUE""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh2-nograd"">]]></HTML><Field /><HTML><![CDATA[</th>]]></HTML></Case><Default><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh2"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Default></Switch></Default></Switch></Case><Default><Switch><Expr><Property Select=""Type"" /><Property Select=""ShowFieldImnHeader"" /><PresenceEnabled /></Expr><Case Value=""UserTRUETRUE""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Case><Case Value=""UserMultiTRUETRUE""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Case><Default><Switch><Expr><Property Select=""HeaderImage"" /></Expr><Case Value=""""><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh2"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Case><Default><HTML><![CDATA[<th nowrap=""nowrap"" scope=""col"" onmouseover=""OnChildColumn(this)"" class=""ms-headerCellStyleNormal ms-vh-icon"">]]></HTML><IfEqual><Expr1><GetVar Name=""Plain"" /></Expr1><Expr2>TRUE</Expr2><Then><Field /></Then><Else><HTML><![CDATA[<div ]]></HTML><HTML><![CDATA[Sortable=""]]></HTML><Property Select=""Sortable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortDisable=""]]></HTML><GetVar Name=""SortDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FilterDisable=""]]></HTML><GetVar Name=""FilterDisable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" Filterable=""]]></HTML><Property Select=""Filterable"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" name=""]]></HTML><Property Select=""Name"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" CtxNum=""]]></HTML><Counter Type=""View"" /><HTML><![CDATA["" DisplayName=""]]></HTML><Property Select=""DisplayName"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" FieldType=""]]></HTML><Property Select=""Type"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" ResultType=""]]></HTML><Property Select=""ResultType"" HTMLEncode=""TRUE"" /><HTML><![CDATA["" SortFields=""]]></HTML><FieldSortParams HTMLEncode=""TRUE"" /><HTML><![CDATA[""]]></HTML><HTML><![CDATA[>]]></HTML><Field /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=""s4-ctx"">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=""OnChildColumn(this.parentNode.parentNode); return false;"" class=""ms-headerSortArrowLink"" onclick=""PopMenuFromChevron(event); return false;"" href=""javascript:;"" title=""Open Menu""></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Else></IfEqual><HTML><![CDATA[</th>]]></HTML></Default></Switch></Default></Switch></Default></Switch></Default></Switch></Default></Switch></Fields><HTML><![CDATA[</tr>]]></HTML><HTML><![CDATA[</table>]]></HTML><HTML><![CDATA[<table ]]></HTML><HTML><![CDATA[ width=""100%"" ]]></HTML><HTML><![CDATA[ border=""0"" ><tr>]]></HTML><HTML><![CDATA[<td Class=""ms-vb""> ]]></HTML><HTML>There are no items to show in this view of the ""</HTML><ListProperty Select=""Title"" HTMLEncode=""TRUE"" /><HTML>"" list.  To add a new item, click ""New item"".</HTML><HTML><![CDATA[</td>]]></HTML><HTML><![CDATA[</tr></table>]]></HTML></ViewEmpty><Script>
+            g_RequiredFields[17] = new Array;
+        </Script><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","f239c17a-ff7f-4aba-a88a-a7949afd8d35"
+"ImageUrl","/_layouts/15/images/events.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{F239C17A-FF7F-4ABA-A88A-A7949AFD8D35}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""Year View"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Events/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/events.png?rev=50"" ><Query><GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""Event_x0020_Year"" /><FieldRef Name=""Event_x0020_Month"" /></GroupBy><OrderBy Override=""TRUE""><FieldRef Name=""EventDate"" /><FieldRef Name=""fAllDayEvent"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""Category"" /><FieldRef Name=""Title"" /><FieldRef Name=""Description"" /><FieldRef Name=""Program"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""fAllDayEvent"" /><FieldRef Name=""Location"" /><FieldRef Name=""FreeBusy"" /><FieldRef Name=""fRecurrence"" /><FieldRef Name=""ParticipantsPicker"" /><FieldRef Name=""Created"" /><FieldRef Name=""Author"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Editor"" /><FieldRef Name=""Event_x0020_Year"" /><FieldRef Name=""Event_x0020_Month"" /></ViewFields><RowLimit Paged=""TRUE"">100</RowLimit><Aggregations Value=""Off"" /><ViewStyle ID=""17"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CustomFormatter><![CDATA[{
+  ""$schema"": ""https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json"",
+  ""groupProps"": {
+    ""headerFormatter"": {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""padding-left"": ""12px"",
+        ""font-size"": ""16px"",
+        ""font-weight"": ""400"",
+        ""cursor"": ""pointer"",
+        ""outline"": ""0px"",
+        ""white-space"": ""nowrap"",
+        ""text-overflow"": ""ellipsis""
+      },
+      ""customRowAction"": {
+        ""action"": ""defaultClick""
+      },
+      ""children"": [
+        {
+          ""elmType"": ""div"",
+          ""children"": [
+            {
+              ""elmType"": ""span"",
+              ""style"": {
+                ""padding"": ""5px 5px 5px 5px""
+              },
+              ""txtContent"": ""@group.fieldData.displayValue""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}]]></CustomFormatter><ColumnWidth><FieldRef Name=""Event Month Section"" width=""90"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""Event_x0020_Year"" /><FieldRef Name=""Event_x0020_Month"" /></GroupBy><OrderBy Override=""TRUE""><FieldRef Name=""EventDate"" /><FieldRef Name=""fAllDayEvent"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","100"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Events/AllItems.aspx"
+"StyleId","17"
+"TabularView","True"
+"Threaded","False"
+"Title","Year View"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""Category"", ""Title"", ""Description"", ""Program"", ""TaxKeyword"", ""EventDate"", ""EndDate"", ""fAllDayEvent"", ""Location"", ""FreeBusy"", ""fRecurrence"", ""ParticipantsPicker"", ""Created"", ""Author"", ""Modified"", ""Editor"", ""Event_x0020_Year"", ""Event_x0020_Month"""

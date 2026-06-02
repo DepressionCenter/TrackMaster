@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{25FA48F8-99C8-4E01-867D-F3B4030ADBA3}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Forms"" Url=""/sites/DepressionCenter-TrackMaster/FormServerTemplates/Forms/All Forms.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=47""><Toolbar Type=""Standard"" /><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""FormName"" /><FieldRef Name=""FormDescription"" /></ViewFields><Query><GroupBy Collapse=""FALSE""><FieldRef Name=""FormCategory"" /></GroupBy><OrderBy><FieldRef Name=""FormName"" /></OrderBy><Where><Neq><FieldRef Name=""ShowInCatalog"" /><Value Type=""Boolean"">0</Value></Neq></Where></Query><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noitemsinview_doclibrary)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noitemsinview_doclibrary_howto2)"" /></ParameterBindings></View>"
+"Id","25fa48f8-99c8-4e01-867d-f3b4030adba3"
+"ImageUrl","/_layouts/15/images/dlicon.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{25FA48F8-99C8-4E01-867D-F3B4030ADBA3}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Forms"" Url=""/sites/DepressionCenter-TrackMaster/FormServerTemplates/Forms/All Forms.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=47"" ><Query><GroupBy Collapse=""FALSE""><FieldRef Name=""FormCategory"" /></GroupBy><OrderBy><FieldRef Name=""FormName"" /></OrderBy><Where><Neq><FieldRef Name=""ShowInCatalog"" /><Value Type=""Boolean"">0</Value></Neq></Where></Query><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""FormName"" /><FieldRef Name=""FormDescription"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy Collapse=""FALSE""><FieldRef Name=""FormCategory"" /></GroupBy><OrderBy><FieldRef Name=""FormName"" /></OrderBy><Where><Neq><FieldRef Name=""ShowInCatalog"" /><Value Type=""Boolean"">0</Value></Neq></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/FormServerTemplates/Forms/All Forms.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Forms"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""DocIcon"", ""LinkFilename"", ""FormName"", ""FormDescription"""

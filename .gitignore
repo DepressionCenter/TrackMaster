@@ -1,0 +1,19 @@
+# AI assistant working files
+.claude/
+.gemini/
+.codex/
+.aider*
+*.aider
+.copilot/
+.cursor/
+
+# VS Code
+.vscode/
+
+# Temporary / staging
+tmp/
+*.tmp
+
+# OS metadata
+.DS_Store
+Thumbs.db

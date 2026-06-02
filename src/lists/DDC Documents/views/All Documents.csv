@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",
+"AggregationsStatus",
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{9EA9409E-A458-436E-991B-FBF573E3E1C9}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Documents"" Url=""/sites/DepressionCenter-TrackMaster/DDC Documents/Forms/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=50""><Toolbar Type=""Standard"" /><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""_ExtendedDescription"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Editor"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noitemsinview_doclibrary)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noitemsinview_doclibrary_howto2)"" /></ParameterBindings><Query><OrderBy><FieldRef Name=""FileLeafRef"" /></OrderBy></Query></View>"
+"Id","9ea9409e-a458-436e-991b-fbf573e3e1c9"
+"ImageUrl","/_layouts/15/images/dlicon.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{9EA9409E-A458-436E-991B-FBF573E3E1C9}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Documents"" Url=""/sites/DepressionCenter-TrackMaster/DDC Documents/Forms/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/dlicon.png?rev=50"" ><Query><OrderBy><FieldRef Name=""FileLeafRef"" /></OrderBy></Query><ViewFields><FieldRef Name=""DocIcon"" /><FieldRef Name=""LinkFilename"" /><FieldRef Name=""_ExtendedDescription"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Editor"" /><FieldRef Name=""TaxKeyword"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""FileLeafRef"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/DDC Documents/Forms/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Documents"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""DocIcon"", ""LinkFilename"", ""_ExtendedDescription"", ""Modified"", ""Editor"", ""TaxKeyword"""

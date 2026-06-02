@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Notes"" width=""339.0499267578125"" /><FieldRef Name=""Tags"" width=""157.5999755859375"" /><FieldRef Name=""Referral Status"" width=""120.5999755859375"" /><FieldRef Name=""Referred To"" width=""184.5999755859375"" /><FieldRef Name=""Referred By"" width=""159.5999755859375"" /><FieldRef Name=""Client Job Title"" width=""161.60000610351562"" /><FieldRef Name=""Assignee"" width=""151.3194580078125"" />"
+"ContentTypeId","0x"
+"CustomFormatter",""
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{9FCFEFE3-536C-49CD-A57C-204EAAB3CF39}"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Referrals/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""ReferredToTeam"" /></GroupBy><OrderBy><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Client"" /><FieldRef Name=""Client_x003a_Job_x0020_Title"" /><FieldRef Name=""ReferredByTeam"" /><FieldRef Name=""ReferredToTeam"" /><FieldRef Name=""Assignee"" /><FieldRef Name=""ReferralStatus"" /><FieldRef Name=""FollowUpDate"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /></ViewFields><CustomFormatter /><ColumnWidth><FieldRef Name=""Notes"" width=""339.0499267578125"" /><FieldRef Name=""Tags"" width=""157.5999755859375"" /><FieldRef Name=""Referral Status"" width=""120.5999755859375"" /><FieldRef Name=""Referred To"" width=""184.5999755859375"" /><FieldRef Name=""Referred By"" width=""159.5999755859375"" /><FieldRef Name=""Client Job Title"" width=""161.60000610351562"" /><FieldRef Name=""Assignee"" width=""151.3194580078125"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","9fcfefe3-536c-49cd-a57c-204eaab3cf39"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{9FCFEFE3-536C-49CD-A57C-204EAAB3CF39}"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Referrals/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""ReferredToTeam"" /></GroupBy><OrderBy><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Client"" /><FieldRef Name=""Client_x003a_Job_x0020_Title"" /><FieldRef Name=""ReferredByTeam"" /><FieldRef Name=""ReferredToTeam"" /><FieldRef Name=""Assignee"" /><FieldRef Name=""ReferralStatus"" /><FieldRef Name=""FollowUpDate"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notes"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CustomFormatter /><ColumnWidth><FieldRef Name=""Notes"" width=""339.0499267578125"" /><FieldRef Name=""Tags"" width=""157.5999755859375"" /><FieldRef Name=""Referral Status"" width=""120.5999755859375"" /><FieldRef Name=""Referred To"" width=""184.5999755859375"" /><FieldRef Name=""Referred By"" width=""159.5999755859375"" /><FieldRef Name=""Client Job Title"" width=""161.60000610351562"" /><FieldRef Name=""Assignee"" width=""151.3194580078125"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<GroupBy Collapse=""FALSE"" GroupLimit=""30""><FieldRef Name=""ReferredToTeam"" /></GroupBy><OrderBy><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Referrals/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""Client"", ""Client_x003a_Job_x0020_Title"", ""ReferredByTeam"", ""ReferredToTeam"", ""Assignee"", ""ReferralStatus"", ""FollowUpDate"", ""TaxKeyword"", ""Notes"""

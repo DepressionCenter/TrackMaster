@@ -1,0 +1,113 @@
+"ID","ColumnDisplayName","ColumnInternalName","Required","ColumnTye","Description","Format","MaxLength","EnforceUniqueValues","Indexed","ValidationFormula","DefaultValue","DefaultFormula","CustomFormatter"
+"fa564e0f-0c70-4ab9-b863-0177e6ddd247","Team Name","Title","True","Text","The name of this team. This field is shown in referrals and reports.",,"255","True","True",,,,
+"4ba746cf-9f3b-4194-8778-5f0994bee11d","Description","Description","False","Text","A short description of the team.",,"255","False","False",,,,
+"492ea444-cb0c-4080-899c-ca6c9fbafb66","Shared Drive","Team_x0020_Drive","False","URL","Link to this team's shared drive (e.g. Google Drive, OneDrive, Dropbox, SharePoint Library).",,,"False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""style"":{""text-align"":""center"",""vertical-align"":""middle"",""display"":""=if(@currentField=='','none','inheirt')""},""children"":[{""elmType"":""a"",""style"":{""text-align"":""center"",""vertical-align"":""middle""},""attributes"":{""href"":""@currentField"",""target"":""_blank"",""title"":""=if(@currentField=='', ' (not set) ', if(@currentField.desc=='' || @currentField.desc==@currentField,'Click to open',@currentField.desc))"",""class"":""ms-fontSize-18""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""=if(@currentField=='', 'none', 'FabricNetworkFolder')""},""style"":{""text-align"":""center"",""vertical-align"":""middle"",""text-decoration"":""none"",""padding-left"":""2px"",""padding-right"":""3px"",""class"":""ms-fontSize-18""}},{""elmType"":""span"",""txtContent"":""=if(@currentField=='', '', 'Shared Drive')"",""attributes"":{""class"":""ms-fontSize-12""},""style"":{""padding-left"":""3px"",""padding-right"":""2px"",""vertical-align"":""middle""}}]}]}"
+"27dbfa26-7eec-438c-b5a7-11097ec815b7","Web Page","Team_x0020_WebPage","False","URL","Link to the team's web page.",,,"False","False",,,,
+"d0fd6498-e5d6-45b3-bede-82eceadb9b8f","Slack","Slack","False","URL","A link to this team's Slack workspace.",,,"False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""style"":{""text-align"":""center"",""vertical-align"":""middle"",""display"":""=if(@currentField=='','none','inheirt')""},""children"":[{""elmType"":""a"",""style"":{""text-align"":""center"",""vertical-align"":""middle""},""attributes"":{""href"":""@currentField"",""target"":""_blank"",""title"":""=if(@currentField=='', ' (not set) ', if(@currentField.desc=='' || @currentField.desc==@currentField,'Click to open',@currentField.desc))"",""class"":""ms-fontSize-18""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""=if(@currentField=='', 'none', 'OfficeChat')""},""style"":{""text-align"":""center"",""vertical-align"":""middle"",""text-decoration"":""none"",""padding-left"":""2px"",""padding-right"":""3px"",""class"":""ms-fontSize-18""}},{""elmType"":""span"",""txtContent"":""=if(@currentField=='', '', 'Slack Channel')"",""attributes"":{""class"":""ms-fontSize-12""},""style"":{""padding-left"":""3px"",""padding-right"":""2px"",""vertical-align"":""middle""}}]}]}"
+"cec0057f-32c6-46c2-945c-085598e78043","Teams Account","Teams","False","User","The Microsoft Teams account for this team.",,,"True","True",,,,
+"9fa58ccb-c983-4151-977f-8dc771e0baaf","GitHub","GitHub","False","URL","A link to this team's GitHub or GitLab repo. You can enter the full URL (e.g. https://github.com/DepressionCenter) or just the @ name (e.g. @DepressionCenter).",,,"False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""style"":{""text-align"":""center"",""vertical-align"":""middle"",""display"":""=if(@currentField=='','none','inheirt')""},""children"":[{""elmType"":""a"",""style"":{""text-align"":""center"",""vertical-align"":""middle""},""attributes"":{""href"":""@currentField"",""target"":""_blank"",""title"":""=if(@currentField=='', ' (not set) ', if(@currentField.desc=='' || @currentField.desc==@currentField,'Click to open',@currentField.desc))"",""class"":""ms-fontSize-18""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""=if(@currentField=='', 'none', 'FileCode')""},""style"":{""text-align"":""center"",""vertical-align"":""middle"",""text-decoration"":""none"",""padding-left"":""2px"",""padding-right"":""3px"",""class"":""ms-fontSize-18""}},{""elmType"":""span"",""txtContent"":""=if(@currentField=='', '', 'View Repo')"",""attributes"":{""class"":""ms-fontSize-12""},""style"":{""padding-left"":""3px"",""padding-right"":""2px"",""vertical-align"":""middle""}}]}]}"
+"10c61d7d-6b0b-499f-9256-c2b90290a20d","Team Calendar","Team_x0020_Calendar","False","URL","A link to this team's calendar.",,,"False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""style"":{""text-align"":""center"",""vertical-align"":""middle"",""display"":""=if(@currentField=='','none','inheirt')""},""children"":[{""elmType"":""a"",""style"":{""text-align"":""center"",""vertical-align"":""middle""},""attributes"":{""href"":""@currentField"",""target"":""_top"",""title"":""=if(@currentField=='', ' (not set) ', if(@currentField.desc=='' || @currentField.desc==@currentField,'Click to open',@currentField.desc))"",""class"":""ms-fontSize-18""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""=if(@currentField=='', 'none', 'Calendar')""},""style"":{""text-align"":""center"",""vertical-align"":""middle"",""text-decoration"":""none"",""padding-left"":""2px"",""padding-right"":""3px"",""class"":""ms-fontSize-18""}},{""elmType"":""span"",""txtContent"":""=if(@currentField=='', '', 'Calendar')"",""attributes"":{""class"":""ms-fontSize-12""},""style"":{""padding-left"":""3px"",""padding-right"":""2px"",""vertical-align"":""middle""}}]}]}"
+"f0b5bae3-1772-4ae4-b5db-42da1b34782a","MCommunity Group","MCommunity_x0020_Group","False","Text","The MCommunity group email address, if applicable (e.g. efdc-mtc@umich.edu).",,"255","False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""style"":{""text-align"":""center"",""vertical-align"":""middle"",""display"":""=if(@currentField=='','none','inheirt')""},""children"":[{""elmType"":""a"",""style"":{""text-align"":""center"",""vertical-align"":""middle""},""attributes"":{""href"":""='https://mcommunity.umich.edu/?base=groups&value=' + @currentField"",""target"":""_blank"",""title"":""=if(@currentField=='', ' (not set) ', 'Open in MCommunity')"",""class"":""ms-fontSize-18""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""=if(@currentField=='', 'none', 'People')""},""style"":{""text-align"":""center"",""vertical-align"":""middle"",""text-decoration"":""none"",""padding-left"":""2px"",""padding-right"":""3px"",""class"":""ms-fontSize-18""}},{""elmType"":""span"",""txtContent"":""=if(@currentField=='', '', @currentField)"",""attributes"":{""class"":""ms-fontSize-12""},""style"":{""padding-left"":""3px"",""padding-right"":""2px"",""vertical-align"":""middle""}}]}]}"
+"19b79048-bf31-4b20-a3be-1d5bad3d1918","Team Leader","Team_x0020_Leader","True","Lookup","The primary lead for this team or core (required). Used for some email notifications and automations.",,,"False","False",,,,
+"8caeda7b-0432-4e6a-a962-9dc2113d88c7","Faculty Leads","FacultyLeads","False","LookupMulti","The faculty lead (or co-leads) for this team, if applicable.",,,"False","False",,,,
+"e9b89faa-076e-4db0-95cf-b90f2b763345","Team Members","TeamMembers","False","LookupMulti","List of team members (must be in People list as well). This field is kept separate from the Team Member Accounts field because not all team members may have a Michigan Medicine (U-M level-2) login.",,,"False","False",,,,
+"28551898-5587-42d0-98cb-d65eb74aa45d","Team Member Accounts","TeamMembersAccounts","False","UserMulti","MS Teams accounts of the members of this team, if available. This field is kept separate from the Team Members field because not all team members may have a Michigan Medicine (U-M level-2) login.",,,"False","False",,,,
+"23f27201-bee3-471e-b2e7-b64fd8b7ca38","Tags","TaxKeyword","False","TaxonomyFieldTypeMulti","Custom tags and keywords for searching.",,,"False","False",,,,"{
+  ""$schema"": ""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",
+  ""elmType"": ""div"",
+  ""style"": {
+    ""display"": ""flex"",
+    ""flex-wrap"": ""wrap"",
+    ""width"": ""100%""
+  },
+  ""children"": [
+    {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""margin"": ""4px"",
+        ""padding"": ""4px 8px 4px 8px"",
+        ""border-radius"": ""10px""
+      },
+      ""attributes"": {
+        ""class"": ""ms-bgColor-themeLighterAlt ms-bgColor-themeDarkAlt--hover ms-fontColor-themeLighterAlt--hover""
+      },
+      ""forEach"": ""tag in @currentField"",
+      ""children"": [
+        {
+          ""elmType"": ""div"",
+          ""style"": {
+            ""vertical-align"": ""middle"",
+            ""white-space"": ""nowrap"",
+            ""width"": ""auto""
+          },
+          ""attributes"": {
+            ""class"": ""ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs""
+          },
+		  ""children"": [
+		  {
+			  ""elmType"": ""a"",
+			  ""attributes"": {
+				""href"": ""=@currentWeb + '/_layouts/15/search.aspx/siteall?q=tags:\""' + [$tag] + '\""'"",
+				""target"": ""_blank"",
+				""class"": ""ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs""
+              },
+			  ""style"":{
+				  ""text-decoration"": ""none""
+			  },
+			  ""children"": [
+				{
+				  ""elmType"": ""span"",
+				  ""style"": {
+					""position"": ""relative"",
+					""top"": ""2px"",
+					""text-decoration"": ""none""
+				  },
+				  ""attributes"": {
+					""iconName"": ""Tag""
+				  }
+				},
+				{
+				  ""elmType"": ""span"",
+				  ""style"": {
+					""padding-left"": ""4px""
+				  },
+				  ""txtContent"": ""[$tag]""
+				}
+			  ]
+			}
+			]
+		}
+	  ]
+    }
+  ]
+}"
+"0f259119-6b14-412f-8422-bec313fab325","Active","Active","False","Boolean","Indicates whether this record is active (enabled). Inactive records are hidden by default, and are not used in any automations.",,,"False","False",,"1",,
+"82642ec8-ef9b-478f-acf9-31f7d45fbc31","Team Name","LinkTitle","False","Computed","",,,"False","False",,,,
+"76d13cd2-1bae-45a5-8b74-545b87b65037","Color Tag","_ColorTag","False","Text","",,"255","False","False",,,,
+"3a6b296c-3f50-445c-a13f-9c679ea9dda3","Compliance Asset Id","ComplianceAssetId","False","Text","",,"255","False","False",,,,
+"bc91a437-52e7-49e1-8c4e-4698904b2b6d","Team Name","LinkTitleNoMenu","False","Computed","",,,"False","False",,,,
+"b852ec38-3b45-4a0a-83d2-96d0257a0cab","Team Leader Email","Team_x0020_Leader_x003a_Email","False","Lookup","The email address of the primary lead for this team or core. Used for automations.",,,"False","False",,,,
+"e30aeedf-bdee-498f-8cea-6042eec55f54","Team Members:_SysProfile","Team_x0020_Members_x003a__SysPro","False","LookupMulti","",,,"False","False",,,,
+"d1899000-e972-4ee2-a018-0a98ec61cb46","Team Member UniqNames","Team_x0020_Members_x003a_UniqNam","False","LookupMulti","",,,"False","False",,,,
+"fa66fa4d-04e7-42fd-b9e7-fbea085c2e25","Faculty Lead UniqNames","Faculty_x0020_Leads_x003a_UniqNa","False","LookupMulti","",,,"False","False",,,,
+"d7513dc9-6f49-4cba-9099-097d40e79684","Team Leader UniqName","Team_x0020_Leader_x003a_UniqName","False","Lookup","",,,"False","False",,,,
+"cb97f5de-7c96-41a4-bc10-5f3ccef5c597","_hiddenTeamMemberEmails","_hiddenTeamMemberEmails","False","Text","Contains the M365-linked email addresses (Michigan Medicine emails) of those team members who have a level-2 account. This can be used in other lists to create filters based on the person viewing the list.",,"255","False","False",,,,
+"1d22ea11-1e32-424e-89ab-9fedbadb6ce1","ID","ID","False","Counter","",,,"False","False",,,,
+"c042a256-787d-4a6f-8a8a-cf6ab767f12d","Content Type","ContentType","False","Computed","",,,"False","False",,,,
+"28cf69c5-fa48-462a-b5cd-27b6f9d2bd5f","Modified","Modified","False","DateTime","",,,"False","False",,,,
+"8c06beca-0777-48f7-91c7-6da68bc07b69","Created","Created","False","DateTime","",,,"False","False",,,,
+"1df5e554-ec7e-46a6-901d-d85a3881cb18","Created By","Author","False","User","",,,"False","False",,,,
+"d31655d1-1d5b-4511-95a1-7a09e9b75bf2","Modified By","Editor","False","User","",,,"False","False",,,,
+"dce8262a-3ae9-45aa-aab4-83bd75fb738a","Version","_UIVersionString","False","Text","",,"255","False","False",,,,
+"67df98f4-9dec-48ff-a553-29bece9c5bf4","Attachments","Attachments","False","Attachments","",,,"False","False",,,,
+"503f1caa-358e-4918-9094-4a2cdc4bc034","Edit","Edit","False","Computed","",,,"False","False",,,,
+"081c6e4c-5c14-4f20-b23e-1a71ceb6a67c","Type","DocIcon","False","Computed","",,,"False","False",,,,
+"b824e17e-a1b3-426e-aecf-f0184d900485","Item Child Count","ItemChildCount","False","Lookup","",,,"False","False",,,,
+"960ff01f-2b6d-4f1b-9c3f-e19ad8927341","Folder Child Count","FolderChildCount","False","Lookup","",,,"False","False",,,,
+"ccc1037f-f65e-434a-868e-8c98af31fe29","Label setting","_ComplianceFlags","False","Lookup","",,,"False","False",,,,
+"d4b6480a-4bed-4094-9a52-30181ea38f1d","Retention label","_ComplianceTag","False","Lookup","",,,"False","False",,,,
+"92be610e-ddbb-49f4-b3b1-5c2bc768df8f","Retention label Applied","_ComplianceTagWrittenTime","False","Lookup","",,,"False","False",,,,
+"418d7676-2d6f-42cf-a16a-e43d2971252a","Label applied by","_ComplianceTagUserId","False","Lookup","",,,"False","False",,,,
+"8382d247-72a9-44b1-9794-7b177edc89f3","Item is a Record","_IsRecord","False","Computed","",,,"False","False",,,,
+"6bfaba20-36bf-44b5-a1b2-eb6346d49716","App Created By","AppAuthor","False","Lookup","",,,"False","False",,,,
+"e08400f3-c779-4ed2-a18c-ab7f34caa318","App Modified By","AppEditor","False","Lookup","",,,"False","False",,,,

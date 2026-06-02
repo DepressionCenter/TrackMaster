@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Consultation Type"" width=""240.1111068725586"" /><FieldRef Name=""Project Team"" width=""171"" /><FieldRef Name=""Project PI or Contact"" width=""169"" /><FieldRef Name=""Consultation Date"" width=""170"" /><FieldRef Name=""Follow Up Deadline"" width=""171.625"" /><FieldRef Name=""Notes"" width=""359"" /><FieldRef Name=""Team"" width=""217.625"" /><FieldRef Name=""Program"" width=""209.625"" /><FieldRef Name=""Tags"" width=""303"" /><FieldRef Name=""School Affiliation"" width=""192.47723388671875"" /><FieldRef Name=""Assignee"" width=""177.84722900390625"" /><FieldRef Name=""Project PI or Main Contact"" width=""179.10000610351562"" /><FieldRef Name=""Attendees"" width=""164.10000610351562"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{45756E48-863A-4D60-BEAD-B589A4409A9F}"" Type=""HTML"" DisplayName=""_Summary"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Engagement History/Summary.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""ServicesReceived"" /><FieldRef Name=""Recipient"" /><FieldRef Name=""PI"" /><FieldRef Name=""Date"" /><FieldRef Name=""Status"" /><FieldRef Name=""Assignee"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP0"" /><FieldRef Name=""FollowUpDate"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notebook"" /><FieldRef Name=""Project_x0020_PI_x0020_or_x0020_"" /><FieldRef Name=""FiscalYear"" /><FieldRef Name=""CalendarYear"" /></ViewFields><ColumnWidth><FieldRef Name=""Consultation Type"" width=""240.1111068725586"" /><FieldRef Name=""Project Team"" width=""171"" /><FieldRef Name=""Project PI or Contact"" width=""169"" /><FieldRef Name=""Consultation Date"" width=""170"" /><FieldRef Name=""Follow Up Deadline"" width=""171.625"" /><FieldRef Name=""Notes"" width=""359"" /><FieldRef Name=""Team"" width=""217.625"" /><FieldRef Name=""Program"" width=""209.625"" /><FieldRef Name=""Tags"" width=""303"" /><FieldRef Name=""School Affiliation"" width=""192.47723388671875"" /><FieldRef Name=""Assignee"" width=""177.84722900390625"" /><FieldRef Name=""Project PI or Main Contact"" width=""179.10000610351562"" /><FieldRef Name=""Attendees"" width=""164.10000610351562"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","45756e48-863a-4d60-bead-b589a4409a9f"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{45756E48-863A-4D60-BEAD-B589A4409A9F}"" Type=""HTML"" DisplayName=""_Summary"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Engagement History/Summary.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""ServicesReceived"" /><FieldRef Name=""Recipient"" /><FieldRef Name=""PI"" /><FieldRef Name=""Date"" /><FieldRef Name=""Status"" /><FieldRef Name=""Assignee"" /><FieldRef Name=""Notes"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP"" /><FieldRef Name=""Service_x0020_Type_x003a_hiddenP0"" /><FieldRef Name=""FollowUpDate"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""Notebook"" /><FieldRef Name=""Project_x0020_PI_x0020_or_x0020_"" /><FieldRef Name=""FiscalYear"" /><FieldRef Name=""CalendarYear"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""Consultation Type"" width=""240.1111068725586"" /><FieldRef Name=""Project Team"" width=""171"" /><FieldRef Name=""Project PI or Contact"" width=""169"" /><FieldRef Name=""Consultation Date"" width=""170"" /><FieldRef Name=""Follow Up Deadline"" width=""171.625"" /><FieldRef Name=""Notes"" width=""359"" /><FieldRef Name=""Team"" width=""217.625"" /><FieldRef Name=""Program"" width=""209.625"" /><FieldRef Name=""Tags"" width=""303"" /><FieldRef Name=""School Affiliation"" width=""192.47723388671875"" /><FieldRef Name=""Assignee"" width=""177.84722900390625"" /><FieldRef Name=""Project PI or Main Contact"" width=""179.10000610351562"" /><FieldRef Name=""Attendees"" width=""164.10000610351562"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""Date"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Engagement History/Summary.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","_Summary"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""ServicesReceived"", ""Recipient"", ""PI"", ""Date"", ""Status"", ""Assignee"", ""Notes"", ""Service_x0020_Type_x003a_hiddenP"", ""Service_x0020_Type_x003a_hiddenP0"", ""FollowUpDate"", ""TaxKeyword"", ""Notebook"", ""Project_x0020_PI_x0020_or_x0020_"", ""FiscalYear"", ""CalendarYear"""

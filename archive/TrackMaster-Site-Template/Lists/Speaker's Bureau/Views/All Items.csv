@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Title"" width=""180"" /><FieldRef Name=""Summary"" width=""180"" />"
+"ContentTypeId","0x"
+"CustomFormatter",""
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{CA80D37F-3281-41C9-B2BE-157285F5D296}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Speakers Bureau/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47""><ViewFields><FieldRef Name=""Edit"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Name"" /><FieldRef Name=""Internalspeaker_x003f_"" /><FieldRef Name=""ExternalSpeaker_x003f_"" /><FieldRef Name=""EarnedMedia_x003f_"" /><FieldRef Name=""Topics"" /><FieldRef Name=""TargetAudience"" /></ViewFields><Query /><CustomFormatter /><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><ColumnWidth><FieldRef Name=""Title"" width=""180"" /><FieldRef Name=""Summary"" width=""180"" /></ColumnWidth><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><RowLimit Paged=""TRUE"">30</RowLimit><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","ca80d37f-3281-41c9-b2be-157285f5d296"
+"ImageUrl","/_layouts/15/images/generic.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{CA80D37F-3281-41C9-B2BE-157285F5D296}"" DefaultView=""TRUE"" MobileView=""TRUE"" MobileDefaultView=""TRUE"" Type=""HTML"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Speakers Bureau/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=47"" ><Query /><ViewFields><FieldRef Name=""Edit"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Name"" /><FieldRef Name=""Internalspeaker_x003f_"" /><FieldRef Name=""ExternalSpeaker_x003f_"" /><FieldRef Name=""EarnedMedia_x003f_"" /><FieldRef Name=""Topics"" /><FieldRef Name=""TargetAudience"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><CustomFormatter /><ColumnWidth><FieldRef Name=""Title"" width=""180"" /><FieldRef Name=""Summary"" width=""180"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","True"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery",""
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Speakers Bureau/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""Edit"", ""LinkTitle"", ""Name"", ""Internalspeaker_x003f_"", ""ExternalSpeaker_x003f_"", ""EarnedMedia_x003f_"", ""Topics"", ""TargetAudience"""

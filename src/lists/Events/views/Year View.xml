@@ -1,0 +1,34 @@
+<View Name="{F239C17A-FF7F-4ABA-A88A-A7949AFD8D35}" MobileView="TRUE" Type="HTML" DisplayName="Year View" Url="/sites/DepressionCenter-TrackMaster/Lists/Events/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/events.png?rev=50" ><Query><GroupBy Collapse="FALSE" GroupLimit="30"><FieldRef Name="Event_x0020_Year" /><FieldRef Name="Event_x0020_Month" /></GroupBy><OrderBy Override="TRUE"><FieldRef Name="EventDate" /><FieldRef Name="fAllDayEvent" Ascending="FALSE" /></OrderBy></Query><ViewFields><FieldRef Name="Category" /><FieldRef Name="Title" /><FieldRef Name="Description" /><FieldRef Name="Program" /><FieldRef Name="TaxKeyword" /><FieldRef Name="EventDate" /><FieldRef Name="EndDate" /><FieldRef Name="fAllDayEvent" /><FieldRef Name="Location" /><FieldRef Name="FreeBusy" /><FieldRef Name="fRecurrence" /><FieldRef Name="ParticipantsPicker" /><FieldRef Name="Created" /><FieldRef Name="Author" /><FieldRef Name="Modified" /><FieldRef Name="Editor" /><FieldRef Name="Event_x0020_Year" /><FieldRef Name="Event_x0020_Month" /></ViewFields><RowLimit Paged="TRUE">100</RowLimit><Aggregations Value="Off" /><ViewStyle ID="17" /><JSLink>clienttemplates.js</JSLink><XslLink Default="TRUE">main.xsl</XslLink><CustomFormatter><![CDATA[{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "groupProps": {
+    "headerFormatter": {
+      "elmType": "div",
+      "style": {
+        "padding-left": "12px",
+        "font-size": "16px",
+        "font-weight": "400",
+        "cursor": "pointer",
+        "outline": "0px",
+        "white-space": "nowrap",
+        "text-overflow": "ellipsis"
+      },
+      "customRowAction": {
+        "action": "defaultClick"
+      },
+      "children": [
+        {
+          "elmType": "div",
+          "children": [
+            {
+              "elmType": "span",
+              "style": {
+                "padding": "5px 5px 5px 5px"
+              },
+              "txtContent": "@group.fieldData.displayValue"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}]]></CustomFormatter><ColumnWidth><FieldRef Name="Event Month Section" width="90" /></ColumnWidth><ViewData /><Toolbar Type="Standard"/></View>

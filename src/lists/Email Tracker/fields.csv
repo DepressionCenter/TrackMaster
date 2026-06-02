@@ -1,0 +1,115 @@
+"ID","ColumnDisplayName","ColumnInternalName","Required","ColumnTye","Description","Format","MaxLength","EnforceUniqueValues","Indexed","ValidationFormula","DefaultValue","DefaultFormula","CustomFormatter"
+"fa564e0f-0c70-4ab9-b863-0177e6ddd247","Email Subject","Title","True","Text","The subject line from the email that was sent.",,"255","False","False",,,,
+"2fea570e-96d4-4545-88ec-b888e1bc6af7","Date Sent","DateSent","True","DateTime","The date when the email was sent.",,,"False","False",,"[today]",,
+"a80310e2-abe5-4064-a4b4-f71ad801fec6","Email Recipients","EmailRecipients","False","Note","E-mail addresses or UniqNames of the recipients of this email, separated by commas or one per line.",,,"False","False",,,,
+"0ced6bda-296e-414e-9070-9c771289c283","Sender","Sender","True","User","The person who sent the email.",,,"False","False",,,,
+"0d21f205-7d56-4c90-85eb-7cd1bafde21d","Team","Team","True","Lookup","The team with ownership of this email communication.",,,"False","False",,,,
+"f82f5fdf-35ba-425b-84e8-f5f5edc7df91","Program","Program","False","Lookup","The program associated with this email.",,,"False","False",,,,
+"09928d0d-937a-4e69-86b8-c0e0486f9c1a","Message","Message","False","Note","Copy of the email that was sent.",,,"False","False",,,,
+"b0dddb3f-b0a5-4290-ac1b-beb3ce346bd7","Email Recipients in People List","EmailRecipientsPeople","False","LookupMulti","Email recipients (linked to People list).",,,"False","False",,,,
+"18cbae66-6864-41a5-8a88-783778141f5b","Results and Outcomes","Notes","False","Note","A narrative of the outcome of this email.",,,"False","False",,,,
+"4b51ad74-72ca-43f7-937e-c6fbc00078b8","# Recipients","TotalRecipients","False","Number","The total number of recipients, excluding duplicates (such as when emails are sent to both a preferred and primary email).",,,"False","False",,"0",,
+"267c8289-ef99-43e8-88b3-3d7d996218d2","# Existing Contacts","PeopleCount","False","Number","The number of recipients who are already in the People list, meaning there has been some kind of engagement prior to sending this email.",,,"False","False",,"0",,
+"adb8ed34-903d-4897-9346-57385078d321","# New Contacts","NewPeopleCount","False","Number","The number of recipients who were added to the People list.",,,"False","False",,"0",,
+"706ce7e4-b8bb-479e-9914-e59d7952d4a5","Email Open Rate","EmailOpenRate","False","Number","The email open rate, as reported by the app used to send or track the emails.",,,"False","False",,,,"{""elmType"":""div"",""children"":[{""elmType"":""span"",""txtContent"":""@currentField.displayValue"",""style"":{""position"":""absolute"",""white-space"":""nowrap"",""padding"":""0 4px""},""attributes"":{""class"":{""operator"":""?"",""operands"":[{""operator"":""&&"",""operands"":[{""operator"":""<"",""operands"":[0,0]},{""operator"":""<"",""operands"":[""@currentField"",0]}]},""sp-css-color-CoralFont"",""sp-css-color-SageFont""]}}},{""elmType"":""div"",""attributes"":{""class"":{""operator"":""?"",""operands"":[{""operator"":""&&"",""operands"":[{""operator"":""<"",""operands"":[0,0]},{""operator"":"">"",""operands"":[1,0]},{""operator"":"">="",""operands"":[""@currentField"",0]}]},""sp-field-dashedBorderRight"",""""]}},""style"":{""min-height"":""inherit"",""box-sizing"":""border-box"",""padding-left"":{""operator"":""?"",""operands"":[{""operator"":"">"",""operands"":[0,0]},{""operator"":""+"",""operands"":[{""operator"":""*"",""operands"":[{""operator"":""/"",""operands"":[{""operator"":""-"",""operands"":[{""operator"":""abs"",""operands"":[0]},{""operator"":""?"",""operands"":[{""operator"":""<"",""operands"":[""@currentField"",0]},{""operator"":""abs"",""operands"":[{""operator"":""?"",""operands"":[{""operator"":""<="",""operands"":[""@currentField"",0]},0,""@currentField""]}]},0]}]},1]},100]},""%""]},0]}}},{""elmType"":""div"",""attributes"":{""class"":{""operator"":""?"",""operands"":[{""operator"":""&&"",""operands"":[{""operator"":""<"",""operands"":[0,0]},{""operator"":""<"",""operands"":[""@currentField"",0]}]},""sp-css-backgroundColor-BgCoral sp-css-borderTop-CoralFont"",""sp-css-backgroundColor-BgSage sp-css-borderTop-SageFont""]}},""style"":{""min-height"":""inherit"",""box-sizing"":""border-box"",""width"":{""operator"":""?"",""operands"":[{""operator"":"">"",""operands"":[0,0]},{""operator"":""+"",""operands"":[{""operator"":""*"",""operands"":[{""operator"":""/"",""operands"":[{""operator"":""?"",""operands"":[{""operator"":""<="",""operands"":[""@currentField"",0]},{""operator"":""abs"",""operands"":[0]},{""operator"":""?"",""operands"":[{""operator"":"">="",""operands"":[""@currentField"",1]},1,{""operator"":""abs"",""operands"":[""@currentField""]}]}]},1]},100]},""%""]},{""operator"":""?"",""operands"":[{""operator"":"">="",""operands"":[""@currentField"",1]},""100%"",{""operator"":""?"",""operands"":[{""operator"":""<="",""operands"":[""@currentField"",0]},""0%"",{""operator"":""+"",""operands"":[{""operator"":""*"",""operands"":[{""operator"":""/"",""operands"":[{""operator"":""-"",""operands"":[{""operator"":""||"",""operands"":[""@currentField"",0]},0]},1]},100]},""%""]}]}]}]}}},{""elmType"":""div"",""style"":{""min-height"":""inherit"",""box-sizing"":""border-box""},""attributes"":{""class"":{""operator"":""?"",""operands"":[{""operator"":""&&"",""operands"":[{""operator"":""<"",""operands"":[0,0]},{""operator"":"">"",""operands"":[1,0]},{""operator"":""<"",""operands"":[""@currentField"",0]}]},""sp-field-dashedBorderRight"",""""]}}}],""templateId"":""DatabarNumber""}"
+"a827d91a-734e-4d28-93de-4d50c006d2cb","Email Click Rate","EmailClickRate","False","Number","The email click rate, as reported by the app used to send or track the emails.",,,"False","False",,,,"{""elmType"":""div"",""children"":[{""elmType"":""span"",""txtContent"":""@currentField.displayValue"",""style"":{""position"":""absolute"",""white-space"":""nowrap"",""padding"":""0 4px""},""attributes"":{""class"":{""operator"":""?"",""operands"":[{""operator"":""&&"",""operands"":[{""operator"":""<"",""operands"":[0,0]},{""operator"":""<"",""operands"":[""@currentField"",0]}]},""sp-css-color-CoralFont"",""sp-css-color-MintGreenFont""]}}},{""elmType"":""div"",""attributes"":{""class"":{""operator"":""?"",""operands"":[{""operator"":""&&"",""operands"":[{""operator"":""<"",""operands"":[0,0]},{""operator"":"">"",""operands"":[1,0]},{""operator"":"">="",""operands"":[""@currentField"",0]}]},""sp-field-dashedBorderRight"",""""]}},""style"":{""min-height"":""inherit"",""box-sizing"":""border-box"",""padding-left"":{""operator"":""?"",""operands"":[{""operator"":"">"",""operands"":[0,0]},{""operator"":""+"",""operands"":[{""operator"":""*"",""operands"":[{""operator"":""/"",""operands"":[{""operator"":""-"",""operands"":[{""operator"":""abs"",""operands"":[0]},{""operator"":""?"",""operands"":[{""operator"":""<"",""operands"":[""@currentField"",0]},{""operator"":""abs"",""operands"":[{""operator"":""?"",""operands"":[{""operator"":""<="",""operands"":[""@currentField"",0]},0,""@currentField""]}]},0]}]},1]},100]},""%""]},0]}}},{""elmType"":""div"",""attributes"":{""class"":{""operator"":""?"",""operands"":[{""operator"":""&&"",""operands"":[{""operator"":""<"",""operands"":[0,0]},{""operator"":""<"",""operands"":[""@currentField"",0]}]},""sp-css-backgroundColor-BgCoral sp-css-borderTop-CoralFont"",""sp-css-backgroundColor-BgMintGreen sp-css-borderTop-MintGreenFont""]}},""style"":{""min-height"":""inherit"",""box-sizing"":""border-box"",""width"":{""operator"":""?"",""operands"":[{""operator"":"">"",""operands"":[0,0]},{""operator"":""+"",""operands"":[{""operator"":""*"",""operands"":[{""operator"":""/"",""operands"":[{""operator"":""?"",""operands"":[{""operator"":""<="",""operands"":[""@currentField"",0]},{""operator"":""abs"",""operands"":[0]},{""operator"":""?"",""operands"":[{""operator"":"">="",""operands"":[""@currentField"",1]},1,{""operator"":""abs"",""operands"":[""@currentField""]}]}]},1]},100]},""%""]},{""operator"":""?"",""operands"":[{""operator"":"">="",""operands"":[""@currentField"",1]},""100%"",{""operator"":""?"",""operands"":[{""operator"":""<="",""operands"":[""@currentField"",0]},""0%"",{""operator"":""+"",""operands"":[{""operator"":""*"",""operands"":[{""operator"":""/"",""operands"":[{""operator"":""-"",""operands"":[{""operator"":""||"",""operands"":[""@currentField"",0]},0]},1]},100]},""%""]}]}]}]}}},{""elmType"":""div"",""style"":{""min-height"":""inherit"",""box-sizing"":""border-box""},""attributes"":{""class"":{""operator"":""?"",""operands"":[{""operator"":""&&"",""operands"":[{""operator"":""<"",""operands"":[0,0]},{""operator"":"">"",""operands"":[1,0]},{""operator"":""<"",""operands"":[""@currentField"",0]}]},""sp-field-dashedBorderRight"",""""]}}}],""templateId"":""DatabarNumber""}"
+"23f27201-bee3-471e-b2e7-b64fd8b7ca38","Tags","TaxKeyword","False","TaxonomyFieldTypeMulti","Custom tags and keywords for searching.",,,"False","False",,,,"{
+  ""$schema"": ""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",
+  ""elmType"": ""div"",
+  ""style"": {
+    ""display"": ""flex"",
+    ""flex-wrap"": ""wrap"",
+    ""width"": ""100%""
+  },
+  ""children"": [
+    {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""margin"": ""4px"",
+        ""padding"": ""4px 8px 4px 8px"",
+        ""border-radius"": ""10px""
+      },
+      ""attributes"": {
+        ""class"": ""ms-bgColor-themeLighterAlt ms-bgColor-themeDarkAlt--hover ms-fontColor-themeLighterAlt--hover""
+      },
+      ""forEach"": ""tag in @currentField"",
+      ""children"": [
+        {
+          ""elmType"": ""div"",
+          ""style"": {
+            ""vertical-align"": ""middle"",
+            ""white-space"": ""nowrap"",
+            ""width"": ""auto""
+          },
+          ""attributes"": {
+            ""class"": ""ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs""
+          },
+		  ""children"": [
+		  {
+			  ""elmType"": ""a"",
+			  ""attributes"": {
+				""href"": ""=@currentWeb + '/_layouts/15/search.aspx/siteall?q=tags:\""' + [$tag] + '\""'"",
+				""target"": ""_blank"",
+				""class"": ""ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs""
+              },
+			  ""style"":{
+				  ""text-decoration"": ""none""
+			  },
+			  ""children"": [
+				{
+				  ""elmType"": ""span"",
+				  ""style"": {
+					""position"": ""relative"",
+					""top"": ""2px"",
+					""text-decoration"": ""none""
+				  },
+				  ""attributes"": {
+					""iconName"": ""Tag""
+				  }
+				},
+				{
+				  ""elmType"": ""span"",
+				  ""style"": {
+					""padding-left"": ""4px""
+				  },
+				  ""txtContent"": ""[$tag]""
+				}
+			  ]
+			}
+			]
+		}
+	  ]
+    }
+  ]
+}"
+"82642ec8-ef9b-478f-acf9-31f7d45fbc31","Email Subject","LinkTitle","False","Computed","",,,"False","False",,,,
+"76d13cd2-1bae-45a5-8b74-545b87b65037","Color Tag","_ColorTag","False","Text","",,"255","False","False",,,,
+"3a6b296c-3f50-445c-a13f-9c679ea9dda3","Compliance Asset Id","ComplianceAssetId","False","Text","",,"255","False","False",,,,
+"1f584d08-d658-45a2-86ea-0464d2fe278b","Email Recipients in People List (UniqName)","EmailRecipientsPeople_x003a_Uniq","False","LookupMulti","Email recipients, linked to People list (UniqName).",,,"False","False",,,,
+"0776147b-66d1-451c-88f6-792eea7acc67","Email Recipients in People List (School)","EmailRecipientsPeople_x003a__hid","False","LookupMulti","School affiliations for the email recipients that are linked to the People list.",,,"False","False",,,,
+"bc91a437-52e7-49e1-8c4e-4698904b2b6d","Email Subject","LinkTitleNoMenu","False","Computed","",,,"False","False",,,,
+"c331a8de-ba38-4d68-852f-db154a4244e2","Copy Tags to Recipients?","TagsSync","False","Boolean","If checked, TrackMaster will copy these tags to the People list record for each email recipient. The tag sync process can take a few hours, and it will uncheck this box once complete.",,,"False","False",,"0",,
+"1945a8bf-8020-41e4-8806-b048bfc2b388","_SysVersion","_SysVersion","False","Number","System field used by automations to keep track of the last version that was modified automatically. This helps prevent infinite loops.",,,"False","False",,,,
+"bd0a5dd9-72dd-436d-88c1-b7518f464de2","_SysFlow","_SysFlow","False","Text","System field used by automations to keep track of the last workflow that modified this item. This helps prevent infinite loops.",,"128","False","False",,"NA",,
+"e2ff69c0-90fa-467a-9240-5e2740f23d01","Group Recipients","GroupRecipients","False","LookupMulti","If this email was sent to a group, enter the group here, so the recipients can be extracted from that group. The group must already be configured in the Groups List.",,,"False","False",,,,
+"ed643247-776a-4e3c-a762-851732bc79c3","MCommunity Groups","GroupRecipients_x003a_MCommunity","False","LookupMulti","List of MCommunity groups to whom the email was sent. Auto-populated based on the Recipient Groups field.",,,"False","False",,,,
+"f4963d59-cc45-4626-abbf-287f1086bbac","Email Display Name","EmailDisplayName","False","Calculated","The display name used to refer back to this email from other lists. Auto-calculated.",,,"False","False",,,,
+"1d22ea11-1e32-424e-89ab-9fedbadb6ce1","ID","ID","False","Counter","",,,"False","False",,,,
+"c042a256-787d-4a6f-8a8a-cf6ab767f12d","Content Type","ContentType","False","Computed","",,,"False","False",,,,
+"28cf69c5-fa48-462a-b5cd-27b6f9d2bd5f","Modified","Modified","False","DateTime","",,,"False","False",,,,
+"8c06beca-0777-48f7-91c7-6da68bc07b69","Created","Created","False","DateTime","",,,"False","False",,,,
+"1df5e554-ec7e-46a6-901d-d85a3881cb18","Created By","Author","False","User","",,,"False","False",,,,
+"d31655d1-1d5b-4511-95a1-7a09e9b75bf2","Modified By","Editor","False","User","",,,"False","False",,,,
+"dce8262a-3ae9-45aa-aab4-83bd75fb738a","Version","_UIVersionString","False","Text","",,"255","False","False",,,,
+"67df98f4-9dec-48ff-a553-29bece9c5bf4","Attachments","Attachments","False","Attachments","",,,"False","False",,,,
+"503f1caa-358e-4918-9094-4a2cdc4bc034","Edit","Edit","False","Computed","",,,"False","False",,,,
+"081c6e4c-5c14-4f20-b23e-1a71ceb6a67c","Type","DocIcon","False","Computed","",,,"False","False",,,,
+"b824e17e-a1b3-426e-aecf-f0184d900485","Item Child Count","ItemChildCount","False","Lookup","",,,"False","False",,,,
+"960ff01f-2b6d-4f1b-9c3f-e19ad8927341","Folder Child Count","FolderChildCount","False","Lookup","",,,"False","False",,,,
+"ccc1037f-f65e-434a-868e-8c98af31fe29","Label setting","_ComplianceFlags","False","Lookup","",,,"False","False",,,,
+"d4b6480a-4bed-4094-9a52-30181ea38f1d","Retention label","_ComplianceTag","False","Lookup","",,,"False","False",,,,
+"92be610e-ddbb-49f4-b3b1-5c2bc768df8f","Retention label Applied","_ComplianceTagWrittenTime","False","Lookup","",,,"False","False",,,,
+"418d7676-2d6f-42cf-a16a-e43d2971252a","Label applied by","_ComplianceTagUserId","False","Lookup","",,,"False","False",,,,
+"8382d247-72a9-44b1-9794-7b177edc89f3","Item is a Record","_IsRecord","False","Computed","",,,"False","False",,,,
+"6bfaba20-36bf-44b5-a1b2-eb6346d49716","App Created By","AppAuthor","False","Lookup","",,,"False","False",,,,
+"e08400f3-c779-4ed2-a18c-ab7f34caa318","App Modified By","AppEditor","False","Lookup","",,,"False","False",,,,

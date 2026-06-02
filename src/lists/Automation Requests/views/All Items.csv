@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""AutomationType"" width=""236.20001220703125"" /><FieldRef Name=""SubmissionForm"" width=""164.8125"" /><FieldRef Name=""Flow"" width=""282"" /><FieldRef Name=""LinkTitle"" width=""250.1999969482422"" /><FieldRef Name=""Author"" width=""149.6124267578125"" /><FieldRef Name=""Status"" width=""112.6124267578125"" /><FieldRef Name=""UserList"" width=""201.98748779296875"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","True"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{62F514F9-480C-46AA-BE88-D0674187C03A}"" DefaultView=""TRUE"" MobileView=""TRUE"" Type=""HTML"" TabularView=""FALSE"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/AutomationRequests/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""AutomationType"" /><FieldRef Name=""Flow"" /><FieldRef Name=""Flow_x003a_Flow_x0020_ID"" /><FieldRef Name=""Flow_x003a_Flow_x0020_Environmen"" /><FieldRef Name=""Status"" /><FieldRef Name=""Created"" /><FieldRef Name=""Author"" /><FieldRef Name=""PI"" /><FieldRef Name=""Template"" /><FieldRef Name=""UserList"" /><FieldRef Name=""Event"" /><FieldRef Name=""Attachments"" /><FieldRef Name=""FlowInstanceLink"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""Group"" /><FieldRef Name=""Group_x003a_MCommunity_x0020_Gro"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Editor"" /></ViewFields><ViewData /><Query><OrderBy><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""LinkTitle"" /><ColumnWidth><FieldRef Name=""AutomationType"" width=""236.20001220703125"" /><FieldRef Name=""SubmissionForm"" width=""164.8125"" /><FieldRef Name=""Flow"" width=""282"" /><FieldRef Name=""LinkTitle"" width=""250.1999969482422"" /><FieldRef Name=""Author"" width=""149.6124267578125"" /><FieldRef Name=""Status"" width=""112.6124267578125"" /><FieldRef Name=""UserList"" width=""201.98748779296875"" /></ColumnWidth><Toolbar Type=""Standard"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","62f514f9-480c-46aa-be88-d0674187c03a"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{62F514F9-480C-46AA-BE88-D0674187C03A}"" DefaultView=""TRUE"" MobileView=""TRUE"" Type=""HTML"" TabularView=""FALSE"" DisplayName=""All Items"" Url=""/sites/DepressionCenter-TrackMaster/Lists/AutomationRequests/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""AutomationType"" /><FieldRef Name=""Flow"" /><FieldRef Name=""Flow_x003a_Flow_x0020_ID"" /><FieldRef Name=""Flow_x003a_Flow_x0020_Environmen"" /><FieldRef Name=""Status"" /><FieldRef Name=""Created"" /><FieldRef Name=""Author"" /><FieldRef Name=""PI"" /><FieldRef Name=""Template"" /><FieldRef Name=""UserList"" /><FieldRef Name=""Event"" /><FieldRef Name=""Attachments"" /><FieldRef Name=""FlowInstanceLink"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""Group"" /><FieldRef Name=""Group_x003a_MCommunity_x0020_Gro"" /><FieldRef Name=""Modified"" /><FieldRef Name=""Editor"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""AutomationType"" width=""236.20001220703125"" /><FieldRef Name=""SubmissionForm"" width=""164.8125"" /><FieldRef Name=""Flow"" width=""282"" /><FieldRef Name=""LinkTitle"" width=""250.1999969482422"" /><FieldRef Name=""Author"" width=""149.6124267578125"" /><FieldRef Name=""Status"" width=""112.6124267578125"" /><FieldRef Name=""UserList"" width=""201.98748779296875"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""Created"" Ascending=""FALSE"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/AutomationRequests/AllItems.aspx"
+"StyleId",
+"TabularView","False"
+"Threaded","False"
+"Title","All Items"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""AutomationType"", ""Flow"", ""Flow_x003a_Flow_x0020_ID"", ""Flow_x003a_Flow_x0020_Environmen"", ""Status"", ""Created"", ""Author"", ""PI"", ""Template"", ""UserList"", ""Event"", ""Attachments"", ""FlowInstanceLink"", ""ContactType"", ""Group"", ""Group_x003a_MCommunity_x0020_Gro"", ""Modified"", ""Editor"""

@@ -1,0 +1,864 @@
+"ID","ColumnDisplayName","ColumnInternalName","Required","ColumnTye","Description","Format","MaxLength","EnforceUniqueValues","Indexed","ValidationFormula","DefaultValue","DefaultFormula","CustomFormatter"
+"fa564e0f-0c70-4ab9-b863-0177e6ddd247","Full Name","Title","False","Text","Full name, required only for non-UM contacts. For UM contacts, leave blank to auto-populate.",,"255","False","False",,,,
+"b879a968-4e35-494f-9c4f-b43e67a425a0","UniqName","UniqName","True","Text","U-M UniqName (user id), or email address for non-UM contacts.",,"255","True","True","=IF(ISNUMBER(SEARCH(""umich.edu"",UniqName)),FALSE,TRUE)",,,
+"d4a41592-76cc-41dd-aa66-3f0fef106a59","Contact Type","ContactType","True","Choice","Type of contact (e.g. member, prospective member, staff, student).",,,"False","False",,"Other",,"{""elmType"":""div"",""style"":{""flex-wrap"":""wrap"",""display"":""flex""},""children"":[{""elmType"":""div"",""style"":{""box-sizing"":""border-box"",""padding"":""4px 8px 5px 8px"",""overflow"":""hidden"",""text-overflow"":""ellipsis"",""display"":""flex"",""border-radius"":""16px"",""height"":""24px"",""align-items"":""center"",""white-space"":""nowrap"",""margin"":""4px 4px 4px 4px""},""attributes"":{""class"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Member""]},""sp-css-backgroundColor-BgCornflowerBlue"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Prospective Member""]},""sp-css-backgroundColor-BgCyan sp-css-borderColor-CyanFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Alumni""]},""sp-css-backgroundColor-BgLightGray sp-css-borderColor-LightGrayFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Community Partner""]},""sp-css-backgroundColor-BgLilac sp-css-borderColor-LilacFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""EFDC Leadership""]},""sp-css-backgroundColor-BgCoral sp-css-borderColor-CoralFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""EFDC Staff""]},""sp-css-backgroundColor-BgBrown sp-css-borderColor-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Peer-to-Peer Partner""]},""sp-css-backgroundColor-BgLightPurple sp-css-borderColor-LightPurpleFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Communication Contact""]},""sp-css-backgroundColor-BgGold sp-css-borderColor-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M External Partner""]},""sp-css-backgroundColor-BgGold sp-css-borderColor-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Partner""]},""sp-css-backgroundColor-BgGold sp-css-borderColor-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Staff""]},""sp-css-backgroundColor-BgGold sp-css-borderColor-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Undergraduate Student""]},""sp-css-backgroundColor-BgSage sp-css-borderColor-SageFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Vendor""]},""sp-css-backgroundColor-BgLilac"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Other""]},""sp-css-backgroundColor-BgRed sp-css-borderColor-WhiteFont"",""sp-css-backgroundColor-BgDarkRed sp-field-borderAllSemibold sp-field-borderAllSolid sp-css-borderColor-WhiteFont""]}]}]}]}]}]}]}]}]}]}]}]}]}]}},""children"":[{""elmType"":""span"",""style"":{""line-height"":""16px"",""height"":""14px"",""display"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Member""]},""inherit"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Prospective Member""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Alumni""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Community Partner""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""EFDC Leadership""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""EFDC Staff""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Peer-to-Peer Partner""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Communication Contact""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M External Partner""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Partner""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Staff""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Undergraduate Student""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Vendor""]},""none"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Other""]},""inherit"",""inherit""]}]}]}]}]}]}]}]}]}]}]}]}]}]}},""attributes"":{""iconName"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Member""]},""Like"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Prospective Member""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Alumni""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Community Partner""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""EFDC Leadership""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""EFDC Staff""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Peer-to-Peer Partner""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Communication Contact""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M External Partner""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Partner""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Staff""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Undergraduate Student""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Vendor""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Other""]},""Error"",""ErrorBadge""]}]}]}]}]}]}]}]}]}]}]}]}]}]},""class"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Member""]},""sp-css-color-CornflowerBlueFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Prospective Member""]},""sp-css-color-CyanFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Alumni""]},""sp-css-color-LightGrayFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Community Partner""]},""sp-css-color-LilacFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""EFDC Leadership""]},""sp-css-color-CoralFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""EFDC Staff""]},""sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Peer-to-Peer Partner""]},""sp-css-color-LightPurpleFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Communication Contact""]},""sp-css-color-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M External Partner""]},""sp-css-color-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Partner""]},""sp-css-color-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Staff""]},""sp-css-color-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Undergraduate Student""]},""sp-css-color-SageFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Vendor""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Other""]},""sp-css-color-WhiteFont"",""sp-css-color-WhiteFont""]}]}]}]}]}]}]}]}]}]}]}]}]}]}}},{""elmType"":""span"",""style"":{""overflow"":""hidden"",""text-overflow"":""ellipsis"",""padding"":""0 3px""},""txtContent"":""[$ContactType]"",""attributes"":{""class"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Member""]},""sp-css-color-CornflowerBlueFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Prospective Member""]},""sp-css-color-CyanFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Alumni""]},""sp-css-color-LightGrayFont sp-field-italic"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Community Partner""]},""sp-css-color-LilacFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""EFDC Leadership""]},""sp-css-color-CoralFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""EFDC Staff""]},""sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Peer-to-Peer Partner""]},""sp-css-color-LightPurpleFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Communication Contact""]},""sp-css-color-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M External Partner""]},""sp-css-color-PurpleText sp-field-italic"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Partner""]},""sp-css-color-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""U-M Staff""]},""sp-css-color-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Undergraduate Student""]},""sp-css-color-SageFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Vendor""]},""sp-css-color-LilacFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$ContactType]"",""Other""]},""sp-css-color-WhiteFont sp-field-bold"",""sp-field-fontSizeMedium sp-css-color-WhiteFont sp-field-bold""]}]}]}]}]}]}]}]}]}]}]}]}]}]}}}]}],""templateId"":""BgColorChoicePill""}"
+"c39b8a9b-6621-431d-a91c-9be4a3f74edf","Teams Account","TeamsAccount","False","User","The MS Teams account for this person, if applicable. Only accounts on the same environment as TrackMaster can be used (e.g. Michigan Medicine).",,,"False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""defaultHoverField"":""@currentField"",""style"":{""padding"":""0 2px"",""text-overflow"":""ellipsis"",""display"":""=if(@currentField,'flex','none')"",""clear"":""both"",""max-height"":""40px""},""children"":[{""elmType"":""div"",""style"":{""padding-left"":""8px""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""CheckMark"",""class"":""ms-fontSize-16 ms-fontWeight-regular ms-fontColor-themePrimary""}}]}]}"
+"eb1b2406-d5a3-468b-a655-cc1e29cb9d70","Honorific","Honorific","False","Choice","",,,"False","False",,,,"{""elmType"":""div"",""style"":{""flex-wrap"":""wrap"",""display"":""flex""},""children"":[{""elmType"":""div"",""style"":{""box-sizing"":""border-box"",""padding"":""4px 8px 5px 8px"",""overflow"":""hidden"",""text-overflow"":""ellipsis"",""display"":""flex"",""border-radius"":""16px"",""height"":""24px"",""align-items"":""center"",""white-space"":""nowrap"",""margin"":""4px 4px 4px 4px""},""attributes"":{""class"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Mr.""]},""sp-css-backgroundColor-BgCornflowerBlue sp-field-fontSizeSmall sp-css-color-CornflowerBlueFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Ms.""]},""sp-css-backgroundColor-BgMintGreen sp-field-fontSizeSmall sp-css-color-MintGreenFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Mrs.""]},""sp-css-backgroundColor-BgGold sp-field-fontSizeSmall sp-css-color-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Mx.""]},""sp-css-backgroundColor-BgCoral sp-field-fontSizeSmall sp-css-color-CoralFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Dr.""]},""sp-css-backgroundColor-BgDustRose sp-field-fontSizeSmall sp-css-color-DustRoseFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Sir""]},""sp-css-backgroundColor-BgCyan sp-field-fontSizeSmall sp-css-color-CyanFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Rev. Dr.""]},""sp-css-backgroundColor-BgPeach sp-field-fontSizeSmall sp-css-color-PeachFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Ing.""]},""sp-css-backgroundColor-BgSage sp-field-fontSizeSmall sp-css-color-SageFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Eur. Ing.""]},""sp-css-backgroundColor-BgLightPurple sp-field-fontSizeSmall sp-css-color-LightPurpleFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Professor""]},""sp-css-backgroundColor-BgViolet sp-field-fontSizeSmall sp-css-color-VioletFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Father""]},""sp-css-backgroundColor-BgLightBlue sp-field-fontSizeSmall sp-css-color-LightBlueFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Mother""]},""sp-css-backgroundColor-BgMauve sp-field-fontSizeSmall sp-css-color-MauveFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Sis.""]},""sp-css-backgroundColor-BgLilac sp-field-fontSizeSmall sp-css-color-LilacFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Fr.""]},""sp-css-backgroundColor-BgLightGray sp-field-fontSizeSmall sp-css-color-LightGrayFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Pr.""]},""sp-css-backgroundColor-BgBlue sp-field-fontSizeSmall sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Br.""]},""sp-css-backgroundColor-BgGreen sp-field-fontSizeSmall sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Sr.""]},""sp-css-backgroundColor-BgBrown sp-field-fontSizeSmall sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Elder""]},""sp-css-backgroundColor-BgDarkRed sp-field-fontSizeSmall sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Rabbi""]},""sp-css-backgroundColor-BgRed sp-field-fontSizeSmall sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Choice 20""]},""sp-css-backgroundColor-BgTeal sp-field-fontSizeSmall sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Shaykh""]},""sp-css-backgroundColor-BgOrange sp-field-fontSizeSmall sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Emi.""]},""sp-css-backgroundColor-BgDarkGreen sp-field-fontSizeSmall sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Roshi""]},""sp-css-backgroundColor-BgLavender sp-field-fontSizeSmall sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Sensei""]},""sp-css-backgroundColor-BgDarkPurple sp-field-fontSizeSmall sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",""Ven.""]},""sp-css-backgroundColor-BgDarkBlue sp-field-fontSizeSmall sp-css-color-WhiteFont"",""sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary""]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}},""txtContent"":""@currentField""}],""templateId"":""BgColorChoicePill""}"
+"4fd28644-f12e-4944-801b-25dc804d1624","First Name","FirstName","False","Text","First name(s) (surname). If not entered manually, the system will extract this value from the Full Name field or from MCommunity.",,"255","False","False",,,,
+"80c7b950-00fe-4990-9f42-8b1be73fe449","Last Name","LastName","False","Text","Last name(s) (family or given name). If not entered manually, the system will extract this value from the Full Name field or from MCommunity.",,"255","False","False",,,,
+"a4212924-fc42-489f-be35-0a4ea7d4ba4c","Credentials","Credentials","False","Text","Professional credentials (e.g. M.D., Ph.D.), separated by commas.",,"60","False","False",,,,
+"c11b9f25-3109-4c74-ab02-167ad58ba51b","Job Title","JobTitle","False","Text","The person's current job title. For internal contacts, this is set automatically from MCommunity whenever possible.",,"255","False","False",,,,
+"1fd92997-0200-401a-b580-a67823416312","Department (MCommunity)","Department","False","Choice","Primary department. For internal contacts, this value is updated automatically from MCommunity.",,,"False","False",,,,
+"da69a2ae-18e6-43d4-88ec-fc2ff3032310","Job Rank","Job_x0020_Rank","False","Choice","For members and prospective members, the condensed job title to use for reporting purposes.",,,"False","False",,,,
+"de00520d-ab87-441b-a06a-a6e4d68fd724","Appointing Department (Full)","Department0","False","Lookup","Appointing or primary department, used for center-wide reporting.",,,"False","False",,,,
+"294edf58-904f-42b2-a37d-4539b9739702","School Affiliation","SchoolAffiliation","False","Choice","Primary U-M School affiliation, or P2P school, if applicable.",,,"False","False",,,,
+"bd1afd9c-ef9d-4c6a-a238-5edef73c2427","Company","Company","False","Choice","Company or organization. For P2P, this is typically the school district.",,,"False","False",,,,
+"6da5e1c8-9c81-4892-b4f5-69f04916550b","Business Phone","BusinessPhone","False","Text","Business or main office phone number.",,"255","False","False",,,,
+"f5467e86-384f-45d4-8c05-214716ac543b","Mobile Phone","MobilePhone","False","Text","Mobile phone number.",,"255","False","False",,,,
+"2ea6588f-29b8-4a15-b75c-be9577c9e757","Home Phone","HomePhone","False","Text","Home phone number.",,"255","False","False",,,,
+"e19ff09b-27df-48ba-b0aa-f452566866e3","Fax Number","FaxNumber","False","Text","Office fax number.",,"255","False","False",,,,
+"6dda8c61-a202-4157-98fd-bcdd2f71cb11","Email","Email","False","Calculated","Email address, which defaults to the user's U-M level 1 email (@umich.edu) unless overridden by the Preferred Email field.",,,"False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""children"":[{""elmType"":""span"",""style"":{""padding-right"":""8px""},""txtContent"":""@currentField""},{""elmType"":""a"",""style"":{""text-decoration"":""none""},""attributes"":{""iconName"":""=if(@currentField=='','None','Mail')"",""class"":""sp-field-quickActions"",""href"":{""operator"":""+"",""operands"":[""mailto:"",""@currentField""]}}}]}"
+"6c5102bc-122e-41c8-abea-a4ea37b02466","Preferred Email (Override)","PreferredEmail","False","Text","Preferred email address. Only needed for External Contacts or to manually override an @umich.edu address.",,"64","False","False","=IF(OR([Preferred Email (Override)]="""",ISNUMBER(SEARCH(""@"",[Preferred Email (Override)]))),TRUE,FALSE)",,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""children"":[{""elmType"":""span"",""style"":{""padding-right"":""8px""},""txtContent"":""@currentField""},{""elmType"":""a"",""style"":{""text-decoration"":""none""},""attributes"":{""iconName"":""=if(@currentField=='','None','Mail')"",""class"":""sp-field-quickActions"",""href"":{""operator"":""+"",""operands"":[""mailto:"",""@currentField""]}}}]}"
+"7b8bae47-e4b2-49be-9f4e-4e781ea55a00","Additional Email 1","AdditionalEmail1","False","Text","Additional email.",,"128","False","False","=IF(OR([Additional Email 1]="""",ISNUMBER(SEARCH(""@"",[Additional Email 1]))),TRUE,FALSE)",,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""children"":[{""elmType"":""span"",""style"":{""padding-right"":""8px""},""txtContent"":""@currentField""},{""elmType"":""a"",""style"":{""text-decoration"":""none""},""attributes"":{""iconName"":""=if(@currentField=='','None','Mail')"",""class"":""sp-field-quickActions"",""href"":{""operator"":""+"",""operands"":[""mailto:"",""@currentField""]}}}]}"
+"50de111f-d641-40c8-8d8d-be9ab1e30312","Additional Email 2","AdditionalEmail2","False","Text","Additional email.",,"128","False","False","=IF(OR([Additional Email 2]="""",ISNUMBER(SEARCH(""@"",[Additional Email 2]))),TRUE,FALSE)",,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""children"":[{""elmType"":""span"",""style"":{""padding-right"":""8px""},""txtContent"":""@currentField""},{""elmType"":""a"",""style"":{""text-decoration"":""none""},""attributes"":{""iconName"":""=if(@currentField=='','None','Mail')"",""class"":""sp-field-quickActions"",""href"":{""operator"":""+"",""operands"":[""mailto:"",""@currentField""]}}}]}"
+"ea6149be-33f3-411f-986c-907fe8069281","Mailing Address","Address","False","Text","Full mailing address.",,"255","False","False",,,,
+"e9c622a1-2d0e-4717-9a8c-8f54a39705e9","City","City","False","Text","City, district or municipality.",,"255","False","False",,,,
+"7a4517ae-0637-4c65-b901-cc4cc3b53ce8","State/Province","State_x002f_Province","False","Choice","State, province, or district.",,,"False","False",,,,
+"a39a6b60-d0df-4fe4-8b16-f233cade0139","Country/Region","Country_x002f_Region","False","Choice","Country or region.",,,"False","False",,,,
+"2a258755-4d92-4a2d-89ab-59489d56c14a","Website","Website","False","URL","Link to this person's professional website or lab website. For members, this value is typically displayed in member profile pages.",,,"False","False",,,,
+"d0f02a82-1029-4132-b7d5-70cae9a0ebca","Depression Center Profile","DepressionCenterProfile","False","URL","",,,"False","False",,,,
+"3d82343d-18d4-43e5-8a4a-c02b77634895","External Profile","ExternalProfile","False","URL","External profile page. For members, use the profile page from the appointing department.",,,"False","False",,,,
+"1c388e95-b9cc-4c2f-aed4-144313d6d1d6","Bluesky","Bluesky","False","Text","Bluesky profile handle or URL.",,"255","False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""children"":[{""elmType"":""a"",""style"":{""display"":""=if(@currentField=='', 'none', 'inherit')"",""text-decoration"":""none""},""attributes"":{""href"":""=if(@currentField=='', '', if(startsWith(@currentField,'http'), @currentField, 'https://bsky.app/profile/'+replace(replace(replace(replace(@currentField,'bsky.app/profile/',''),'https://',''),'http://',''),'@','')))"",""target"":""_blank"",""title"":""=if(@currentField=='', '(not set)', '@'+replace(replace(replace(replace(@currentField,'bsky.app/profile/',''),'https://',''),'http://',''),'@',''))"",""class"":""sp-quickActions""},""txtContent"":""=if(@currentField=='', '', '@'+replace(replace(replace(replace(@currentField,'bsky.app/profile/',''),'https://',''),'http://',''),'@',''))""}]}"
+"94484c27-e5a6-40b5-9066-5f7546e4452f","GitHub","GitHub","False","Text","A link to this person's GitHub or GitLab  profile. You can enter the full URL (e.g. https://github.com/gabrielmongefranco) or just the @ name (e.g. @GabrielMongefranco).",,"255","False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""children"":[{""elmType"":""a"",""style"":{""display"":""=if(@currentField=='', 'none', 'inherit')"",""text-decoration"":""none""},""attributes"":{""href"":""=if(@currentField=='', '', if(startsWith(@currentField,'http'), @currentField, 'https://github.com/'+replace(replace(replace(replace(replace(@currentField,'api.github.com','github.com'),'github.com/',''),'https://',''),'http://',''),'@','')))"",""target"":""_blank"",""title"":""=if(@currentField=='', '(not set)', '@'+replace(replace(replace(replace(replace(@currentField,'api.github.com','github.com'),'github.com/',''),'https://',''),'http://',''),'@',''))"",""class"":""sp-quickActions""},""txtContent"":""=if(@currentField=='', '', '@'+replace(replace(replace(replace(replace(@currentField,'api.github.com','github.com'),'github.com/',''),'https://',''),'http://',''),'@',''))""}]}"
+"91285e75-9be8-4c93-a12b-b5b9a30eb076","LinkedIn","LinkedIn","False","Text","LinkedIn profile.",,"255","False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""children"":[{""elmType"":""a"",""style"":{""display"":""=if(@currentField=='', 'none', 'inherit')"",""text-decoration"":""none""},""attributes"":{""href"":""=if(@currentField=='', '', if(startsWith(@currentField,'http'), @currentField, 'https://www.linkedin.com/in/'+replace(replace(replace(replace(replace(@currentField,'www.',''),'linkedin.com/in/',''),'https://',''),'http://',''),'@','')))"",""target"":""_blank"",""title"":""=if(@currentField=='', '(not set)', '@'+replace(replace(replace(replace(replace(@currentField,'www.',''),'linkedin.com/in/',''),'https://',''),'http://',''),'@',''))"",""class"":""sp-quickActions""},""txtContent"":""=if(@currentField=='', '', '@'+replace(replace(replace(replace(replace(@currentField,'www.',''),'linkedin.com/in/',''),'https://',''),'http://',''),'@',''))""}]}"
+"6d356fda-c7fa-4471-a838-d8f8082cf77c","X (Twitter)","Twitter","False","Text","A link to this person's X (Twitter)  profile. You can enter the full URL (e.g. https://twitter.com/catygo_sleep) or just the @ name (e.g. @cathygo_sleep).",,"255","False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""children"":[{""elmType"":""a"",""style"":{""display"":""=if(@currentField=='', 'none', 'inherit')"",""text-decoration"":""none""},""attributes"":{""href"":""=if(@currentField=='', '', if(startsWith(@currentField,'http'), @currentField, 'https://x.com/'+replace(replace(replace(replace(replace(@currentField,'twitter.com','x.com'),'x.com/',''),'https://',''),'http://',''),'@','')))"",""target"":""_blank"",""title"":""=if(@currentField=='', '(not set)', '@'+replace(replace(replace(replace(replace(@currentField,'twitter.com','x.com'),'x.com/',''),'https://',''),'http://',''),'@',''))"",""class"":""sp-quickActions""},""txtContent"":""=if(@currentField=='', '', '@'+replace(replace(replace(replace(replace(@currentField,'twitter.com','x.com'),'x.com/',''),'https://',''),'http://',''),'@',''))""}]}"
+"e5251f88-50fd-4344-9d76-8320d79d267f","Facebook","Facebook","False","Text","Facebook profile.",,"255","False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""children"":[{""elmType"":""a"",""style"":{""display"":""=if(@currentField=='', 'none', 'inherit')"",""text-decoration"":""none""},""attributes"":{""href"":""=if(@currentField=='', '', if(startsWith(@currentField,'http'), @currentField, 'https://www.facebook.com/'+replace(replace(replace(replace(replace(@currentField,'www.',''),'facebook.com/',''),'https://',''),'http://',''),'@','')))"",""target"":""_blank"",""title"":""=if(@currentField=='', '(not set)', '@'+replace(replace(replace(replace(replace(@currentField,'www.',''),'facebook.com/',''),'https://',''),'http://',''),'@',''))"",""class"":""sp-quickActions""},""txtContent"":""=if(@currentField=='', '', '@'+replace(replace(replace(replace(replace(@currentField,'www.',''),'facebook.com/',''),'https://',''),'http://',''),'@',''))""}]}"
+"6c746673-01a6-476c-b2f5-61ecc7321959","Michigan Experts","MREID","False","Text","Michigan Experts Profile ID or URL.",,"255","False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""style"":{""text-align"":""left"",""vertical-align"":""middle"",""text-decoration"":""none"",""cursor"":""pointer"",""display"":""flex"",""min-width"":""180px"",""padding"":""0 2px"",""margin-left"":""2px"",""margin-right"":""4px"",""text-overflow"":""ellipsis"",""justify-content"":""space-between"",""clear"":""both"",""max-height"":""44px""},""attributes"":{""class"":""ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""children"":[{""elmType"":""a"",""style"":{""text-align"":""left"",""vertical-align"":""middle"",""text-decoration"":""none""},""attributes"":{""href"":""=if([$MREID]=='', 'https://experts.umich.edu/search?by=text&type=user&v=' + [$Title], if(startsWith([$MREID],'https:') || startsWith([$MREID],'http:') || indexOf([$MREID],'/')>0, [$MREID], 'https://experts.umich.edu/' + [$MREID]) )"",""target"":""_blank"",""title"":""=if([$MREID]=='','Michigan Experts Profile not set. Click to search by name.', 'Visit Michigan Experts Profile.')"",""class"":""ms-fontSize-12 ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""=if(@currentField=='', 'NewsSearch', 'Education')"",""class"":""sp-field-quickAction ms-fontSize-16""},""style"":{""text-align"":""left"",""vertical-align"":""middle"",""text-decoration"":""none"",""padding-left"":""2px"",""padding-right"":""3px""}},{""elmType"":""span"",""txtContent"":""=if([$MREID]=='', 'Search by name', if(indexOf([$MREID],'/')>0, substring([$MREID], lastIndexOf([$MREID],'/')+1, 48), [$MREID]) )"",""attributes"":{""class"":""ms-fontSize-12""},""style"":{""padding-left"":""3px"",""padding-right"":""2px"",""vertical-align"":""middle"",""text-decoration"":""none""}}]}]}"
+"2a6745ca-e180-45bf-8349-11efd0fdcf7c","ORCiD","ORCID","False","Text","Open Researcher and Contributor ID (ORCiD) or URL.",,"255","False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""style"":{""text-align"":""left"",""vertical-align"":""middle"",""text-decoration"":""none"",""cursor"":""pointer"",""display"":""flex"",""min-width"":""180px"",""padding"":""0 2px"",""margin-left"":""2px"",""margin-right"":""4px"",""text-overflow"":""ellipsis"",""justify-content"":""space-between"",""clear"":""both"",""max-height"":""44px""},""attributes"":{""class"":""ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""children"":[{""elmType"":""a"",""style"":{""text-align"":""left"",""vertical-align"":""middle"",""text-decoration"":""none""},""attributes"":{""href"":""=if([$ORCID]=='', 'https://orcid.org/orcid-search/search?searchQuery=' + [$Title], if(startsWith([$ORCID],'https:') || startsWith([$ORCID],'http:') || indexOf([$ORCID],'/')>0, [$ORCID], 'https://orcid.org/' + [$ORCID]) )"",""target"":""_blank"",""title"":""=if([$ORCID]=='','Researcher ORCiD not set. Click to search by name.', 'Visit published works at ORCiD.org.')"",""class"":""ms-fontSize-12 ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""=if(@currentField=='', 'NewsSearch', 'Library')"",""class"":""sp-field-quickAction ms-fontSize-16""},""style"":{""text-align"":""left"",""vertical-align"":""middle"",""text-decoration"":""none"",""padding-left"":""2px"",""padding-right"":""3px""}},{""elmType"":""span"",""txtContent"":""=if([$ORCID]=='', 'Search by name', if(indexOf( replaceAll(replaceAll([$ORCID],'my-orcid?',''),'orcid=',''), '/')>0, substring( replaceAll(replaceAll([$ORCID],'my-orcid?',''),'orcid=',''), lastIndexOf( replaceAll(replaceAll([$ORCID],'my-orcid?',''),'orcid=',''), '/')+1, 48), replaceAll(replaceAll([$ORCID],'my-orcid?',''),'orcid=','') ) )"",""attributes"":{""class"":""ms-fontSize-12""},""style"":{""padding-left"":""3px"",""padding-right"":""2px"",""vertical-align"":""middle"",""text-decoration"":""none""}}]}]}"
+"5fe103bb-8f23-44f1-b6f0-7490b418e25b","Scopus","Scopus","False","Text","Scopus ID (for researchers).",,"255","False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""style"":{""text-align"":""left"",""vertical-align"":""middle"",""text-decoration"":""none"",""cursor"":""pointer"",""display"":""flex"",""min-width"":""180px"",""padding"":""0 2px"",""margin-left"":""2px"",""margin-right"":""4px"",""text-overflow"":""ellipsis"",""justify-content"":""space-between"",""clear"":""both"",""max-height"":""44px""},""attributes"":{""class"":""ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""children"":[{""elmType"":""a"",""style"":{""text-align"":""left"",""vertical-align"":""middle"",""text-decoration"":""none""},""attributes"":{""href"":""=if([$Scopus]=='', 'https://www.scopus.com/results/results.uri?s=AUTH(' + [$Title] + ')', if(startsWith([$Scopus],'https:') || startsWith([$Scopus],'http:') || indexOf([$Scopus],'/')>0, [$Scopus], 'https://www.scopus.com/authid/detail.uri?authorId=' + [$Scopus]) )"",""target"":""_blank"",""title"":""=if([$Scopus]=='','Researcher Scopus not set. Click to search by name.', 'Visit published works at Scopus.org.')"",""class"":""ms-fontSize-12 ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""=if(@currentField=='', 'NewsSearch', 'Library')"",""class"":""sp-field-quickAction ms-fontSize-16""},""style"":{""text-align"":""left"",""vertical-align"":""middle"",""text-decoration"":""none"",""padding-left"":""2px"",""padding-right"":""3px""}},{""elmType"":""span"",""txtContent"":""=if([$Scopus]=='', 'Search by name', if(indexOf([$Scopus],'/')>0, substring( replaceAll(replaceAll([$Scopus],'detail.uri?',''),'authorId=',''), lastIndexOf( replaceAll(replaceAll([$Scopus],'detail.uri?',''),'authorId=',''), '/')+1, 48), replaceAll(replaceAll([$Scopus],'detail.uri?',''),'authorId=','') ) )"",""attributes"":{""class"":""ms-fontSize-12""},""style"":{""padding-left"":""3px"",""padding-right"":""2px"",""vertical-align"":""middle"",""text-decoration"":""none""}}]}]}"
+"5a838cd1-0696-4fbb-a9b5-ed8567790a4a","Biography","Biography","False","Note","Short biography, for use in websites, conferences, newsletters and other communications.",,,"False","False",,,,
+"f01d8fab-23a9-48a7-ab8a-7ef5af836139","Notes","Notes","False","Note","Additional notes, comments, links, or important remarks.",,,"False","False",,,,
+"5a254ca0-d09c-405a-a88b-b9f6f5bd74c6","Center Member","CenterMember","False","Calculated","Is this person a member of this Center or Institute?",,,"False","False",,,,
+"7edfa0de-6ecf-4290-a8b2-91702024fe07","Center Membership Join Date","CenterMembershipJoinDate","False","DateTime","The date when this person became a member. This field is set manually or when a person is added to the membership group.",,,"False","False",,,,
+"788a2985-ba07-4581-9720-22132488c498","Group Membership","Group_x0020_Membership","False","LookupMulti","List of groups in which this user is a member. Groups can be configured in the Groups List.",,,"False","False",,,,
+"fb3998d3-ddc9-4505-8932-19194b2a83b0","Referral Source","ReferralSource","False","Text","The person, core, team, vendor or website that referred this person to the center. Typically this would be the first core or team that provided a service to this person.",,"255","False","False",,,,
+"16239141-2c87-4f37-ad09-6358cd125d57","Is Primary Investigator","PrimaryInvestigator","False","Boolean","Indicates whether this person is a PI.",,,"False","False",,"0",,
+"5992e7d2-dd04-47dd-a3f3-b3641aa771a4","Is Study Team Member","StudyTeamMember","False","Boolean","Indicates whether this staff member is a study team member. For PIs, say No.",,,"False","False",,"0",,
+"413819ec-a859-44ea-a92a-9ff0a237f014","Primary PI","PrimaryPI","False","Lookup","The primary principal investigator that this study team member works under. For PIs, leave this field blank.",,,"False","False",,,,
+"7890f538-4231-48f4-8b17-df75a7747784","Primary Lab","PrimaryLab","False","Choice","The primary lab which this study team member reports. Please format as: ""LabName (PI FullName)"".",,,"False","False",,,,
+"8c744611-55cd-4f86-96e4-d22c3845ecd4","Has Received Services","HasReceivedServices","False","Boolean","Indicates whether this person has ever received services (e.g. consultations, awards, program participation). This value can be set manually, or if empty, it is set automatically based on history.",,,"False","False",,"0",,
+"6ca45753-1c87-4a9d-86f9-7f062a81a69c","Last Service Date","LastServiceDate","False","DateTime","The date when this person last received a service (e.g. consultation, award, program participation). It can be set manually, or if left blank, it is auto-calculated based on history.",,,"False","False",,,,
+"f557a1de-86c8-4b4d-a5f8-e6c4ccb36406","Has Attended Events","HasAttendedEvents","False","Boolean","Indicates whether this person has ever attended events hosted by this center. This value can be set manually, or if empty, it is set when an Event Summary is added that includes this person as a registrant, attendee or speaker.",,,"False","False",,"0",,
+"e17bc4e0-1edd-45fb-b267-6ed7dadadf02","Last Event Attendance Date","LastEventAttndanceDate","False","DateTime","The date when this person last attended an event hosted by this center. It can be set manually, or if left blank, it is auto-calculated based on Event Summary entries that include this person as a registrant, attendee or speaker.",,,"False","False",,,,
+"57c10da0-517f-483c-baa5-07676e3b1e30","Primary Team Engagement","PrimaryTeamEngagement","False","Lookup","For team members, this is their primary team. For all other contacts, this is the team that maintains the relationship with this person, if applicable.",,,"False","False",,,,
+"314a7f69-ef62-4166-b406-9654b6b72d46","Research Areas","ResearchAreas","False","TaxonomyFieldTypeMulti","The research area focus for this investigator, from the center's pre-defined taxonomy.",,,"False","False",,"",,
+"94ace3f8-1652-494b-bf7a-8e1dd012b99d","Research Methodologies and Applications","ResearchMethodologies","False","TaxonomyFieldTypeMulti","The research methodology and applications focus for this investigator, from the center's pre-defined taxonomy.",,,"False","False",,"",,
+"88f15410-3e89-489a-a77c-29b0d98122cb","Population Focus","Populations","False","TaxonomyFieldTypeMulti","The population focus for this investigator, from the center's pre-defined taxonomy.",,,"False","False",,"",,
+"23f27201-bee3-471e-b2e7-b64fd8b7ca38","Tags","TaxKeyword","False","TaxonomyFieldTypeMulti","Custom tags and keywords for searching.",,,"False","False",,,,"{
+  ""$schema"": ""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",
+  ""elmType"": ""div"",
+  ""style"": {
+    ""display"": ""flex"",
+    ""flex-wrap"": ""wrap"",
+    ""width"": ""100%""
+  },
+  ""children"": [
+    {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""margin"": ""4px"",
+        ""padding"": ""4px 8px 4px 8px"",
+        ""border-radius"": ""10px""
+      },
+      ""attributes"": {
+        ""class"": ""ms-bgColor-themeLighterAlt ms-bgColor-themeDarkAlt--hover ms-fontColor-themeLighterAlt--hover""
+      },
+      ""forEach"": ""tag in @currentField"",
+      ""children"": [
+        {
+          ""elmType"": ""div"",
+          ""style"": {
+            ""vertical-align"": ""middle"",
+            ""white-space"": ""nowrap"",
+            ""width"": ""auto""
+          },
+          ""attributes"": {
+            ""class"": ""ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs""
+          },
+		  ""children"": [
+		  {
+			  ""elmType"": ""a"",
+			  ""attributes"": {
+				""href"": ""=@currentWeb + '/_layouts/15/search.aspx/siteall?q=tags:\""' + [$tag] + '\""'"",
+				""target"": ""_blank"",
+				""class"": ""ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs""
+              },
+			  ""style"":{
+				  ""text-decoration"": ""none""
+			  },
+			  ""children"": [
+				{
+				  ""elmType"": ""span"",
+				  ""style"": {
+					""position"": ""relative"",
+					""top"": ""2px"",
+					""text-decoration"": ""none""
+				  },
+				  ""attributes"": {
+					""iconName"": ""Tag""
+				  }
+				},
+				{
+				  ""elmType"": ""span"",
+				  ""style"": {
+					""padding-left"": ""4px""
+				  },
+				  ""txtContent"": ""[$tag]""
+				}
+			  ]
+			}
+			]
+		}
+	  ]
+    }
+  ]
+}"
+"222dd320-4c09-400a-8d76-ce405bb83385","Internal speaker?","Internal_x0020_speaker_x003f_","False","Boolean","Indicates whether this person can be or has been considered for a speaking engagement or presentation at a University of Michigan event.",,,"False","False",,"0",,
+"386a6412-46b8-4c3a-9085-544459136393","External Speaker?","External_x0020_Speaker_x003f_","False","Boolean","Indicates whether this person can be or has been considered for a speaking engagement or presentation outside of University of Michigan. For external contacts, it indicates whether they can be or have been speakers at U-M events.",,,"False","False",,"0",,
+"b4667bcb-3575-472a-aa7b-532ac304eb17","Earned Media?","Earned_x0020_Media_x003f_","False","Boolean","Indicates whether this person has ever earned media coverage for their professional work.",,,"False","False",,"0",,
+"58a88be3-f76d-443b-8bea-d1c574375268","MCommunity Role","MCommunityRole","False","Choice","The type of record in MCommunity, if any.",,,"False","False",,"None",,
+"db5a766d-1c6c-40fe-a5b0-61eb3d37e063","Do Not Contact","DoNotContact","False","Boolean","If checked, this person has opted out of receiving communications. The specific channels to which they unsubscribed can be found in the Do Not Contact List.",,,"False","False",,"0",,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""style"":{""box-sizing"":""border-box"",""padding"":""0 2px"",""overflow"":""hidden"",""text-overflow"":""ellipsis""},""attributes"":{""class"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",true]},""sp-css-backgroundColor-BgDustRose sp-css-borderColor-DustRoseFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",false]},"""",""""]}]}},""children"":[{""elmType"":""span"",""style"":{""line-height"":""16px"",""height"":""14px"",""display"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",true]},""inherit"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",false]},""none"",""none""]}]}},""attributes"":{""iconName"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",true]},""MailUndelivered"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",false]},"""",""""]}]},""class"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",true]},""sp-css-color-DustRoseFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",false]},"""",""""]}]}}},{""elmType"":""span"",""style"":{""overflow"":""hidden"",""text-overflow"":""ellipsis"",""padding"":""0 3px""},""txtContent"":""=if(@currentField==true, 'Do Not Contact!', '')"",""attributes"":{""class"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",true]},""sp-field-fontSizeSmall sp-css-color-DustRoseFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""@currentField"",false]},""sp-field-fontSizeSmall"",""""]}]}}}]}"
+"c33ff93d-5b4a-4d30-a21a-3670d2e329be","Display Name","DisplayName","False","Calculated","The display name for this person, formatted for use in drop-down menus in other lists.",,,"False","False",,,,"{
+  ""$schema"": ""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",
+  ""elmType"": ""div"",
+  ""defaultHoverField"": """",
+  ""attributes"": {
+    ""class"": ""height-limit hero ms-fontColor-themeDark--hover""
+  },
+  ""style"": {
+    ""display"": ""flex"",
+    ""min-width"": ""180px"",
+    ""padding"": ""0 2px"",
+    ""margin-left"": ""2px"",
+    ""margin-right"": ""4px"",
+    ""text-overflow"": ""ellipsis"",
+    ""justify-content"": ""space-between"",
+    ""clear"": ""both"",
+    ""max-height"": ""44px""
+  },
+  ""children"": [
+    {
+      ""elmType"": ""div"",
+      ""defaultHoverField"": ""[$TeamsAccount]"",
+      ""style"": {
+        ""padding"": ""2px""
+      },
+      ""children"": [
+        {
+          ""elmType"": ""img"",
+          ""style"": {
+            ""width"": ""36px"",
+            ""min-width"": ""32px"",
+            ""height"": ""36px"",
+            ""overflow"": ""hidden"",
+            ""border-radius"": ""50%"",
+            ""margin"": ""2px"",
+            ""padding-right"": ""2px""
+          },
+          ""attributes"": {
+            ""src"": ""=if(lastIndexOf([$ProfilePictureURL]+'~','~')>2, [$ProfilePictureURL], if(length([$TeamsAccount])==0, @currentWeb + '/_layouts/15/userphoto.aspx?size=S', @currentWeb + '/_layouts/15/userphoto.aspx?size=M&accountName=' + [$TeamsAccount.email]))"",
+            ""title"": ""=if(length([$TeamsAccount])==0, if([$Title]=='', [$UniqName], [$Title]) + if([$Job_x0020_Rank]=='', if([$JobTitle]=='', '', ' | '+[$JobTitle]), ' | '+[$Job_x0020_Rank]) + if([$Appointing_x0020_Department_x003]=='', if([$Department]=='', '', ' | '+[$Department]), ' | '+ [$Appointing_x0020_Department_x003]), '')""
+          }
+        }
+      ]
+    },
+    {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""padding-left"": ""2px""
+      },
+      ""attributes"": {
+        ""class"": ""ms-Link ms-fontSize-14 ms-fontWeight-semibold""
+      },
+      ""children"": [
+        {
+          ""elmType"": ""span"",
+          ""style"": {
+            ""cursor"": ""pointer"",
+            ""whitespace"": ""collapse"",
+            ""user-select"": ""text"",
+            ""padding-left"": ""4px"",
+            ""overflow"": ""hidden"",
+            ""text-overflow"": ""ellipsis"",
+            ""min-width"": ""1480px"",
+            ""text-align"": ""left"",
+            ""text-decoration"": ""=if(indexOf([$Active]+'~','~')<1 || [$Active], 'inherit', 'line-through')"",
+            ""color"": ""=if(indexOf([$Active]+'~','~')<1 || [$Active], 'inherit', 'gray')""
+          },
+          ""txtContent"": ""=if([$Title]=='', [$UniqName], [$DisplayName]) + ' '"",
+          ""customRowAction"": {
+            ""action"": ""defaultClick""
+          }
+        }
+      ]
+    },
+    {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""cursor"": ""pointer"",
+        ""padding-left"": ""6px"",
+        ""min-width"": ""12px"",
+        ""text-align"": ""right"",
+        ""margin-left"": ""auto""
+      },
+      ""children"": [
+        {
+          ""elmType"": ""a"",
+          ""attributes"": {
+            ""href"": ""=if(indexOf([$Email]+'~','~')>1, 'mailto:' + [$Email], if(length([$TeamsAccount])>0, if(indexOf([$TeamsAccount.email]+'~','~')>1, 'mailto:' + [$TeamsAccount.email], if( indexOf([$UniqName]+'~','@')>0, 'mailto:' + [$UniqName], if(indexOf([$UniqName]+'~','~')>0, 'mailto:' + [$UniqName] + '@umich.edu', ''))), if(indexOf([$UniqName]+'~','@')>0, 'mailto:' + [$UniqName], if(indexOf([$UniqName]+'~','~')>0, 'mailto:' + [$UniqName] + '@umich.edu', ''))))"",
+            ""target"": ""_blank""
+          },
+          ""style"": {
+            ""padding-right"": ""4px""
+          },
+          ""children"": [
+            {
+              ""elmType"": ""div"",
+              ""attributes"": {
+                ""iconName"": ""=if(indexOf([$Email]+'~','~')<1 && length([$TeamsAccount])<1, 'MailUndelivered', 'Mail')"",
+                ""class"": ""ms-fontSize-16 ms-fontWeight-regular ms-fontColor-themePrimary"",
+                ""title"": ""=if(indexOf([$Email]+'~','~')<1, if(length([$TeamsAccount])<1, 'Email not available in this view.', [$TeamsAccount.email]) , [$Email])""
+              },
+              ""style"": {
+                ""color"": ""=if(indexOf([$Email]+'~','~')<1 && length([$TeamsAccount])<1, 'gray', 'inherit')""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""padding-left"": ""6px""
+      },
+      ""children"": [
+        {
+          ""elmType"": ""a"",
+          ""attributes"": {
+            ""href"": ""=if(length([$TeamsAccount])>0, 'https://teams.microsoft.com/l/chat/0/0?users=' + [$TeamsAccount.email], '')"",
+            ""target"": ""=if(length([$TeamsAccount])>0, '_blank', '_self')""
+          },
+          ""style"": {
+            ""padding-right"": ""4px""
+          },
+          ""children"": [
+            {
+              ""elmType"": ""div"",
+              ""attributes"": {
+                ""iconName"": ""OfficeChat"",
+                ""class"": ""ms-fontSize-16 ms-fontWeight-regular ms-fontColor-themePrimary"",
+                ""title"": ""=if(length([$TeamsAccount])>0, 'Chat or call in MS Teams', '(No Teams Account)')""
+              },
+              ""style"": {
+                ""color"": ""=if(length([$TeamsAccount])>0, 'inherit', 'gray')""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""padding-left"": ""6px"",
+        ""display"": ""=if(indexOf([$HasReceivedServices]+'~','~')<1, 'none', 'inherit')""
+      },
+      ""children"": [
+        {
+          ""elmType"": ""button"",
+          ""style"": {
+            ""padding-right"": ""4px"",
+            ""cursor"": ""pointer"",
+            ""text-decoration"": ""none"",
+            ""border"": ""0"",
+            ""background-color"": ""inherit"",
+            ""padding"": ""0"",
+            ""margin"": ""0"",
+            ""font-weight"": ""inherit""
+          },
+          ""attributes"": {
+            ""class"": ""ms-fontSize-16 ms-fontWeight-regular ms-fontColor-themePrimary""
+          },
+          ""customRowAction"": {
+            ""action"": ""embed"",
+            ""actionInput"": {
+              ""src"": ""=if(indexOf([$ContactType]+'','Member')>=0, @currentWeb + '/Lists/Engagement%20History/Preview.aspx?env=WebViewList&q=' + [$Title] + '&action=view&Source=' + @currentWeb + '/Lists/People' , @currentWeb + '/Lists/Engagement%20History/Preview.aspx?env=WebViewList&useFiltersInViewXml=1&FilterField1=Recipient&FilterType1=LookupMulti&FilterOp1=In&FilterValue1=' + [$Title] + '&action=view&Source=' + @currentWeb + '/Lists/People'"",
+              ""height"": ""540"",
+              ""width"": ""920""
+            }
+          },
+          ""children"": [
+            {
+              ""elmType"": ""div"",
+              ""attributes"": {
+                ""iconName"": ""History"",
+                ""class"": ""ms-fontSize-16 ms-fontWeight-regular ms-fontColor-themePrimary"",
+                ""title"": ""=if(indexOf([$HasReceivedServices]+'~','~')<1, '', if([$HasReceivedServices], 'Last consultation: ' + toLocaleDateString([$LastServiceDate]), 'No consultation history.'))""
+              },
+              ""style"": {
+                ""color"": ""=if(indexOf([$HasReceivedServices]+'~','~')<1 || [$HasReceivedServices], 'inherit', 'gray')""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      ""elmType"": ""div"",
+      ""attributes"": {
+        ""class"": ""heroCommands show""
+      },
+      ""style"": {
+        ""cursor"": ""pointer"",
+        ""padding-left"": ""6px"",
+        ""padding-right"": ""2px"",
+        ""margin-right"": ""4px"",
+        ""min-width"": ""10px"",
+        ""text-align"": ""right""
+      },
+      ""children"": [
+        {
+          ""elmType"": ""span"",
+          ""attributes"": {
+            ""class"": ""heroCommands show sp-field-quickAction moreActionsHeroField heroButton ms-font-l ms-fontWeight-semiBold ms-fontColor-themeLight ms-borderColor-themePrimary ms-borderColor-themePrimary--hover ms-backgroundColor-themeDark--hover"",
+            ""iconName"": ""moreVertical""
+          },
+          ""customCardProps"": {
+            ""directionalHint"": ""rightCenter"",
+            ""openOnEvent"": ""hover"",
+            ""isBeakVisible"": true,
+            ""beakStyle"": {
+              ""backgroundColor"": ""lightGray""
+            },
+            ""formatter"": {
+              ""elmType"": ""div"",
+              ""children"": [
+                {
+                  ""elmType"": ""div"",
+                  ""attributes"": {
+                    ""class"": ""ms-borderColor-themeLight ms-fontColor-themePrimary ms-fontColor-themeDark--hover ms-slideRightIn20""
+                  },
+                  ""style"": {
+                    ""border"": ""1px solid""
+                  },
+                  ""children"": [
+                    {
+                      ""elmType"": ""div"",
+                      ""children"": [
+                        {
+                          ""elmType"": ""div"",
+                          ""children"": [
+                            {
+                              ""elmType"": ""div"",
+                              ""attributes"": {
+                                ""class"": ""ms-bgColor-themeSecondary ms-fontColor-themeLighterAlt"",
+                                ""title"": ""='User ID: '+[$ID]""
+                              },
+                              ""style"": {
+                                ""font-weight"": ""500"",
+                                ""text-align"": ""left"",
+                                ""margin-top"": ""0px"",
+                                ""margin-bottom"": ""10px"",
+                                ""border-bottom"": ""1px solid"",
+                                ""padding-right"": ""12px"",
+                                ""padding-left"": ""12px"",
+                                ""padding-top"": ""6px"",
+                                ""padding-bottom"": ""6px""
+                              },
+                              ""children"": [
+                                {
+                                  ""elmType"": ""span"",
+                                  ""txtContent"": ""=[$Title]""
+                                },
+                                {
+                                  ""elmType"": ""span"",
+                                  ""txtContent"": ""='\n(' + [$UniqName] + ')'"",
+                                  ""font-size"": ""smaller""
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          ""elmType"": ""div"",
+                          ""attributes"": {
+                            ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                          },
+                          ""style"": {
+                            ""margin"": ""5px"",
+                            ""padding"": ""5px"",
+                            ""cursor"": ""pointer""
+                          },
+                          ""customRowAction"": {
+                            ""action"": ""defaultClick""
+                          },
+                          ""children"": [
+                            {
+                              ""elmType"": ""span"",
+                              ""attributes"": {
+                                ""iconName"": ""ContactInfo""
+                              },
+                              ""style"": {
+                                ""margin-left"": ""5px"",
+                                ""font-weight"": ""600""
+                              }
+                            },
+                            {
+                              ""elmType"": ""span"",
+                              ""txtContent"": ""Open"",
+                              ""style"": {
+                                ""margin-left"": ""9px""
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          ""elmType"": ""div"",
+                          ""attributes"": {
+                            ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                          },
+                          ""style"": {
+                            ""margin"": ""5px"",
+                            ""padding"": ""5px"",
+                            ""cursor"": ""pointer""
+                          },
+                          ""customRowAction"": {
+                            ""action"": ""editProps""
+                          },
+                          ""children"": [
+                            {
+                              ""elmType"": ""span"",
+                              ""attributes"": {
+                                ""iconName"": ""Edit""
+                              },
+                              ""style"": {
+                                ""margin-left"": ""5px"",
+                                ""font-weight"": ""600""
+                              }
+                            },
+                            {
+                              ""elmType"": ""span"",
+                              ""txtContent"": ""Edit"",
+                              ""style"": {
+                                ""margin-left"": ""9px""
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          ""elmType"": ""div"",
+                          ""attributes"": {
+                            ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                          },
+                          ""style"": {
+                            ""margin"": ""5px"",
+                            ""padding"": ""5px"",
+                            ""cursor"": ""pointer""
+                          },
+                          ""children"": [
+                            {
+                              ""elmType"": ""a"",
+                              ""attributes"": {
+                                ""href"": ""=if(indexOf([$ContactType]+'','Member')>=0, @currentWeb + '/Lists/Engagement%20History/AllItems.aspx?q=' + [$Title] + '&action=view&Source=' + @currentWeb + '/Lists/People' , @currentWeb + '/Lists/Engagement%20History/AllItems.aspx?useFiltersInViewXml=1&FilterField1=Recipient&FilterType1=LookupMulti&FilterOp1=In&FilterValue1=' + [$Title] + '&action=view&Source=' + @currentWeb + '/Lists/People'"",
+                                ""target"": ""_top"",
+                                ""title"": ""=if(indexOf([$HasReceivedServices]+'~','~')<1, '', if([$HasReceivedServices], 'Last consultation: ' + toLocaleDateString([$LastServiceDate]), 'No consultation history.'))""
+                              },
+                              ""style"": {
+                                ""text-decoration"": ""none"",
+                                ""cursor"": ""pointer"",
+                                ""color"": ""=if(indexOf([$HasReceivedServices]+'~','~')<1 || [$HasReceivedServices], 'inherit', 'gray')""
+                              },
+                              ""children"": [
+                                {
+                                  ""elmType"": ""span"",
+                                  ""attributes"": {
+                                    ""iconName"": ""History""
+                                  },
+                                  ""style"": {
+                                    ""margin-left"": ""5px"",
+                                    ""font-weight"": ""600""
+                                  }
+                                },
+                                {
+                                  ""elmType"": ""span"",
+                                  ""txtContent"": ""Consultations"",
+                                  ""style"": {
+                                    ""margin-left"": ""9px""
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          ""elmType"": ""div"",
+                          ""attributes"": {
+                            ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                          },
+                          ""style"": {
+                            ""margin"": ""5px"",
+                            ""padding"": ""5px"",
+                            ""cursor"": ""pointer""
+                          },
+                          ""children"": [
+                            {
+                              ""elmType"": ""a"",
+                              ""attributes"": {
+                                ""href"": ""=@currentWeb + '/Lists/EmailTracker/Summary.aspx?q=' + [$Title] + '&action=view&Source=' + @currentWeb + '/Lists/People'"",
+                                ""target"": ""_top"",
+                                ""title"": ""Find in Email Tracker""
+                              },
+                              ""style"": {
+                                ""text-decoration"": ""none"",
+                                ""cursor"": ""pointer"",
+                                ""color"": ""inherit""
+                              },
+                              ""children"": [
+                                {
+                                  ""elmType"": ""span"",
+                                  ""attributes"": {
+                                    ""iconName"": ""MailSchedule""
+                                  },
+                                  ""style"": {
+                                    ""margin-left"": ""5px"",
+                                    ""font-weight"": ""600""
+                                  }
+                                },
+                                {
+                                  ""elmType"": ""span"",
+                                  ""txtContent"": ""Email Tracker"",
+                                  ""style"": {
+                                    ""margin-left"": ""9px""
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          ""elmType"": ""div"",
+                          ""attributes"": {
+                            ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                          },
+                          ""style"": {
+                            ""margin"": ""5px"",
+                            ""padding"": ""5px"",
+                            ""cursor"": ""pointer""
+                          },
+                          ""children"": [
+                            {
+                              ""elmType"": ""a"",
+                              ""attributes"": {
+                                ""href"": ""=@currentWeb + '/Lists/Event%20Attendance/AllEvents.aspx?q=' + [$Title] + '&action=view&Source=' + @currentWeb + '/Lists/People'"",
+                                ""target"": ""_top"",
+                                ""title"": ""=if(indexOf([$HasAttendedEvents]+'~','~')<1, '', if([$HasAttendedEvents], 'Last event attended: ' + toLocaleDateString([$LastEventAttndanceDate]), 'No event history.'))""
+                              },
+                              ""style"": {
+                                ""text-decoration"": ""none"",
+                                ""cursor"": ""pointer"",
+                                ""color"": ""=if(indexOf([$HasAttendedEvents]+'~','~')<1 || [$HasAttendedEvents], 'inherit', 'gray')""
+                              },
+                              ""children"": [
+                                {
+                                  ""elmType"": ""span"",
+                                  ""attributes"": {
+                                    ""iconName"": ""Calendar""
+                                  },
+                                  ""style"": {
+                                    ""margin-left"": ""5px"",
+                                    ""font-weight"": ""600""
+                                  }
+                                },
+                                {
+                                  ""elmType"": ""span"",
+                                  ""txtContent"": ""Events"",
+                                  ""style"": {
+                                    ""margin-left"": ""9px""
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          ""elmType"": ""div"",
+                          ""attributes"": {
+                            ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                          },
+                          ""style"": {
+                            ""margin"": ""5px"",
+                            ""padding"": ""5px"",
+                            ""cursor"": ""pointer"",
+                            ""display"": ""=if((indexOf([$Internal_x0020_speaker_x003f_]+'~','~')>0 && [$Internal_x0020_speaker_x003f_]) || (indexOf([$External_x0020_Speaker_x003f_]+'~','~')>0 && [$External_x0020_Speaker_x003f_]), 'inherit', 'none')""
+                          },
+                          ""children"": [
+                            {
+                              ""elmType"": ""a"",
+                              ""attributes"": {
+                                ""href"": ""=@currentWeb + '/Lists/Event%20Attendance/SpeakersTimeline.aspx?FilterField1=Speakers&FilterValue1=' + [$Title] + '&FilterType1=LookupMulti&FilterOp1=In&action=view&Source=' + @currentWeb + '/Lists/People'"",
+                                ""target"": ""_top"",
+                                ""title"": ""=if(indexOf([$Internal_x0020_speaker_x003f_]+'~','~')>0 && [$Internal_x0020_speaker_x003f_], 'Internal' + if(indexOf([$External_x0020_Speaker_x003f_]+'~','~')>0 && [$External_x0020_Speaker_x003f_],' & External',''), if(indexOf([$External_x0020_Speaker_x003f_]+'~','~')>0 && [$External_x0020_Speaker_x003f_], 'External', 'No Known History as a')) + ' Speaker.'""
+                              },
+                              ""style"": {
+                                ""text-decoration"": ""none"",
+                                ""cursor"": ""pointer"",
+                                ""color"": ""=if((indexOf([$Internal_x0020_speaker_x003f_]+'~','~')>0 && [$Internal_x0020_speaker_x003f_]) || (indexOf([$External_x0020_Speaker_x003f_]+'~','~')>0 && [$External_x0020_Speaker_x003f_]), 'inherit', 'gray')""
+                              },
+                              ""children"": [
+                                {
+                                  ""elmType"": ""span"",
+                                  ""attributes"": {
+                                    ""iconName"": ""Microphone""
+                                  },
+                                  ""style"": {
+                                    ""margin-left"": ""5px"",
+                                    ""font-weight"": ""600""
+                                  }
+                                },
+                                {
+                                  ""elmType"": ""span"",
+                                  ""txtContent"": ""Speaker's History"",
+                                  ""style"": {
+                                    ""margin-left"": ""9px""
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          ""elmType"": ""div"",
+                          ""attributes"": {
+                            ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                          },
+                          ""style"": {
+                            ""margin"": ""5px"",
+                            ""padding"": ""5px"",
+                            ""cursor"": ""pointer""
+                          },
+                          ""customRowAction"": {
+                            ""action"": ""executeFlow"",
+                            ""actionParams"": ""{\""id\"":\""78a864c0-f5f9-ef11-be1f-000d3a3b8151\"", \""headerText\"":\""Auto-Fill Missing Info\"", \""runFlowButtonText\"":\""Update Now\""}""
+                          },
+                          ""children"": [
+                            {
+                              ""elmType"": ""span"",
+                              ""attributes"": {
+                                ""iconName"": ""Flow""
+                              },
+                              ""style"": {
+                                ""margin-left"": ""5px"",
+                                ""font-weight"": ""600""
+                              }
+                            },
+                            {
+                              ""elmType"": ""span"",
+                              ""txtContent"": ""Auto-Update Missing Info"",
+                              ""style"": {
+                                ""margin-left"": ""9px""
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          ""elmType"": ""div"",
+                          ""attributes"": {
+                            ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                          },
+                          ""style"": {
+                            ""margin"": ""5px"",
+                            ""padding"": ""5px"",
+                            ""cursor"": ""pointer""
+                          },
+                          ""children"": [
+                            {
+                              ""elmType"": ""a"",
+                              ""attributes"": {
+                                ""data-interception"": ""off"",
+                                ""title"": ""Setup an alert to get notified of chages to this record."",
+                                ""href"": ""=@currentWeb + '/_layouts/15/SubNew.aspx?List=' + '%7Bb06a7441-867b-4ddc-9f05-271c46d7e116%7D' + '&ID=' + [$ID] + '&IsDlg=1&Source=' + @currentWeb + '/Lists/People'"",
+                                ""target"": ""_blank"",
+                                ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                              },
+                              ""style"": {
+                                ""text-decoration"": ""none"",
+                                ""cursor"": ""pointer""
+                              },
+                              ""children"": [
+                                {
+                                  ""elmType"": ""span"",
+                                  ""attributes"": {
+                                    ""iconName"": ""AlarmClock""
+                                  },
+                                  ""style"": {
+                                    ""margin-left"": ""5px"",
+                                    ""font-weight"": ""600""
+                                  }
+                                },
+                                {
+                                  ""elmType"": ""span"",
+                                  ""txtContent"": ""Alert Me"",
+                                  ""style"": {
+                                    ""margin-left"": ""9px""
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          ""elmType"": ""div"",
+                          ""attributes"": {
+                            ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                          },
+                          ""style"": {
+                            ""margin"": ""5px"",
+                            ""padding"": ""5px"",
+                            ""cursor"": ""pointer"",
+                            ""text-decoration"": ""none""
+                          },
+                          ""children"": [
+                            {
+                              ""elmType"": ""button"",
+                              ""attributes"": {
+                                ""data-interception"": ""off"",
+                                ""title"": ""Version History"",
+                                ""name"": ""='Versions-'+[$ID]"",
+                                ""id"": ""='Versions-'+[$ID]"",
+                                ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                              },
+                              ""customRowAction"": {
+                                ""action"": ""embed"",
+                                ""actionInput"": {
+                                  ""src"": ""=@currentWeb + '/_layouts/15/versions.aspx?List=' + '%7Bb06a7441-867b-4ddc-9f05-271c46d7e116%7D' + '&ID=' + [$ID] + '&IsDlg=1&Source=' + @currentWeb + '/Lists/People'"",
+                                  ""height"": ""540"",
+                                  ""width"": ""920""
+                                }
+                              },
+                              ""style"": {
+                                ""cursor"": ""pointer"",
+                                ""text-decoration"": ""none"",
+                                ""border"": ""0"",
+                                ""background-color"": ""inherit"",
+                                ""padding"": ""0"",
+                                ""margin"": ""0""
+                              },
+                              ""children"": [
+                                {
+                                  ""elmType"": ""span"",
+                                  ""attributes"": {
+                                    ""iconName"": ""History""
+                                  },
+                                  ""style"": {
+                                    ""margin-left"": ""5px"",
+                                    ""font-weight"": ""600"",
+                                    ""font-size"": ""smaller""
+                                  }
+                                },
+                                {
+                                  ""elmType"": ""span"",
+                                  ""txtContent"": ""Version History"",
+                                  ""style"": {
+                                    ""margin-left"": ""9px"",
+                                    ""font-weight"": ""lighther"",
+                                    ""font-size"": ""smaller""
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          ""elmType"": ""div"",
+                          ""attributes"": {
+                            ""class"": ""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""
+                          },
+                          ""style"": {
+                            ""margin"": ""5px"",
+                            ""padding"": ""5px"",
+                            ""cursor"": ""pointer"",
+                            ""font-size"": ""smaller""
+                          },
+                          ""customRowAction"": {
+                            ""action"": ""setValue"",
+                            ""actionInput"": {
+                              ""Active"": ""No""
+                            }
+                          },
+                          ""children"": [
+                            {
+                              ""elmType"": ""span"",
+                              ""attributes"": {
+                                ""iconName"": ""Delete""
+                              },
+                              ""style"": {
+                                ""margin-left"": ""5px"",
+                                ""font-weight"": ""600""
+                              }
+                            },
+                            {
+                              ""elmType"": ""span"",
+                              ""txtContent"": ""Inactivate (Archive)"",
+                              ""style"": {
+                                ""margin-left"": ""9px""
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}"
+"d64dd0c0-451f-4454-b2fc-ba48e2540f1f","Contact Name","ContactName","False","Calculated","Contact name, pre-formatted with profile pictures and a custom menu.",,,"False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""defaultHoverField"":"""",""attributes"":{""class"":""height-limit hero ms-fontColor-themeDark--hover""},""style"":{""display"":""flex"",""min-width"":""180px"",""padding"":""0 2px"",""margin-left"":""2px"",""margin-right"":""4px"",""text-overflow"":""ellipsis"",""justify-content"":""space-between"",""clear"":""both"",""max-height"":""44px""},""children"":[{""elmType"":""div"",""defaultHoverField"":""[$TeamsAccount]"",""style"":{""padding"":""2px""},""children"":[{""elmType"":""img"",""style"":{""width"":""36px"",""min-width"":""32px"",""height"":""36px"",""overflow"":""hidden"",""border-radius"":""50%"",""margin"":""2px"",""padding-right"":""2px""},""attributes"":{""src"":""=if(lastIndexOf([$ProfilePictureURL]+'~','~')>2, [$ProfilePictureURL], if(length([$TeamsAccount])==0, @currentWeb + '/_layouts/15/userphoto.aspx?size=S', @currentWeb + '/_layouts/15/userphoto.aspx?size=M&accountName=' + [$TeamsAccount.email]))"",""title"":""=if(length([$TeamsAccount])==0, if([$Title]=='', [$UniqName], [$Title]) + if([$Job_x0020_Rank]=='', if([$JobTitle]=='', '', ' | '+[$JobTitle]), ' | '+[$Job_x0020_Rank]) + if([$Appointing_x0020_Department_x003]=='', if([$Department]=='', '', ' | '+[$Department]), ' | '+ [$Appointing_x0020_Department_x003]), '')""}}]},{""elmType"":""div"",""style"":{""padding-left"":""2px""},""attributes"":{""class"":""ms-Link ms-fontSize-14 ms-fontWeight-semibold""},""children"":[{""elmType"":""span"",""style"":{""cursor"":""pointer"",""whitespace"":""collapse"",""user-select"":""text"",""padding-left"":""4px"",""overflow"":""hidden"",""text-overflow"":""ellipsis"",""min-width"":""1480px"",""text-align"":""left"",""text-decoration"":""=if(indexOf([$Active]+'~','~')<1 || [$Active], 'inherit', 'line-through')"",""color"":""=if(indexOf([$Active]+'~','~')<1 || [$Active], 'inherit', 'gray')""},""txtContent"":""=if([$Title]=='', [$UniqName], [$Title]) + ' '"",""customRowAction"":{""action"":""defaultClick""}}]},{""elmType"":""div"",""style"":{""cursor"":""pointer"",""padding-left"":""6px"",""min-width"":""12px"",""text-align"":""right"",""margin-left"":""auto""},""children"":[{""elmType"":""a"",""attributes"":{""href"":""=if(indexOf([$Email]+'~','~')>1, 'mailto:' + [$Email], if(length([$TeamsAccount])>0, if(indexOf([$TeamsAccount.email]+'~','~')>1, 'mailto:' + [$TeamsAccount.email], if( indexOf([$UniqName]+'~','@')>0, 'mailto:' + [$UniqName], if(indexOf([$UniqName]+'~','~')>0, 'mailto:' + [$UniqName] + '@umich.edu', ''))), if(indexOf([$UniqName]+'~','@')>0, 'mailto:' + [$UniqName], if(indexOf([$UniqName]+'~','~')>0, 'mailto:' + [$UniqName] + '@umich.edu', ''))))"",""target"":""_blank""},""style"":{""padding-right"":""4px""},""children"":[{""elmType"":""div"",""attributes"":{""iconName"":""=if(indexOf([$Email]+'~','~')<1 && length([$TeamsAccount])<1, 'MailUndelivered', 'Mail')"",""class"":""ms-fontSize-16 ms-fontWeight-regular ms-fontColor-themePrimary"",""title"":""=if(indexOf([$Email]+'~','~')<1, if(length([$TeamsAccount])<1, 'Email not available in this view.', [$TeamsAccount.email]) , [$Email])""},""style"":{""color"":""=if(indexOf([$Email]+'~','~')<1 && length([$TeamsAccount])<1, 'gray', 'inherit')""}}]}]},{""elmType"":""div"",""style"":{""padding-left"":""6px""},""children"":[{""elmType"":""a"",""attributes"":{""href"":""=if(length([$TeamsAccount])>0, 'https://teams.microsoft.com/l/chat/0/0?users=' + [$TeamsAccount.email], '')"",""target"":""=if(length([$TeamsAccount])>0, '_blank', '_self')""},""style"":{""padding-right"":""4px""},""children"":[{""elmType"":""div"",""attributes"":{""iconName"":""OfficeChat"",""class"":""ms-fontSize-16 ms-fontWeight-regular ms-fontColor-themePrimary"",""title"":""=if(length([$TeamsAccount])>0, 'Chat or call in MS Teams', '(No Teams Account)')""},""style"":{""color"":""=if(length([$TeamsAccount])>0, 'inherit', 'gray')""}}]}]},{""elmType"":""div"",""style"":{""padding-left"":""6px"",""display"":""=if(indexOf([$HasReceivedServices]+'~','~')<1, 'none', 'inherit')""},""children"":[{""elmType"":""button"",""style"":{""padding-right"":""4px"",""cursor"":""pointer"",""text-decoration"":""none"",""border"":""0"",""background-color"":""inherit"",""padding"":""0"",""margin"":""0"",""font-weight"":""inherit""},""attributes"":{""class"":""ms-fontSize-16 ms-fontWeight-regular ms-fontColor-themePrimary""},""customRowAction"":{""action"":""embed"",""actionInput"":{""src"":""=@currentWeb + '/_layouts/15/search.aspx/siteall?env=WebView&customRefiners=%7B%22SPContentType%22%3A%5B%22Item%22%5D%7D&q=' + [$Title] + '&s=1af593ea-7cc2-4a0d-8bad-de74ab9b386f_a453414d-690e-4ccc-9ea2-468bb8f09056&scope=site&sid=1af593ea-7cc2-4a0d-8bad-de74ab9b386f&action=view&Source=' + @currentWeb + '/Lists/People'"",""height"":""540"",""width"":""920""}},""children"":[{""elmType"":""div"",""attributes"":{""iconName"":""Search"",""class"":""ms-fontSize-16 ms-fontWeight-regular ms-fontColor-themePrimary"",""title"":""Search in all TrackMaster lists""},""style"":{""color"":""inherit""}}]}]},{""elmType"":""div"",""attributes"":{""class"":""heroCommands show""},""style"":{""cursor"":""pointer"",""padding-left"":""6px"",""padding-right"":""2px"",""margin-right"":""4px"",""min-width"":""10px"",""text-align"":""right""},""children"":[{""elmType"":""span"",""attributes"":{""class"":""heroCommands show sp-field-quickAction moreActionsHeroField heroButton ms-font-l ms-fontWeight-semiBold ms-fontColor-themeLight ms-borderColor-themePrimary ms-borderColor-themePrimary--hover ms-backgroundColor-themeDark--hover"",""iconName"":""moreVertical""},""customCardProps"":{""directionalHint"":""rightCenter"",""openOnEvent"":""hover"",""isBeakVisible"":true,""beakStyle"":{""backgroundColor"":""lightGray""},""formatter"":{""elmType"":""div"",""children"":[{""elmType"":""div"",""attributes"":{""class"":""ms-borderColor-themeLight ms-fontColor-themePrimary ms-fontColor-themeDark--hover ms-slideRightIn20""},""style"":{""border"":""1px solid""},""children"":[{""elmType"":""div"",""children"":[{""elmType"":""div"",""children"":[{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-themeSecondary ms-fontColor-themeLighterAlt"",""title"":""='User ID: '+[$ID]""},""style"":{""font-weight"":""500"",""text-align"":""left"",""margin-top"":""0px"",""margin-bottom"":""10px"",""border-bottom"":""1px solid"",""padding-right"":""12px"",""padding-left"":""12px"",""padding-top"":""6px"",""padding-bottom"":""6px""},""children"":[{""elmType"":""span"",""txtContent"":""=[$Title]""},{""elmType"":""span"",""txtContent"":""='\n(' + [$UniqName] + ')'"",""font-size"":""smaller""}]}]},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""style"":{""margin"":""5px"",""padding"":""5px"",""cursor"":""pointer""},""customRowAction"":{""action"":""defaultClick""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""ContactInfo""},""style"":{""margin-left"":""5px"",""font-weight"":""600""}},{""elmType"":""span"",""txtContent"":""Open"",""style"":{""margin-left"":""9px""}}]},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""style"":{""margin"":""5px"",""padding"":""5px"",""cursor"":""pointer""},""customRowAction"":{""action"":""editProps""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""Edit""},""style"":{""margin-left"":""5px"",""font-weight"":""600""}},{""elmType"":""span"",""txtContent"":""Edit"",""style"":{""margin-left"":""9px""}}]},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""style"":{""margin"":""5px"",""padding"":""5px"",""cursor"":""pointer""},""children"":[{""elmType"":""a"",""attributes"":{""href"":""=if(indexOf([$ContactType]+'','Member')>=0, @currentWeb + '/Lists/Engagement%20History/AllItems.aspx?q=' + [$Title] + '&action=view&Source=' + @currentWeb + '/Lists/People' , @currentWeb + '/Lists/Engagement%20History/AllItems.aspx?useFiltersInViewXml=1&FilterField1=Recipient&FilterType1=LookupMulti&FilterOp1=In&FilterValue1=' + [$Title] + '&action=view&Source=' + @currentWeb + '/Lists/People'"",""target"":""_top"",""title"":""=if(indexOf([$HasReceivedServices]+'~','~')<1, '', if([$HasReceivedServices], 'Last consultation: ' + toLocaleDateString([$LastServiceDate]), 'No consultation history.'))""},""style"":{""text-decoration"":""none"",""cursor"":""pointer"",""color"":""=if(indexOf([$HasReceivedServices]+'~','~')<1 || [$HasReceivedServices], 'inherit', 'gray')""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""History""},""style"":{""margin-left"":""5px"",""font-weight"":""600""}},{""elmType"":""span"",""txtContent"":""Consultations"",""style"":{""margin-left"":""9px""}}]}]},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""style"":{""margin"":""5px"",""padding"":""5px"",""cursor"":""pointer""},""children"":[{""elmType"":""a"",""attributes"":{""href"":""=@currentWeb + '/Lists/EmailTracker/Summary.aspx?q=' + [$Title] + '&action=view&Source=' + @currentWeb + '/Lists/People'"",""target"":""_top"",""title"":""Find in Email Tracker""},""style"":{""text-decoration"":""none"",""cursor"":""pointer"",""color"":""inherit""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""MailSchedule""},""style"":{""margin-left"":""5px"",""font-weight"":""600""}},{""elmType"":""span"",""txtContent"":""Email Tracker"",""style"":{""margin-left"":""9px""}}]}]},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""style"":{""margin"":""5px"",""padding"":""5px"",""cursor"":""pointer""},""children"":[{""elmType"":""a"",""attributes"":{""href"":""=@currentWeb + '/Lists/Event%20Attendance/AllEvents.aspx?q=' + [$Title] + '&action=view&Source=' + @currentWeb + '/Lists/People'"",""target"":""_top"",""title"":""=if(indexOf([$HasAttendedEvents]+'~','~')<1, '', if([$HasAttendedEvents], 'Last event attended: ' + toLocaleDateString([$LastEventAttndanceDate]), 'No event history.'))""},""style"":{""text-decoration"":""none"",""cursor"":""pointer"",""color"":""=if(indexOf([$HasAttendedEvents]+'~','~')<1 || [$HasAttendedEvents], 'inherit', 'gray')""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""Calendar""},""style"":{""margin-left"":""5px"",""font-weight"":""600""}},{""elmType"":""span"",""txtContent"":""Events"",""style"":{""margin-left"":""9px""}}]}]},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""style"":{""margin"":""5px"",""padding"":""5px"",""cursor"":""pointer"",""display"":""=if((indexOf([$Internal_x0020_speaker_x003f_]+'~','~')>0 && [$Internal_x0020_speaker_x003f_]) || (indexOf([$External_x0020_Speaker_x003f_]+'~','~')>0 && [$External_x0020_Speaker_x003f_]), 'inherit', 'none')""},""children"":[{""elmType"":""a"",""attributes"":{""href"":""=@currentWeb + '/Lists/Event%20Attendance/SpeakersTimeline.aspx?FilterField1=Speakers&FilterValue1=' + [$Title] + '&FilterType1=LookupMulti&FilterOp1=In&action=view&Source=' + @currentWeb + '/Lists/People'"",""target"":""_top"",""title"":""=if(indexOf([$Internal_x0020_speaker_x003f_]+'~','~')>0 && [$Internal_x0020_speaker_x003f_], 'Internal' + if(indexOf([$External_x0020_Speaker_x003f_]+'~','~')>0 && [$External_x0020_Speaker_x003f_],' & External',''), if(indexOf([$External_x0020_Speaker_x003f_]+'~','~')>0 && [$External_x0020_Speaker_x003f_], 'External', 'No Known History as a')) + ' Speaker.'""},""style"":{""text-decoration"":""none"",""cursor"":""pointer"",""color"":""=if((indexOf([$Internal_x0020_speaker_x003f_]+'~','~')>0 && [$Internal_x0020_speaker_x003f_]) || (indexOf([$External_x0020_Speaker_x003f_]+'~','~')>0 && [$External_x0020_Speaker_x003f_]), 'inherit', 'gray')""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""Microphone""},""style"":{""margin-left"":""5px"",""font-weight"":""600""}},{""elmType"":""span"",""txtContent"":""Speaker's History"",""style"":{""margin-left"":""9px""}}]}]},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""style"":{""margin"":""5px"",""padding"":""5px"",""cursor"":""pointer""},""customRowAction"":{""action"":""executeFlow"",""actionParams"":""{\""id\"":\""78a864c0-f5f9-ef11-be1f-000d3a3b8151\"", \""headerText\"":\""Auto-Update Contact\"", \""runFlowButtonText\"":\""Update Now\""}""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""Flow""},""style"":{""margin-left"":""5px"",""font-weight"":""600""}},{""elmType"":""span"",""txtContent"":""Auto-Update Contact Info"",""style"":{""margin-left"":""9px""}}]},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""style"":{""margin"":""5px"",""padding"":""5px"",""cursor"":""pointer""},""children"":[{""elmType"":""a"",""attributes"":{""data-interception"":""off"",""title"":""Setup an alert to get notified of chages to this record."",""href"":""=@currentWeb + '/_layouts/15/SubNew.aspx?List=' + '%7Bb06a7441-867b-4ddc-9f05-271c46d7e116%7D' + '&ID=' + [$ID] + '&IsDlg=1&Source=' + @currentWeb + '/Lists/People'"",""target"":""_blank"",""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""style"":{""text-decoration"":""none"",""cursor"":""pointer""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""AlarmClock""},""style"":{""margin-left"":""5px"",""font-weight"":""600""}},{""elmType"":""span"",""txtContent"":""Alert Me"",""style"":{""margin-left"":""9px""}}]}]},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""style"":{""margin"":""5px"",""padding"":""5px"",""cursor"":""pointer"",""text-decoration"":""none""},""children"":[{""elmType"":""button"",""attributes"":{""data-interception"":""off"",""title"":""Version History"",""name"":""='Versions-'+[$ID]"",""id"":""='Versions-'+[$ID]"",""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""customRowAction"":{""action"":""embed"",""actionInput"":{""src"":""=@currentWeb + '/_layouts/15/versions.aspx?List=' + '%7Bb06a7441-867b-4ddc-9f05-271c46d7e116%7D' + '&ID=' + [$ID] + '&IsDlg=1&Source=' + @currentWeb + '/Lists/People'"",""height"":""540"",""width"":""920""}},""style"":{""cursor"":""pointer"",""text-decoration"":""none"",""border"":""0"",""background-color"":""inherit"",""padding"":""0"",""margin"":""0""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""History""},""style"":{""margin-left"":""5px"",""font-weight"":""600"",""font-size"":""smaller""}},{""elmType"":""span"",""txtContent"":""Version History"",""style"":{""margin-left"":""9px"",""font-weight"":""lighther"",""font-size"":""smaller""}}]}]},{""elmType"":""div"",""attributes"":{""class"":""ms-bgColor-themeLight--hover ms-fontColor-themePrimary ms-fontColor-themeDark--hover""},""style"":{""margin"":""5px"",""padding"":""5px"",""cursor"":""pointer"",""font-size"":""smaller""},""customRowAction"":{""action"":""setValue"",""actionInput"":{""Active"":""No""}},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""Delete""},""style"":{""margin-left"":""5px"",""font-weight"":""600""}},{""elmType"":""span"",""txtContent"":""Inactivate (Archive)"",""style"":{""margin-left"":""9px""}}]}]}]}]}}}]}]}"
+"f4891c81-3150-4f97-b926-192240e63ba7","📷","ProfilePictureURL","False","Text","URL to profile picture, either from a file attached to this item or from an allowed domain (dc.org, umich.edu, AWS). When set, this picture takes prescedence over MS Teams and MCommunity profile pictures in certain places, such as the Full Name field (which is formatted to display a picture next to the name).",,"255","False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""defaultHoverField"":""[$TeamsAccount]"",""attributes"":{""data-prevent-field-editor"":""true"",""draggable"":""false"",""tabindex"":""-1""},""style"":{""margin"":""2px"",""border-radius"":""5%"",""height"":""72px"",""overflow"":""hidden"",""width"":""72px""},""children"":[{""attributes"":{""href"":"""",""target"":""_self""},""children"":[{""attributes"":{""src"":""=if(lastIndexOf(@currentField+'~','~')>2, @currentField, if(length([$TeamsAccount])==0, @currentWeb + '/_layouts/15/userphoto.aspx?size=L', @currentWeb + '/_layouts/15/userphoto.aspx?size=L&accountName=' + [$TeamsAccount.email]))""},""elmType"":""img"",""defaultHoverField"":""[$TeamsAccount]"",""style"":{""height"":""auto"",""object-fit"":""cover"",""object-position"":""50% 35%"",""width"":""100%""}}],""elmType"":""a""}]}"
+"2caadd04-37ac-46f1-88f8-365a9d3d03e8","Active","Active","False","Boolean","Indicates whether this record is active (enabled). Inactive records are hidden by default, and are not used in any automations.",,,"False","False",,"1",,
+"0fd79777-4591-41f1-8a49-32681e5e607b","_hiddenSchool","_hiddenSchool","False","Calculated","",,,"False","False",,,,
+"99b067f2-38d1-4884-bab8-3427e41b37b4","_SysProfile","_SysProfile","False","Text","Internal field used for propagating certain key fields to other lists, without requiring multiple lookup columns.
+Do not update manually.
+Format:
+|ID|FullName|UniqName|ContactType|TeamsAccount|PI_ID|PI_Name|LastServiceDate|",,"255","False","False",,"{""ID"":""0"",""Name"":"""",""UniqName"":"""",""Teams"":"""",""PIID"":""0"",""PIName"":"""",""TeamID"":""0"",""TeamName"":"""",""LastEvent"":"""",""LastService"":""""}",,
+"cabb7b38-bec7-4e35-bcdd-7f0527ff67f7","_SysVersion","_SysVersion","False","Number","System field used by automations to keep track of the last version that was modified automatically. This helps prevent infinite loops.",,,"False","False",,"1",,
+"c329085e-5f0a-4387-9e38-540e7e12dc3d","_SysFlow","_SysFlow","False","Text","System field used by automations to keep track of the last workflow that modified this item. This helps prevent infinite loops.",,"128","False","False",,"NA",,
+"82642ec8-ef9b-478f-acf9-31f7d45fbc31","Full Name","LinkTitle","False","Computed","",,,"False","False",,,,
+"76d13cd2-1bae-45a5-8b74-545b87b65037","Color Tag","_ColorTag","False","Text","",,"255","False","False",,,,
+"3a6b296c-3f50-445c-a13f-9c679ea9dda3","Compliance Asset Id","ComplianceAssetId","False","Text","",,"255","False","False",,,,
+"bc91a437-52e7-49e1-8c4e-4698904b2b6d","Full Name","LinkTitleNoMenu","False","Computed","",,,"False","False",,,,
+"1df5e554-ec7e-46a6-901d-d85a3881cb18","Created By","Author","False","User","The person or account who created this record (author).",,,"False","False",,,,
+"cb3450ae-b281-4d84-b3cd-2e94abadbc9d","Appointing Department","Appointing_x0020_Department_x003","False","Lookup","Appointing or primary department, used for center-wide reporting.",,,"False","False",,,,
+"8c06beca-0777-48f7-91c7-6da68bc07b69","Created","Created","False","DateTime","The date when this record was created.",,,"False","False",,,,
+"28cf69c5-fa48-462a-b5cd-27b6f9d2bd5f","Modified","Modified","False","DateTime","The date when this record was last updated.",,,"False","False",,,,
+"d31655d1-1d5b-4511-95a1-7a09e9b75bf2","Modified By","Editor","False","User","The last person or account who updated this record.",,,"False","False",,,,
+"1d22ea11-1e32-424e-89ab-9fedbadb6ce1","ID","ID","False","Counter","",,,"False","False",,,,
+"c042a256-787d-4a6f-8a8a-cf6ab767f12d","Content Type","ContentType","False","Computed","",,,"False","False",,,,
+"dce8262a-3ae9-45aa-aab4-83bd75fb738a","Version","_UIVersionString","False","Text","",,"255","False","False",,,,
+"67df98f4-9dec-48ff-a553-29bece9c5bf4","Attachments","Attachments","False","Attachments","",,,"False","False",,,,
+"503f1caa-358e-4918-9094-4a2cdc4bc034","Edit","Edit","False","Computed","",,,"False","False",,,,
+"081c6e4c-5c14-4f20-b23e-1a71ceb6a67c","Type","DocIcon","False","Computed","",,,"False","False",,,,
+"b824e17e-a1b3-426e-aecf-f0184d900485","Item Child Count","ItemChildCount","False","Lookup","",,,"False","False",,,,
+"960ff01f-2b6d-4f1b-9c3f-e19ad8927341","Folder Child Count","FolderChildCount","False","Lookup","",,,"False","False",,,,
+"ccc1037f-f65e-434a-868e-8c98af31fe29","Label setting","_ComplianceFlags","False","Lookup","",,,"False","False",,,,
+"d4b6480a-4bed-4094-9a52-30181ea38f1d","Retention label","_ComplianceTag","False","Lookup","",,,"False","False",,,,
+"92be610e-ddbb-49f4-b3b1-5c2bc768df8f","Retention label Applied","_ComplianceTagWrittenTime","False","Lookup","",,,"False","False",,,,
+"418d7676-2d6f-42cf-a16a-e43d2971252a","Label applied by","_ComplianceTagUserId","False","Lookup","",,,"False","False",,,,
+"8382d247-72a9-44b1-9794-7b177edc89f3","Item is a Record","_IsRecord","False","Computed","",,,"False","False",,,,
+"6bfaba20-36bf-44b5-a1b2-eb6346d49716","App Created By","AppAuthor","False","Lookup","",,,"False","False",,,,
+"e08400f3-c779-4ed2-a18c-ab7f34caa318","App Modified By","AppEditor","False","Lookup","",,,"False","False",,,,

@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth",
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{F239C17A-FF7F-4ABA-A88A-A7949AFD8D35}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""All Events"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Events/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/events.png?rev=47""><ViewFields><FieldRef Name=""fRecurrence"" /><FieldRef Name=""WorkspaceLink"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Location"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""fAllDayEvent"" /><FieldRef Name=""ParticipantsPicker"" /><FieldRef Name=""Description"" /></ViewFields><ViewData /><Query><OrderBy><FieldRef Name=""EventDate"" /></OrderBy></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><Toolbar Type=""Standard"" /><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","f239c17a-ff7f-4aba-a88a-a7949afd8d35"
+"ImageUrl","/_layouts/15/images/events.png?rev=47"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{F239C17A-FF7F-4ABA-A88A-A7949AFD8D35}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""All Events"" Url=""/sites/DepressionCenter-TrackMaster/Lists/Events/AllItems.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/events.png?rev=47"" ><Query><OrderBy><FieldRef Name=""EventDate"" /></OrderBy></Query><ViewFields><FieldRef Name=""fRecurrence"" /><FieldRef Name=""WorkspaceLink"" /><FieldRef Name=""LinkTitle"" /><FieldRef Name=""Location"" /><FieldRef Name=""EventDate"" /><FieldRef Name=""EndDate"" /><FieldRef Name=""fAllDayEvent"" /><FieldRef Name=""ParticipantsPicker"" /><FieldRef Name=""Description"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""EventDate"" /></OrderBy>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/Events/AllItems.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","All Events"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""fRecurrence"", ""WorkspaceLink"", ""LinkTitle"", ""Location"", ""EventDate"", ""EndDate"", ""fAllDayEvent"", ""ParticipantsPicker"", ""Description"""

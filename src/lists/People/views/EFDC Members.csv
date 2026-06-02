@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Full Name"" width=""301.1111068725586"" /><FieldRef Name=""Appointing Department"" width=""177.111083984375"" /><FieldRef Name=""Email"" width=""180.013916015625"" /><FieldRef Name=""Notes"" width=""256"" /><FieldRef Name=""Job Rank"" width=""161.111083984375"" /><FieldRef Name=""Department (MCommunity)"" width=""234.11111450195312"" /><FieldRef Name=""Contact Type"" width=""169"" /><FieldRef Name=""Contact Name"" width=""316.1111068725586"" /><FieldRef Name=""UniqName"" width=""128.013916015625"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{D24FB4EE-6B43-4CEF-95B3-7F5408B76C7F}"" Type=""HTML"" DisplayName=""EFDC Members"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/CenterMembers.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><Query><OrderBy><FieldRef Name=""Title"" /><FieldRef Name=""UniqName"" /></OrderBy><Where><Or><And><Eq><FieldRef Name=""Active"" /><Value Type=""Boolean"">1</Value></Eq><Eq><FieldRef Name=""ContactType"" /><Value Type=""Text"">Member</Value></Eq></And><Eq><FieldRef Name=""ContactType"" /><Value Type=""Text"">EFDC Leadership</Value></Eq></Or></Where></Query><ViewFields><FieldRef Name=""ContactName"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""JobTitle"" /><FieldRef Name=""Job_x0020_Rank"" /><FieldRef Name=""Appointing_x0020_Department_x003"" /><FieldRef Name=""SchoolAffiliation"" /><FieldRef Name=""Department"" /><FieldRef Name=""MREID"" /><FieldRef Name=""Notes"" /><FieldRef Name=""ExternalProfile"" /><FieldRef Name=""Email"" /><FieldRef Name=""ORCID"" /><FieldRef Name=""Group_x0020_Membership"" /><FieldRef Name=""PrimaryPI"" /><FieldRef Name=""Website"" /><FieldRef Name=""HasReceivedServices"" /><FieldRef Name=""Scopus"" /><FieldRef Name=""HasAttendedEvents"" /><FieldRef Name=""ResearchMethodologies"" /><FieldRef Name=""LastServiceDate"" /><FieldRef Name=""LastEventAttndanceDate"" /><FieldRef Name=""ResearchAreas"" /><FieldRef Name=""Populations"" /><FieldRef Name=""CenterMembershipJoinDate"" /><FieldRef Name=""TeamsAccount"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""UniqName"" /><FieldRef Name=""Earned_x0020_Media_x003f_"" /><FieldRef Name=""Active"" /></ViewFields><RowLimit Paged=""TRUE"">20</RowLimit><ColumnWidth><FieldRef Name=""Full Name"" width=""301.1111068725586"" /><FieldRef Name=""Appointing Department"" width=""177.111083984375"" /><FieldRef Name=""Email"" width=""180.013916015625"" /><FieldRef Name=""Notes"" width=""256"" /><FieldRef Name=""Job Rank"" width=""161.111083984375"" /><FieldRef Name=""Department (MCommunity)"" width=""234.11111450195312"" /><FieldRef Name=""Contact Type"" width=""169"" /><FieldRef Name=""Contact Name"" width=""316.1111068725586"" /><FieldRef Name=""UniqName"" width=""128.013916015625"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard"" /><Aggregations Value=""Off"" /><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","d24fb4ee-6b43-4cef-95b3-7f5408b76c7f"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{D24FB4EE-6B43-4CEF-95B3-7F5408B76C7F}"" Type=""HTML"" DisplayName=""EFDC Members"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/CenterMembers.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><OrderBy><FieldRef Name=""Title"" /><FieldRef Name=""UniqName"" /></OrderBy><Where><Or><And><Eq><FieldRef Name=""Active"" /><Value Type=""Boolean"">1</Value></Eq><Eq><FieldRef Name=""ContactType"" /><Value Type=""Text"">Member</Value></Eq></And><Eq><FieldRef Name=""ContactType"" /><Value Type=""Text"">EFDC Leadership</Value></Eq></Or></Where></Query><ViewFields><FieldRef Name=""ContactName"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""JobTitle"" /><FieldRef Name=""Job_x0020_Rank"" /><FieldRef Name=""Appointing_x0020_Department_x003"" /><FieldRef Name=""SchoolAffiliation"" /><FieldRef Name=""Department"" /><FieldRef Name=""MREID"" /><FieldRef Name=""Notes"" /><FieldRef Name=""ExternalProfile"" /><FieldRef Name=""Email"" /><FieldRef Name=""ORCID"" /><FieldRef Name=""Group_x0020_Membership"" /><FieldRef Name=""PrimaryPI"" /><FieldRef Name=""Website"" /><FieldRef Name=""HasReceivedServices"" /><FieldRef Name=""Scopus"" /><FieldRef Name=""HasAttendedEvents"" /><FieldRef Name=""ResearchMethodologies"" /><FieldRef Name=""LastServiceDate"" /><FieldRef Name=""LastEventAttndanceDate"" /><FieldRef Name=""ResearchAreas"" /><FieldRef Name=""Populations"" /><FieldRef Name=""CenterMembershipJoinDate"" /><FieldRef Name=""TeamsAccount"" /><FieldRef Name=""TaxKeyword"" /><FieldRef Name=""UniqName"" /><FieldRef Name=""Earned_x0020_Media_x003f_"" /><FieldRef Name=""Active"" /></ViewFields><RowLimit Paged=""TRUE"">20</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ColumnWidth><FieldRef Name=""Full Name"" width=""301.1111068725586"" /><FieldRef Name=""Appointing Department"" width=""177.111083984375"" /><FieldRef Name=""Email"" width=""180.013916015625"" /><FieldRef Name=""Notes"" width=""256"" /><FieldRef Name=""Job Rank"" width=""161.111083984375"" /><FieldRef Name=""Department (MCommunity)"" width=""234.11111450195312"" /><FieldRef Name=""Contact Type"" width=""169"" /><FieldRef Name=""Contact Name"" width=""316.1111068725586"" /><FieldRef Name=""UniqName"" width=""128.013916015625"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","False"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<OrderBy><FieldRef Name=""Title"" /><FieldRef Name=""UniqName"" /></OrderBy><Where><Or><And><Eq><FieldRef Name=""Active"" /><Value Type=""Boolean"">1</Value></Eq><Eq><FieldRef Name=""ContactType"" /><Value Type=""Text"">Member</Value></Eq></And><Eq><FieldRef Name=""ContactType"" /><Value Type=""Text"">EFDC Leadership</Value></Eq></Or></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","20"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/People/CenterMembers.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","EFDC Members"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2",
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""ContactName"", ""ContactType"", ""JobTitle"", ""Job_x0020_Rank"", ""Appointing_x0020_Department_x003"", ""SchoolAffiliation"", ""Department"", ""MREID"", ""Notes"", ""ExternalProfile"", ""Email"", ""ORCID"", ""Group_x0020_Membership"", ""PrimaryPI"", ""Website"", ""HasReceivedServices"", ""Scopus"", ""HasAttendedEvents"", ""ResearchMethodologies"", ""LastServiceDate"", ""LastEventAttndanceDate"", ""ResearchAreas"", ""Populations"", ""CenterMembershipJoinDate"", ""TeamsAccount"", ""TaxKeyword"", ""UniqName"", ""Earned_x0020_Media_x003f_"", ""Active"""

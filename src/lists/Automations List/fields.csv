@@ -1,0 +1,105 @@
+"ID","ColumnDisplayName","ColumnInternalName","Required","ColumnTye","Description","Format","MaxLength","EnforceUniqueValues","Indexed","ValidationFormula","DefaultValue","DefaultFormula","CustomFormatter"
+"fa564e0f-0c70-4ab9-b863-0177e6ddd247","Title","Title","False","Text","The name or title of this automation.",,"255","False","False",,,,
+"4f4f36cd-8992-434a-8b3d-fdf380805aee","Flow ID","FlowID","True","Text","The ID of the flow.",,"255","True","True",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""div"",""style"":{""display"":""-webkit-box"",""-webkit-line-clamp"":1,""-webkit-box-orient"":""vertical"",""overflow"":""hidden"",""max-height"":""2em""},""children"":[{""elmType"":""span"",""attributes"":{""title"":""@currentField""},""txtContent"":""=substring(@currentField,0,6) + '...'""}]}"
+"7079a930-e9ea-4204-9992-e1febc1b28ed","Automation System","AutomationSystem","True","Choice","The system used to create this flow.",,,"False","False",,"Other",,"{""elmType"":""div"",""style"":{""flex-wrap"":""wrap"",""display"":""flex""},""children"":[{""elmType"":""div"",""style"":{""box-sizing"":""border-box"",""padding"":""4px 8px 5px 8px"",""overflow"":""hidden"",""text-overflow"":""ellipsis"",""display"":""flex"",""border-radius"":""16px"",""height"":""24px"",""align-items"":""center"",""white-space"":""nowrap"",""margin"":""4px 4px 4px 4px""},""attributes"":{""class"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$AutomationSystem]"",""PowerAutomate""]},""sp-css-backgroundColor-BgOrange sp-css-borderColor-WhiteFont sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$AutomationSystem]"",""TDX iPaaS""]},""sp-css-backgroundColor-BgSage sp-css-borderColor-SageFont sp-css-color-SageFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$AutomationSystem]"",""PHP""]},""sp-css-backgroundColor-BgMintGreen sp-css-borderColor-MintGreenFont sp-css-color-MintGreenFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$AutomationSystem]"",""""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$AutomationSystem]"",""Other""]},""sp-css-backgroundColor-BgCoral sp-css-color-CoralFont"",""sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary""]}]}]}]}]}},""children"":[{""elmType"":""span"",""style"":{""overflow"":""hidden"",""text-overflow"":""ellipsis"",""padding"":""0 3px""},""txtContent"":""[$AutomationSystem]"",""attributes"":{""class"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$AutomationSystem]"",""PowerAutomate""]},""sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$AutomationSystem]"",""TDX iPaaS""]},""sp-css-color-SageFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$AutomationSystem]"",""PHP""]},""sp-css-color-MintGreenFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$AutomationSystem]"",""""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$AutomationSystem]"",""Other""]},""sp-css-color-CoralFont"",""""]}]}]}]}]}}}]}],""templateId"":""BgColorChoicePill""}"
+"fdb773e9-9c8d-4d07-9343-8f46a23113e9","Flow Type","FlowType","True","Choice","The type of flow, usually the same as the type of trigger.",,,"False","False",,"Other",,"{""elmType"":""div"",""style"":{""flex-wrap"":""wrap"",""display"":""flex""},""children"":[{""elmType"":""div"",""style"":{""box-sizing"":""border-box"",""padding"":""4px 8px 5px 8px"",""overflow"":""hidden"",""text-overflow"":""ellipsis"",""display"":""flex"",""border-radius"":""16px"",""height"":""24px"",""align-items"":""center"",""white-space"":""nowrap"",""margin"":""4px 4px 4px 4px""},""attributes"":{""class"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Event-based""]},""sp-css-backgroundColor-BgGold sp-css-color-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Manual""]},""sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Scheduled""]},""sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Subroutine""]},""sp-css-backgroundColor-BgCyan sp-field-fontSizeSmall sp-css-color-CyanFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Webhook""]},""sp-css-backgroundColor-BgTeal sp-css-borderColor-WhiteFont sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Other""]},""sp-css-backgroundColor-BgDustRose sp-css-color-DustRoseFont"",""sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary""]}]}]}]}]}]}]}},""children"":[{""elmType"":""span"",""style"":{""overflow"":""hidden"",""text-overflow"":""ellipsis"",""padding"":""0 3px""},""txtContent"":""[$FlowType]"",""attributes"":{""class"":{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Event-based""]},""sp-css-color-GoldFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Manual""]},""sp-css-color-MintGreenFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""""]},"""",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Scheduled""]},""sp-css-color-CornflowerBlueFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Subroutine""]},""sp-field-fontSizeSmall sp-css-color-CyanFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Webhook""]},""sp-css-color-WhiteFont"",{""operator"":"":"",""operands"":[{""operator"":""=="",""operands"":[""[$FlowType]"",""Other""]},""sp-css-color-DustRoseFont"",""""]}]}]}]}]}]}]}}}]}],""rulesOrder"":[2,1,3,0,6,4,5,7],""templateId"":""BgColorChoicePill""}"
+"fae1ea12-2e8f-48e6-a880-e4dbc9d8fba8","Flow Environment","FlowEnvironment","False","Text","The ID of the environment to be used in URLs.",,"255","False","False",,,,
+"29fe0c3e-4323-47a4-87ed-b19dd10adeab","Flow Description","FlowDescription","False","Note","A short description of what this automation does.",,,"False","False",,,,
+"c7c5638a-e782-4edc-a326-c2806384c452","Flow URL","FlowURL","False","URL","The URL that can be used for launching this flow.",,,"False","False",,,,"{""$schema"":""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",""elmType"":""button"",""customRowAction"":{""action"":""executeFlow"",""actionParams"":""='{\""id\"": \""' + [$FlowID] + '\""}'""},""attributes"":{""class"":""ms-fontColor-themePrimary ms-fontColor-themeDarker--hover""},""style"":{""border"":""none"",""background-color"":""transparent"",""cursor"":""pointer""},""children"":[{""elmType"":""span"",""attributes"":{""iconName"":""Play""},""style"":{""padding-right"":""6px""}},{""elmType"":""span"",""txtContent"":""Run Now""}]}"
+"23f27201-bee3-471e-b2e7-b64fd8b7ca38","Tags","TaxKeyword","False","TaxonomyFieldTypeMulti","Custom tags and keywords for searching.",,,"False","False",,,,"{
+  ""$schema"": ""https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json"",
+  ""elmType"": ""div"",
+  ""style"": {
+    ""display"": ""flex"",
+    ""flex-wrap"": ""wrap"",
+    ""width"": ""100%""
+  },
+  ""children"": [
+    {
+      ""elmType"": ""div"",
+      ""style"": {
+        ""margin"": ""4px"",
+        ""padding"": ""4px 8px 4px 8px"",
+        ""border-radius"": ""10px""
+      },
+      ""attributes"": {
+        ""class"": ""ms-bgColor-themeLighterAlt ms-bgColor-themeDarkAlt--hover ms-fontColor-themeLighterAlt--hover""
+      },
+      ""forEach"": ""tag in @currentField"",
+      ""children"": [
+        {
+          ""elmType"": ""div"",
+          ""style"": {
+            ""vertical-align"": ""middle"",
+            ""white-space"": ""nowrap"",
+            ""width"": ""auto""
+          },
+          ""attributes"": {
+            ""class"": ""ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs""
+          },
+		  ""children"": [
+		  {
+			  ""elmType"": ""a"",
+			  ""attributes"": {
+				""href"": ""=@currentWeb + '/_layouts/15/search.aspx/siteall?q=tags:\""' + [$tag] + '\""'"",
+				""target"": ""_blank"",
+				""class"": ""ms-fontColor-themeDarker ms-fontColor-themeLighterAlt--hover ms-font-xs""
+              },
+			  ""style"":{
+				  ""text-decoration"": ""none""
+			  },
+			  ""children"": [
+				{
+				  ""elmType"": ""span"",
+				  ""style"": {
+					""position"": ""relative"",
+					""top"": ""2px"",
+					""text-decoration"": ""none""
+				  },
+				  ""attributes"": {
+					""iconName"": ""Tag""
+				  }
+				},
+				{
+				  ""elmType"": ""span"",
+				  ""style"": {
+					""padding-left"": ""4px""
+				  },
+				  ""txtContent"": ""[$tag]""
+				}
+			  ]
+			}
+			]
+		}
+	  ]
+    }
+  ]
+}"
+"b4f6ba98-fc75-49b6-a62b-f763837d197e","Notes","Notes","False","Note","Additional notes, comments, links, or important remarks.",,,"False","False",,,,
+"1ee0fd16-2a36-4587-b80d-b9734a504cbb","SharePoint Lists Used","SharePointLists","False","Text","List of SharePoint Lists that this flow uses.",,"255","False","False",,,,
+"02949d42-81c6-4da3-a7ad-3c7c25c53541","Sub Flows Used","SubFlows","False","Note","Child flows used by this flow.",,,"False","False",,,,
+"e4707efb-77f0-4336-b324-0685235a82d4","Code","Code","False","Note","Code for this flow, if available. This is typically formatted as JSON.",,,"False","False",,,,
+"38bcc6f5-2d36-4183-9fd7-092aabe86c9d","Active","Active","False","Boolean","Indicates whether this flow is active (turned on).",,,"False","False",,"1",,
+"76d13cd2-1bae-45a5-8b74-545b87b65037","Color Tag","_ColorTag","False","Text","",,"255","False","False",,,,
+"3a6b296c-3f50-445c-a13f-9c679ea9dda3","Compliance Asset Id","ComplianceAssetId","False","Text","",,"255","False","False",,,,
+"1d22ea11-1e32-424e-89ab-9fedbadb6ce1","ID","ID","False","Counter","",,,"False","False",,,,
+"c042a256-787d-4a6f-8a8a-cf6ab767f12d","Content Type","ContentType","False","Computed","",,,"False","False",,,,
+"28cf69c5-fa48-462a-b5cd-27b6f9d2bd5f","Modified","Modified","False","DateTime","",,,"False","False",,,,
+"8c06beca-0777-48f7-91c7-6da68bc07b69","Created","Created","False","DateTime","",,,"False","False",,,,
+"1df5e554-ec7e-46a6-901d-d85a3881cb18","Created By","Author","False","User","",,,"False","False",,,,
+"d31655d1-1d5b-4511-95a1-7a09e9b75bf2","Modified By","Editor","False","User","",,,"False","False",,,,
+"dce8262a-3ae9-45aa-aab4-83bd75fb738a","Version","_UIVersionString","False","Text","",,"255","False","False",,,,
+"67df98f4-9dec-48ff-a553-29bece9c5bf4","Attachments","Attachments","False","Attachments","",,,"False","False",,,,
+"503f1caa-358e-4918-9094-4a2cdc4bc034","Edit","Edit","False","Computed","",,,"False","False",,,,
+"bc91a437-52e7-49e1-8c4e-4698904b2b6d","Title","LinkTitleNoMenu","False","Computed","",,,"False","False",,,,
+"82642ec8-ef9b-478f-acf9-31f7d45fbc31","Title","LinkTitle","False","Computed","",,,"False","False",,,,
+"081c6e4c-5c14-4f20-b23e-1a71ceb6a67c","Type","DocIcon","False","Computed","",,,"False","False",,,,
+"b824e17e-a1b3-426e-aecf-f0184d900485","Item Child Count","ItemChildCount","False","Lookup","",,,"False","False",,,,
+"960ff01f-2b6d-4f1b-9c3f-e19ad8927341","Folder Child Count","FolderChildCount","False","Lookup","",,,"False","False",,,,
+"ccc1037f-f65e-434a-868e-8c98af31fe29","Label setting","_ComplianceFlags","False","Lookup","",,,"False","False",,,,
+"d4b6480a-4bed-4094-9a52-30181ea38f1d","Retention label","_ComplianceTag","False","Lookup","",,,"False","False",,,,
+"92be610e-ddbb-49f4-b3b1-5c2bc768df8f","Retention label Applied","_ComplianceTagWrittenTime","False","Lookup","",,,"False","False",,,,
+"418d7676-2d6f-42cf-a16a-e43d2971252a","Label applied by","_ComplianceTagUserId","False","Lookup","",,,"False","False",,,,
+"8382d247-72a9-44b1-9794-7b177edc89f3","Item is a Record","_IsRecord","False","Computed","",,,"False","False",,,,
+"6bfaba20-36bf-44b5-a1b2-eb6346d49716","App Created By","AppAuthor","False","Lookup","",,,"False","False",,,,
+"e08400f3-c779-4ed2-a18c-ab7f34caa318","App Modified By","AppEditor","False","Lookup","",,,"False","False",,,,

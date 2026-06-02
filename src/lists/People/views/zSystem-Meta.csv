@@ -1,0 +1,58 @@
+"PropertyName","PropertyValue"
+"Aggregations",""
+"AggregationsStatus","Off"
+"AssociatedContentTypeId",
+"BaseViewId","1"
+"CalendarViewStyles",
+"ColumnWidth","<FieldRef Name=""Full Name"" width=""464.1999969482422"" />"
+"ContentTypeId","0x"
+"CustomFormatter",
+"CustomOrder",
+"DefaultView","False"
+"DefaultViewForContentType","False"
+"EditorModified","False"
+"Formats",
+"GridLayout",
+"Hidden","False"
+"HtmlSchemaXml","<View Name=""{2C56CE0A-5565-4741-BC2A-F174FF16135D}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""zSystem-Meta"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/PowerAutomateMetaInfo.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50""><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""UniqName"" /><FieldRef Name=""Email"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""ID"" /><FieldRef Name=""Active"" /><FieldRef Name=""Created"" /><FieldRef Name=""Modified"" /><FieldRef Name=""TeamsAccount"" /><FieldRef Name=""_UIVersionString"" /><FieldRef Name=""LastEventAttndanceDate"" /><FieldRef Name=""LastServiceDate"" /><FieldRef Name=""PrimaryPI"" /><FieldRef Name=""PrimaryTeamEngagement"" /><FieldRef Name=""ProfilePictureURL"" /><FieldRef Name=""_SysProfile"" /><FieldRef Name=""HasAttendedEvents"" /><FieldRef Name=""HasReceivedServices"" /><FieldRef Name=""PrimaryInvestigator"" /><FieldRef Name=""Internal_x0020_speaker_x003f_"" /><FieldRef Name=""External_x0020_Speaker_x003f_"" /><FieldRef Name=""DisplayName"" /><FieldRef Name=""_hiddenSchool"" /><FieldRef Name=""_SysFlow"" /><FieldRef Name=""_SysVersion"" /></ViewFields><ViewData /><Query><Where><Eq><FieldRef Name=""Active"" /><Value Type=""Boolean"">1</Value></Eq></Where></Query><Aggregations Value=""Off"" /><RowLimit Paged=""TRUE"">30</RowLimit><Mobile MobileItemLimit=""3"" MobileSimpleViewField=""LinkTitle"" /><Toolbar Type=""Standard"" /><ViewType2>COMPACTLIST</ViewType2><ColumnWidth><FieldRef Name=""Full Name"" width=""464.1999969482422"" /></ColumnWidth><XslLink Default=""TRUE"">main.xsl</XslLink><JSLink>clienttemplates.js</JSLink><ParameterBindings><ParameterBinding Name=""NoAnnouncements"" Location=""Resource(wss,noXinviewofY_LIST)"" /><ParameterBinding Name=""NoAnnouncementsHowTo"" Location=""Resource(wss,noXinviewofY_DEFAULT)"" /></ParameterBindings></View>"
+"Id","2c56ce0a-5565-4741-bc2a-f174ff16135d"
+"ImageUrl","/_layouts/15/images/generic.png?rev=50"
+"IncludeRootFolder","False"
+"ViewJoins",
+"JSLink","clienttemplates.js"
+"ListViewXml","<View Name=""{2C56CE0A-5565-4741-BC2A-F174FF16135D}"" MobileView=""TRUE"" Type=""HTML"" DisplayName=""zSystem-Meta"" Url=""/sites/DepressionCenter-TrackMaster/Lists/People/PowerAutomateMetaInfo.aspx"" Level=""1"" BaseViewID=""1"" ContentTypeID=""0x"" ImageUrl=""/_layouts/15/images/generic.png?rev=50"" ><Query><Where><Eq><FieldRef Name=""Active"" /><Value Type=""Boolean"">1</Value></Eq></Where></Query><ViewFields><FieldRef Name=""LinkTitle"" /><FieldRef Name=""UniqName"" /><FieldRef Name=""Email"" /><FieldRef Name=""ContactType"" /><FieldRef Name=""ID"" /><FieldRef Name=""Active"" /><FieldRef Name=""Created"" /><FieldRef Name=""Modified"" /><FieldRef Name=""TeamsAccount"" /><FieldRef Name=""_UIVersionString"" /><FieldRef Name=""LastEventAttndanceDate"" /><FieldRef Name=""LastServiceDate"" /><FieldRef Name=""PrimaryPI"" /><FieldRef Name=""PrimaryTeamEngagement"" /><FieldRef Name=""ProfilePictureURL"" /><FieldRef Name=""_SysProfile"" /><FieldRef Name=""HasAttendedEvents"" /><FieldRef Name=""HasReceivedServices"" /><FieldRef Name=""PrimaryInvestigator"" /><FieldRef Name=""Internal_x0020_speaker_x003f_"" /><FieldRef Name=""External_x0020_Speaker_x003f_"" /><FieldRef Name=""DisplayName"" /><FieldRef Name=""_hiddenSchool"" /><FieldRef Name=""_SysFlow"" /><FieldRef Name=""_SysVersion"" /></ViewFields><RowLimit Paged=""TRUE"">30</RowLimit><Aggregations Value=""Off"" /><JSLink>clienttemplates.js</JSLink><XslLink Default=""TRUE"">main.xsl</XslLink><ViewType2>COMPACTLIST</ViewType2><ColumnWidth><FieldRef Name=""Full Name"" width=""464.1999969482422"" /></ColumnWidth><ViewData /><Toolbar Type=""Standard""/></View>"
+"Method",
+"MobileDefaultView","False"
+"MobileView","True"
+"ModerationType",
+"NewDocumentTemplates",
+"OrderedView","False"
+"Paged","True"
+"PageRenderType",
+"PersonalView","False"
+"ViewProjectedFields",
+"ViewQuery","<Where><Eq><FieldRef Name=""Active"" /><Value Type=""Boolean"">1</Value></Eq></Where>"
+"ReadOnlyView","False"
+"RequiresClientIntegration","False"
+"RowLimit","30"
+"Scope","DefaultValue"
+"ServerRelativePath","Microsoft.SharePoint.Client.ResourcePath"
+"ServerRelativeUrl","/sites/DepressionCenter-TrackMaster/Lists/People/PowerAutomateMetaInfo.aspx"
+"StyleId",
+"TabularView","True"
+"Threaded","False"
+"Title","zSystem-Meta"
+"Toolbar",""
+"ToolbarTemplateName",
+"ViewType","HTML"
+"ViewData",""
+"ViewFields","Microsoft.SharePoint.Client.ViewFieldCollection"
+"ViewType2","COMPACTLIST"
+"VisualizationInfo",
+"Context","PnP.Framework.PnPClientContext"
+"Tag",
+"Path","Microsoft.SharePoint.Client.ObjectPathIdentity"
+"ObjectVersion",
+"ServerObjectIsNull","False"
+"TypedObject","Microsoft.SharePoint.Client.View"
+"ViewFields","""Name"", ""LinkTitle"", ""UniqName"", ""Email"", ""ContactType"", ""ID"", ""Active"", ""Created"", ""Modified"", ""TeamsAccount"", ""_UIVersionString"", ""LastEventAttndanceDate"", ""LastServiceDate"", ""PrimaryPI"", ""PrimaryTeamEngagement"", ""ProfilePictureURL"", ""_SysProfile"", ""HasAttendedEvents"", ""HasReceivedServices"", ""PrimaryInvestigator"", ""Internal_x0020_speaker_x003f_"", ""External_x0020_Speaker_x003f_"", ""DisplayName"", ""_hiddenSchool"", ""_SysFlow"", ""_SysVersion"""
