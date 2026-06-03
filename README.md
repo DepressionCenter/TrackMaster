@@ -1,9 +1,31 @@
+<!--
+This file is part of TrackMaster
+README.md - Main documentation file for the TrackMaster application.
+Author(s): Author(s): Gabriel Mongefranco; Victoria Bennett; Conni Harrigan; et. all.
+Created: 2023
+Last Modified: 2026-06-03
+Summary: TrackMaster is a membership tracking tool and CRM for research centers and institutes at the University of Michigan.
+Notes: See README file for documentation and full license information.
+
+Copyright © 2026 The Regents of the University of Michigan
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along
+with this program. If not, see <https://www.gnu.org/licenses/>.
+
+-->
 ![Depression Center Logo](https://github.com/DepressionCenter/.github/blob/main/images/EFDCLogo_375w.png "depressioncenter.org")
 
 # TrackMaster™
 
 ## Description
-Welcome to the TrackMaster Membership Management Tool™. This tool allows research centers and institutes at the University of Michigan to track membership activities, run reports on publications, and automate some membership-related activities such as sending newsletters. This repository contains all the code for the project, along with basic instructions. For complete documentation, visit the Eisenberg Family Depression Center's knowledge base at: https://michmed.org/efdc-kb
+Welcome to the TrackMaster Membership Management Tool™. TrackMaster is a membership tracking tool and CRM for research centers and institutes at the University of Michigan. This SharePoint-based solution allows research centers and institutes at the University of Michigan to track membership activities, run reports on publications, and automate some membership-related activities such as sending newsletters. This repository contains all the code for the project, along with basic instructions. For complete documentation, visit the Eisenberg Family Depression Center's knowledge base at: https://michmed.org/efdc-kb
 
 
 
@@ -75,8 +97,14 @@ If you need assistance identifying a contact person, email the EFDC's Mobile Tec
 
 
 ## Credits
+### Authors:
++ [Gabriel Mongefranco](https://gabriel.mongefranco.com) [(@gabrielmongefranco)](https://github.com/gabrielmongefranco)
++ Conni Harrigan
++ Victoria Bennett
+
 #### Contributors:
 + Eisenberg Family Depression Center [(@DepressionCenter)](https://github.com/DepressionCenter/)
++ ITS Summer Internship 2023 and 2024 cohorts
 
 
 A huge thank you to the ITS Summer Internship teams who created TrackMaster for the Eisenberg Family Depression Center! The project teams include:
@@ -96,14 +124,16 @@ A huge thank you to the ITS Summer Internship teams who created TrackMaster fo
 
 ***Project sponsors:***
 + Conni Harrigan
-+ Gabriel Mongefranco [(@gabrielmongefranco)](https://github.com/gabrielmongefranco)
++ [Gabriel Mongefranco](https://gabriel.mongefranco.com) [(@gabrielmongefranco)](https://github.com/gabrielmongefranco)
 + Victoria Bennett
 
 
 
 #### This work is based in part on the following projects, libraries and/or studies:
-+ None
-
++ [DataLaVista](https://code.depressioncenter.org/datalavista) - DataLaVista™ is a lightweight, client-side reporting and dashboard toolkit. It brings the full power of SQL directly to your browser, allowing you to build high-performance visualizations without the need for expensive server-side licenses or complex backend infrastructure.
++ [Modern Script Editor](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-script-editor) - The PnP/SPFX delivery vehicle used to deploy this "Unit" into modern SharePoint environments.
++ [Microsoft SharePoint REST API](https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service) - The primary data uplink for retrieving SharePoint List items and Document Library metadata.
++ [Sitenalyzer](https://github.com/DepressionCenter/Sitenalyzer) - Sitenalyzer helps you extract a data dictionary and security information from your SharePoint sites.
 
 
 ## License

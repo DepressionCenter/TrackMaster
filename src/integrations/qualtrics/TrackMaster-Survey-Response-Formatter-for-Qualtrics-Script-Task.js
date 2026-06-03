@@ -1,3 +1,4 @@
+/* This file is part of TrackMaster */
 /* TrackMaster Survey Response Formatter for Qualtrics Script Task */
 /* Author(s): Gabriel Mongefranco, Eisenberg Family Depression Center, University of Michigan
 /* License: Licensed under the GNU Public License version 3 (GPL v3) or later. */
