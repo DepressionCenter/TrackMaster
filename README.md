@@ -25,7 +25,11 @@ with this program. If not, see <https://www.gnu.org/licenses/>.
 # TrackMaster™
 
 ## Description
-Welcome to the TrackMaster Membership Management Tool™. TrackMaster is a membership tracking tool and CRM for research centers and institutes at the University of Michigan. This SharePoint-based solution allows research centers and institutes at the University of Michigan to track membership activities, run reports on publications, and automate some membership-related activities such as sending newsletters. This repository contains all the code for the project, along with basic instructions. For complete documentation, visit the Eisenberg Family Depression Center's knowledge base at: https://michmed.org/efdc-kb
+TrackMaster™ is an open-source, SharePoint-based CRM and membership management system for research centers, institutes, cores, and labs. It tracks members, activities, publications, and reporting data in Microsoft 365.
+
+The project includes code and instructions for automating membership workflows such as newsletters and recurring administrative tasks. Research administrators can adapt the lists, reports, and automation to manage a center's community without adopting a separate CRM platform.
+
+Complete deployment and usage documentation is available in the Eisenberg Family Depression Center knowledge base.
 
 
 
